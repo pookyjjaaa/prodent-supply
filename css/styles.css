@@ -818,4 +818,18 @@ footer {
   .wa-banner { flex-direction: column; }
   .footer-inner { grid-template-columns: 1fr; }
   .why-section, .catalogo-preview, .cta-section, .zona-section { padding: 60px 1rem; }
+
+  /* Page headers */
+  .page-header { padding: 80px 1rem 40px; }
+
+  /* Cotización form */
+  .cotizacion-page { padding: 0 1rem 80px; }
+  .wa-form { padding: 1.5rem 1.25rem; }
+
+  /* Contacto */
+  .contacto-page { padding: 0 1rem 80px; }
+
+  /* CTA buttons stack on tiny screens */
+  .cta-btns { flex-direction: column; align-items: center; }
+  .cta-btns .btn { width: 100%; justify-content: center; max-width: 320px; }
 }
