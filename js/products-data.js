@@ -1184,32 +1184,32 @@ const CATALOG_PRODUCTS = [
 
   // ── PINZAS DE EXTRACCIÓN – FORMA AMERICANA (American Pattern) ────────────
   { id:'medesy-1041', code:'2650/65', cat:'medesy', brand:'medesy', name:'Pinza de Extracción 2650/65 – Incisivos y Raíces Superiores (Americana)',
-    unit:'pieza', img:'imagenes/medesy/pag_37.jpg',
+    unit:'pieza', img:'imagenes/medesy-crop/2650-65.jpg',
     desc:'Pinza forma americana para incisivos superiores y raíces superiores.',
     specs:['Código: 2650/65','Dientes: Incisivos superiores y raíces','Patrón: Americano','Material: Acero inoxidable Medesy','Autoclavable'] },
 
   { id:'medesy-1042', code:'2650/18-R', cat:'medesy', brand:'medesy', name:'Pinza de Extracción 2650/18-R – Molares Superiores Derecho (Harris)',
-    unit:'pieza', img:'imagenes/medesy/pag_38.jpg',
+    unit:'pieza', img:'imagenes/medesy-crop/2650-18R.jpg',
     desc:'Pinza americana Harris para molares superiores derechos.',
     specs:['Código: 2650/18-R','Modelo: Harris','Dientes: Molares superiores derechos','Patrón: Americano','Material: Acero inoxidable Medesy','Autoclavable'] },
 
   { id:'medesy-1043', code:'2650/18-L', cat:'medesy', brand:'medesy', name:'Pinza de Extracción 2650/18-L – Molares Superiores Izquierdo (Harris)',
-    unit:'pieza', img:'imagenes/medesy/pag_38.jpg',
+    unit:'pieza', img:'imagenes/medesy-crop/2650-18L.jpg',
     desc:'Pinza americana Harris para molares superiores izquierdos.',
     specs:['Código: 2650/18-L','Modelo: Harris','Dientes: Molares superiores izquierdos','Patrón: Americano','Material: Acero inoxidable Medesy','Autoclavable'] },
 
   { id:'medesy-1044', code:'2650/16', cat:'medesy', brand:'medesy', name:'Pinza de Extracción 2650/16 – Molares Inferiores Cuervo (Harris)',
-    unit:'pieza', img:'imagenes/medesy/pag_39.jpg',
+    unit:'pieza', img:'imagenes/medesy-crop/2650-16.jpg',
     desc:'Pinza americana Harris con pico tipo cuervo para molares inferiores, ambos lados.',
     specs:['Código: 2650/16','Modelo: Harris cow-horn','Dientes: Molares inferiores','Patrón: Americano','Material: Acero inoxidable Medesy','Autoclavable'] },
 
   { id:'medesy-1045', code:'2650/203', cat:'medesy', brand:'medesy', name:'Pinza de Extracción 2650/203 – Premolares e Incisivos Inferiores (Americana)',
-    unit:'pieza', img:'imagenes/medesy/pag_37.jpg',
+    unit:'pieza', img:'imagenes/medesy-crop/2650-203.jpg',
     desc:'Pinza americana universal para premolares inferiores, incisivos y raíces inferiores, ambos lados.',
     specs:['Código: 2650/203','Dientes: Premolares e incisivos inferiores','Patrón: Americano','Material: Acero inoxidable Medesy','Autoclavable'] },
 
   { id:'medesy-1046', code:'2650/151', cat:'medesy', brand:'medesy', name:'Pinza de Extracción 2650/151 – Premolares Inferiores Universal (Cryer)',
-    unit:'pieza', img:'imagenes/medesy/pag_37.jpg',
+    unit:'pieza', img:'imagenes/medesy-crop/2650-151.jpg',
     desc:'Pinza americana Cryer universal para premolares, incisivos y raíces inferiores.',
     specs:['Código: 2650/151','Modelo: Cryer','Dientes: Premolares e incisivos inferiores','Patrón: Americano','Material: Acero inoxidable Medesy','Autoclavable'] },
 
