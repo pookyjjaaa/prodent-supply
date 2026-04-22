@@ -1412,47 +1412,47 @@ const CATALOG_PRODUCTS = [
   // LÍNEA BLACK (Borgatta Premium – Ortodoncia)
   // ══════════════════════════════════════════
   { id:'lb-arco-neo', code:'NEO-IMPULSE', cat:'ortodoncia', brand:'lineablack', name:'Arco Neo-Impulse Termoactivo',
-    unit:'caja', img:'imagenes/lineablack/pag_03.jpg',
+    unit:'caja', img:'imagenes/lineablack/lb-neo-impulse.jpg',
     desc:'Arco preformado termoactivo de níquel-titanio de la línea premium Black. Se activa con la temperatura corporal para mayor comodidad y eficiencia.',
     specs:['Material: Níquel-Titanio termoactivo','Respuesta térmica a temperatura corporal','Súper elástico','Acabado terso para menor fricción','Empaque premium negro Black'] },
 
   { id:'lb-xpression', code:'X-PRESSION', cat:'ortodoncia', brand:'lineablack', name:'Brackets X-Pression Autoligado Interactivo',
-    unit:'kit', img:'imagenes/lineablack/pag_04.jpg',
+    unit:'kit', img:'imagenes/lineablack/lb-xpression.jpg',
     desc:'Kit completo de brackets de autoligado interactivo X-Pression. Reduce tiempos de cita y mejora la experiencia del paciente.',
     specs:['Tipo: Autoligado interactivo','Slot: 0.022"','Incluye todo lo necesario para el caso completo','Clip activo para fuerzas de control','Línea premium Black – empaque negro'] },
 
   { id:'lb-xpression-c', code:'X-PRESSION-C', cat:'ortodoncia', brand:'lineablack', name:'Brackets X-Pression C Autoligado Pasivo',
-    unit:'kit', img:'imagenes/lineablack/pag_04.jpg',
+    unit:'kit', img:'imagenes/lineablack/lb-xpression-c.jpg',
     desc:'Kit de brackets de autoligado pasivo X-Pression C. Menor fricción y mayor velocidad de nivelación.',
     specs:['Tipo: Autoligado pasivo','Slot: 0.022"','Baja fricción para nivelación eficiente','Clip pasivo para alineación inicial','Línea premium Black'] },
 
   { id:'lb-elasticos', code:'ELAST-INT-BLK', cat:'ortodoncia', brand:'lineablack', name:'Elásticos Intraorales Silicón Black',
-    unit:'bolsa', img:'imagenes/lineablack/pag_04.jpg',
+    unit:'bolsa', img:'imagenes/lineablack/lb-elasticos.jpg',
     desc:'Elásticos intraorales de silicón color natural de la línea Black. Sin látex, mayor biocompatibilidad.',
     specs:['Material: Silicón (libre de látex)','Color: Natural','Uso: Tracciones intraorales y elásticos de clase','Empaque: Bolsa resellable Black','Aroma a menta'] },
 
   { id:'lb-b-action', code:'B-ACTION-345-022', cat:'ortodoncia', brand:'lineablack', name:'Juego de Brackets B-Action c/g 345 .022',
-    unit:'juego', img:'imagenes/lineablack/pag_04.jpg',
+    unit:'juego', img:'imagenes/lineablack/lb-b-action.jpg',
     desc:'Juego completo de brackets Black B-Action con ligadura, ranura 0.022". Bracket de ligado tradicional de alta precisión.',
     specs:['Tipo: Ligado tradicional','Slot: 0.022"','Juego: 345 brackets (caso completo)','Prescripción: B-Action','Línea premium Black'] },
 
   { id:'lb-black-duo', code:'BLACK-DUO-345-022', cat:'ortodoncia', brand:'lineablack', name:'Juego de Brackets Black Duo c/g 345 .022',
-    unit:'juego', img:'imagenes/lineablack/pag_04.jpg',
+    unit:'juego', img:'imagenes/lineablack/lb-black-duo.jpg',
     desc:'Juego completo de brackets Black Duo, ranura 0.022". Estética mejorada con base de doble malla para mayor retención.',
     specs:['Tipo: Ligado tradicional','Slot: 0.022"','Juego: 345 brackets (caso completo)','Base: Doble malla para máxima adhesión','Línea premium Black'] },
 
   { id:'lb-resorte', code:'03-140-89', cat:'ortodoncia', brand:'lineablack', name:'Resorte Abierto de Acero Black .010x.040',
-    unit:'rollo', img:'imagenes/lineablack/pag_04.jpg',
+    unit:'rollo', img:'imagenes/lineablack/lb-resorte.jpg',
     desc:'Rollo de resorte abierto de acero inoxidable para apertura y mantenimiento de espacio en ortodoncia.',
     specs:['Material: Acero inoxidable .010x.040"','Tipo: Resorte abierto','Código: 03-140-89','Uso: Apertura de espacio','Línea Black premium'] },
 
   { id:'gnatus-auto', code:'BIOCLAVE-12L', cat:'equipos', brand:'autoclave', name:'Autoclave Bioclave 12L Gnatus',
-    unit:'equipo', img:'imagenes/autoclave/pag_01.jpg',
+    unit:'equipo', img:'imagenes/autoclave/autoclave-bioclave-12L.jpg',
     desc:'Autoclave a vapor de diseño moderno para esterilización en consultorios odontológicos. Cámara de acero inoxidable de 12 litros.',
     specs:['Capacidad: 12 litros (cámara ⌀214mm × 318mm)','Temperatura: 128°C ± 5°C','Presión: 1.7 kgf/cm²','Ciclo completo: ~60 min (esterilización: 16 min)','Potencia: 1600W | 127V/220V','Dimensiones: 407×485×385 mm','Peso: 23 kg','Certificación: ANVISA'] },
 
   { id:'primervg-sensor', code:'PRIME-RVGXV', cat:'equipos', brand:'primervg', name:'Sensor Digital Intraoral Prime RVGxv',
-    unit:'equipo', img:'imagenes/primervg/pag_01.jpg',
+    unit:'equipo', img:'imagenes/primervg/primervg-sensor-crop.jpg',
     desc:'Sistema de radiografía digital intraoral con tecnología de conteo de fotones CCD. Obtén radiografías DIGITALES de alta resolución con 90% menos dosis de radiación.',
     specs:['Tecnología: Conteo de fotones CCD','Área imagen: 21×21 mm | Sensor: 26.5×32 mm','Tamaños: Infantil 21×21mm / Adulto 25×30mm','Resolución: 24 lp/mm | Espesor: 4.4 mm','Conexión: USB | Cable: 1.5–3m extensible','Reduce dosis de radiación 90% vs película','Software: Windows 7 SP1, 8, 10 (32/64 bits)'] },
 
@@ -1460,77 +1460,77 @@ const CATALOG_PRODUCTS = [
   // ARTICULADORES Y ARCO FACIAL  (Bio-Art)
   // ══════════════════════════════════════════
   { id:'articulador-001', code:'4000-S', cat:'equipos', brand:'articulador', name:'Articulador Semiajustable Bioart Modelo 4000-S',
-    unit:'pieza', img:'imagenes/articulador/pag_13.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-4000S.jpg',
     desc:'Articulador semiajustable tipo Arcon con guía condílea ajustable y distancia intercondilar regulable en tres medidas (pequeña, media y grande). Diseñado para trabajos de prótesis, oclusión y rehabilitación dental.',
     specs:['Clasificación: Arcon semiajustable','Guía condílea: Ajustable / Curva','Ángulo de Bennet: Ajustable','Distancia intercondilar: Ajustable (pequeña, media, grande)','Traba en céntrica: No','Junción lateral: O-ring'] },
 
   { id:'articulador-002', code:'A7 Plus', cat:'equipos', brand:'articulador', name:'Articulador Semiajustable Bioart Modelo A7 Plus',
-    unit:'pieza', img:'imagenes/articulador/pag_13.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-A7Plus.jpg',
     desc:'Articulador semiajustable tipo Arcon con distancia intercondilar fija de 110 mm, guía condílea ajustable y sistema de traba en céntrica. Compatible con el Arco Facial Standard Bioart.',
     specs:['Clasificación: Arcon semiajustable','Guía condílea: Ajustable','Ángulo de Bennet: Ajustable','Distancia intercondilar: Fija 110 mm','Traba en céntrica: Sí','Junción lateral: Silicona'] },
 
   { id:'articulador-003', code:'A7 Fix', cat:'equipos', brand:'articulador', name:'Articulador Semiajustable Bioart Modelo A7 Fix',
-    unit:'pieza', img:'imagenes/articulador/pag_13.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-A7Fix.jpg',
     desc:'Articulador semiajustable tipo Arcon de uso práctico con ángulos de guía condílea y Bennet fijos (15° y 30° respectivamente), distancia intercondilar fija de 110 mm y sistema innovador de pinos laterales para traba en céntrica.',
     specs:['Clasificación: Arcon semiajustable','Guía condílea: Curva, fija en 30°','Ángulo de Bennet: Fijo en 15°','Distancia intercondilar: Fija 110 mm','Traba en céntrica: Sí (sistema de pinos laterales)','Junción lateral: Magnética'] },
 
   { id:'articulador-004', code:'AFS-001', cat:'equipos', brand:'articulador', name:'Arco Facial Standard Bioart',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-AFS.jpg',
     desc:'Arco facial semiajustable de fácil manejo para registro y transferencia de la posición de la arcada superior al articulador. Compatible con todos los modelos de articuladores Bioart (excepto EVA Fix y EVA Plus).',
     specs:['Tipo: Arco facial transferidor','Fijación: Mariposas de aprieto manual (sin llave)','Compatible: Articuladores Bioart 4000-S, A7 Plus, A7 Fix','Relator nasión: Incluido con soporte ajustable','Transferencia: Fijando el arco completo al ramo superior del articulador'] },
 
   { id:'articulador-005', code:'SPT-TEN', cat:'instrumental', brand:'articulador', name:'Soporte del Tenedor',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-SPT-TEN.jpg',
     desc:'Soporte opcional para el tenedor de mordida que brinda mayor estabilidad y precisión durante la transferencia con el arco facial al articulador.',
     specs:['Uso: Soporte del tenedor durante transferencia','Compatibilidad: Arco Facial Standard Bioart','Material: Metal resistente','Mejora la estabilidad y precisión del montaje'] },
 
   { id:'articulador-006', code:'MSA-CAM', cat:'instrumental', brand:'articulador', name:'Mesa de Camper',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-MSA-CAM.jpg',
     desc:'Accesorio de referencia para la orientación del plano de Camper durante el montaje de modelos en el articulador.',
     specs:['Uso: Referencia del plano de Camper','Compatible: Articuladores Bioart','Accesorio de laboratorio dental','Contribuye a la precisión oclusal'] },
 
   { id:'articulador-007', code:'PLM-MAG', cat:'instrumental', brand:'articulador', name:'Placa de Montaje Magnética',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-PLM-MAG.jpg',
     desc:'Placa de montaje con sistema magnético para fijación rápida y precisa de los modelos de yeso en el articulador.',
     specs:['Sistema: Magnético','Uso: Montaje de modelos de yeso','Compatible: Articuladores Bioart','Permite retiro y reposición del modelo sin romperlo'] },
 
   { id:'articulador-008', code:'PLM-MET', cat:'instrumental', brand:'articulador', name:'Placa de Montaje Metálica',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-PLM-MET.jpg',
     desc:'Placa de montaje metálica convencional para fijación de modelos de yeso en articuladores Bioart.',
     specs:['Material: Metal','Uso: Montaje de modelos de yeso','Compatible: Articuladores Bioart','Alta durabilidad y resistencia'] },
 
   { id:'articulador-009', code:'PLM-RIL', cat:'instrumental', brand:'articulador', name:'Placa de Montaje Riel',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-PLM-RIL.jpg',
     desc:'Placa de montaje tipo riel Bio-Art diseñada especialmente para permitir la remoción del modelo de yeso sin necesidad de romperlo, a diferencia de las placas convencionales.',
     specs:['Tipo: Riel deslizable','Ventaja: Remoción del modelo sin romperlo','Uso: Montaje de modelos en articulador','Compatible: Articuladores Bioart'] },
 
   { id:'articulador-010', code:'PLT-AJU', cat:'instrumental', brand:'articulador', name:'Plataforma Ajustable',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-PLT-AJU.jpg',
     desc:'Plataforma ajustable para nivelación y orientación precisa del modelo durante el montaje en el articulador.',
     specs:['Ajuste: Regulable en altura e inclinación','Uso: Nivelación del modelo durante montaje','Compatible: Articuladores Bioart','Accesorio de laboratorio dental'] },
 
   { id:'articulador-011', code:'RGL-FOX', cat:'instrumental', brand:'articulador', name:'Regla Fox',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-RGL-FOX.jpg',
     desc:'Regla Fox para la orientación y verificación del plano oclusal del paciente en relación al plano de Camper y la línea bipupilar.',
     specs:['Uso: Verificación del plano oclusal','Compatible: Con articuladores y arco facial','Material: Metal o acrílico resistente','Accesorio clínico de diagnóstico oclusal'] },
 
   { id:'articulador-012', code:'BAN-BRO', cat:'instrumental', brand:'articulador', name:'Banderola de Broadrick',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-BAN-BRO.jpg',
     desc:'Banderola de Broadrick para la verificación y corrección de la curva de Spee durante el montaje y la rehabilitación oclusal en el articulador.',
     specs:['Uso: Verificación de la curva de Spee','Compatible: Articuladores Bioart','Técnica: Broadrick Flag Technique','Accesorio de laboratorio dental'] },
 
   { id:'articulador-013', code:'TEN-DES', cat:'instrumental', brand:'articulador', name:'Tenedor para Desdentado',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-TEN-DES.jpg',
     desc:'Tenedor de mordida especial para pacientes desdentados totales, diseñado para utilizarse en conjunto con cilindros de cera para el registro con el arco facial.',
     specs:['Uso: Registro con arco facial en pacientes desdentados','Compatible: Arco Facial Standard Bioart','Uso con: Cilindros de cera o godiva','Accesorio clínico de laboratorio'] },
 
   { id:'articulador-014', code:'MIS-AJU', cat:'instrumental', brand:'articulador', name:'Mesa Incisal Ajustable (Metálica)',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-MIS-AJU.jpg',
     desc:'Mesa incisal ajustable de metal para el control de la guía anterior y la desoclusión durante los movimientos excéntricos en el articulador.',
     specs:['Material: Metal','Ajuste: Inclinación regulable','Función: Control de guía anterior y desoclusión','Compatible: Articuladores Bioart'] },
 
   { id:'articulador-015', code:'ESC-ART', cat:'instrumental', brand:'articulador', name:'Estuche para Articulador',
-    unit:'pieza', img:'imagenes/articulador/pag_14.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-ESC-ART.jpg',
     desc:'Estuche plástico exclusivo de Bio-Art para transporte y almacenamiento seguro del articulador y sus accesorios.',
     specs:['Material: Plástico resistente de alta calidad','Función: Transporte y almacenamiento del articulador','Diseño exclusivo Bio-Art','Protege la precisión del aparato'] },
 ];
