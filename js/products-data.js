@@ -382,6 +382,87 @@ const CATALOG_PRODUCTS = [
     desc:'Instrumental dental Hu-Friedy de primera calidad mundial. Scalers, curetas, instrumentos restaurativos y más.',
     specs:['Marca: Hu-Friedy Group','Fabricación: USA — más de 100 años de experiencia','Material: Acero inoxidable de alta aleación','Autoclavable','Garantía de por vida en el instrumento','Amplia gama: endodoncia, periodoncia, cirugía, restaurativa'] },
 
+  // — Curetas Gracey Standard —
+  { id:'hf-sg1-2', code:'SG1/29E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 1/2 Standard — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_17.jpg',
+    desc:'Cureta Gracey 1/2 de área específica para superficies anteriores. Filo único con angulación de 70° al vástago para un acceso y adaptación perfectos. Mango #9 octagonal Satin Steel®.',
+    specs:['Código: SG1/29E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 1/2','Uso: Superficies anteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-sg11-12', code:'SG11/129E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 11/12 Standard — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_18.jpg',
+    desc:'Cureta Gracey 11/12 de área específica para superficies mesiales posteriores. Diseño offset de 70° para adaptación óptima a raíces. Mango #9 octagonal Satin Steel®.',
+    specs:['Código: SG11/129E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 11/12','Uso: Mesial de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-sg13-14', code:'SG13/149E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 13/14 Standard — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_18.jpg',
+    desc:'Cureta Gracey 13/14 de área específica para superficies distales posteriores. Vástago angulado para acceso a zonas de difícil acceso. Mango #9 octagonal Satin Steel®.',
+    specs:['Código: SG13/149E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 13/14','Uso: Distal de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-sg7-8', code:'SG7/89E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 7/8 Standard — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_18.jpg',
+    desc:'Cureta Gracey 7/8 de área específica para superficies bucales y linguales de dientes posteriores. Filo de borde único con angulación ideal para debridación subgingival.',
+    specs:['Código: SG7/89E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 7/8','Uso: Bucal/lingual de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-sg15-16', code:'SG15/169E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 15/16 Standard — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_19.jpg',
+    desc:'Cureta Gracey 15/16 de área específica para mesial de molares superiores. Vástago extra angulado que facilita el acceso a superficies mesiales de difícil alcance.',
+    specs:['Código: SG15/169E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 15/16','Uso: Mesial de molares superiores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-sg17-18', code:'SG17/189E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 17/18 Standard — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_19.jpg',
+    desc:'Cureta Gracey 17/18 de área específica para distal de molares. Vástago de doble angulación que permite llegar a las zonas más profundas del periodonto posterior.',
+    specs:['Código: SG17/189E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 17/18','Uso: Distal de molares','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  // — Curetas After Five® —
+  { id:'hf-srpg11-12', code:'SRPG11/129E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 11/12 After Five® — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_21.jpg',
+    desc:'Cureta Gracey After Five® 11/12 con vástago terminal 3 mm más largo y hoja 10% más delgada para acceder a bolsas periodontales profundas (≥5 mm) en mesial de posteriores.',
+    specs:['Código: SRPG11/129E2','Marca: Hu-Friedy','Tipo: Cureta Gracey After Five® 11/12','Uso: Bolsas periodontales ≥5 mm','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-srpg13-14', code:'SRPG13/149E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 13/14 After Five® — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_21.jpg',
+    desc:'Cureta Gracey After Five® 13/14 con vástago elongado para debridación en bolsas periodontales profundas en distal de dientes posteriores. Hoja más delgada para menor trauma tisular.',
+    specs:['Código: SRPG13/149E2','Marca: Hu-Friedy','Tipo: Cureta Gracey After Five® 13/14','Uso: Bolsas periodontales profundas — distal','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  // — Cureta Columbia —
+  { id:'hf-sc13-14', code:'SC13/149E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Columbia 13/14 — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_30.jpg',
+    desc:'Cureta Columbia 13/14 universal con dos filos cortantes paralelos que se unen en un extremo redondeado. Diseño posterior para remoción de cálculo moderado a pesado en zonas interproximales.',
+    specs:['Código: SC13/149E2','Marca: Hu-Friedy','Tipo: Cureta Columbia 13/14 Universal','Uso: Superficies interproximales posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  // — Scalers Sickle (Hoz) —
+  { id:'hf-sh6-7', code:'SH6/79E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Scaler Hoz H6/7 — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_36.jpg',
+    desc:'Scaler en hoz H6/7 anterior, el más popular de Hu-Friedy. Dos filos cortantes que se unen en punta. Diseño recto para remoción de cálculo supragingival en dientes anteriores.',
+    specs:['Código: SH6/79E2','Marca: Hu-Friedy','Tipo: Scaler en Hoz Anterior H6/7','Uso: Cálculo supragingival anterior','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-s204s', code:'S204S9E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Scaler Posterior 204S — Mango #9',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_38.jpg',
+    desc:'Scaler posterior 204S con vástago contraangulado para acceder a zonas interproximales posteriores de difícil acceso. Diseño estándar para remoción de cálculo supragingival.',
+    specs:['Código: S204S9E2','Marca: Hu-Friedy','Tipo: Scaler Posterior 204S','Uso: Interproximal de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
+
+  // — Sondas Periodontales —
+  { id:'hf-pw6', code:'PW6', cat:'hufriedygroup', brand:'hufriedygroup', name:'Sonda Periodontal Williams — Mango #6',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_78.jpg',
+    desc:'Sonda periodontal Williams con marcaciones 1-2-3-5-7-8-9-10 mm. Estándar de oro para evaluación del periodonto. Acero Duraspond® con punta fina y acabado pulido para máxima sensibilidad táctil.',
+    specs:['Código: PW6','Marca: Hu-Friedy','Tipo: Sonda Periodontal Williams','Marcaciones: 1-2-3-5-7-8-9-10 mm','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-pqw6', code:'PQW6', cat:'hufriedygroup', brand:'hufriedygroup', name:'Sonda Qulix Williams SE — Mango #6',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_77.jpg',
+    desc:'Sonda Qulix Williams con marcaciones codificadas en color negro grabadas con láser que no descascarillan ni se borran. Marcaciones 1-2-3-5-7-8-9-10 mm para diagnóstico periodontal preciso.',
+    specs:['Código: PQW6','Marca: Hu-Friedy','Tipo: Sonda Qulix Williams','Marcaciones: 1-2-3-5-7-8-9-10 mm (negro láser)','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
+
+  // — Exploradores —
+  { id:'hf-exs23-6', code:'EXS236', cat:'hufriedygroup', brand:'hufriedygroup', name:'Explorador #23 Shepherd\'s Hook SE — Mango #6',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_82.jpg',
+    desc:'Explorador #23 Shepherd\'s Hook de extremo simple, el más utilizado en clínica dental. Fabricado en acero Duraspond® para máxima flexibilidad, resistencia y sensibilidad táctil en la detección de caries y cálculo.',
+    specs:['Código: EXS236','Marca: Hu-Friedy','Tipo: Explorador #23 Shepherd\'s Hook SE','Uso: Detección de caries y cálculo','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
+
+  { id:'hf-exd5-6', code:'EXD56', cat:'hufriedygroup', brand:'hufriedygroup', name:'Explorador #5 Doble Extremo — Mango #6',
+    unit:'pieza', img:'imagenes/hufriedygroup/pag_83.jpg',
+    desc:'Explorador #5 de doble extremo fabricado en acero Duraspond®. Diseño clásico para exploración de caries, márgenes de restauraciones y evaluación de superficies radiculares con alta sensibilidad táctil.',
+    specs:['Código: EXD56','Marca: Hu-Friedy','Tipo: Explorador #5 Doble Extremo','Uso: Caries, restauraciones, superficies radiculares','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
+
   // ══════════════════════════════════════════
   // MEDESY ITALIA — Instrumental Quirúrgico
   // ══════════════════════════════════════════
@@ -1417,7 +1498,7 @@ const CATALOG_PRODUCTS = [
     specs:['Material: Níquel-Titanio termoactivo','Respuesta térmica a temperatura corporal','Súper elástico','Acabado terso para menor fricción','Empaque premium negro Black'] },
 
   { id:'lb-xpression', code:'X-PRESSION', cat:'ortodoncia', brand:'lineablack', name:'Brackets X-Pression Autoligado Interactivo',
-    unit:'kit', img:'imagenes/lineablack/lb-xpression.jpg',
+    unit:'kit', img:'imagenes/lineablack/lineablack-xpression.jpg',
     desc:'Kit completo de brackets de autoligado interactivo X-Pression. Reduce tiempos de cita y mejora la experiencia del paciente.',
     specs:['Tipo: Autoligado interactivo','Slot: 0.022"','Incluye todo lo necesario para el caso completo','Clip activo para fuerzas de control','Línea premium Black – empaque negro'] },
 
@@ -1432,7 +1513,7 @@ const CATALOG_PRODUCTS = [
     specs:['Material: Silicón (libre de látex)','Color: Natural','Uso: Tracciones intraorales y elásticos de clase','Empaque: Bolsa resellable Black','Aroma a menta'] },
 
   { id:'lb-b-action', code:'B-ACTION-345-022', cat:'ortodoncia', brand:'lineablack', name:'Juego de Brackets B-Action c/g 345 .022',
-    unit:'juego', img:'imagenes/lineablack/lb-b-action.jpg',
+    unit:'juego', img:'imagenes/lineablack/lineablack-b-action.jpg',
     desc:'Juego completo de brackets Black B-Action con ligadura, ranura 0.022". Bracket de ligado tradicional de alta precisión.',
     specs:['Tipo: Ligado tradicional','Slot: 0.022"','Juego: 345 brackets (caso completo)','Prescripción: B-Action','Línea premium Black'] },
 
@@ -1452,7 +1533,7 @@ const CATALOG_PRODUCTS = [
     specs:['Capacidad: 12 litros (cámara ⌀214mm × 318mm)','Temperatura: 128°C ± 5°C','Presión: 1.7 kgf/cm²','Ciclo completo: ~60 min (esterilización: 16 min)','Potencia: 1600W | 127V/220V','Dimensiones: 407×485×385 mm','Peso: 23 kg','Certificación: ANVISA'] },
 
   { id:'primervg-sensor', code:'PRIME-RVGXV', cat:'equipos', brand:'primervg', name:'Sensor Digital Intraoral Prime RVGxv',
-    unit:'equipo', img:'imagenes/primervg/primervg-sensor-crop.jpg',
+    unit:'equipo', img:'imagenes/primervg/primervg-sensor.jpg',
     desc:'Sistema de radiografía digital intraoral con tecnología de conteo de fotones CCD. Obtén radiografías DIGITALES de alta resolución con 90% menos dosis de radiación.',
     specs:['Tecnología: Conteo de fotones CCD','Área imagen: 21×21 mm | Sensor: 26.5×32 mm','Tamaños: Infantil 21×21mm / Adulto 25×30mm','Resolución: 24 lp/mm | Espesor: 4.4 mm','Conexión: USB | Cable: 1.5–3m extensible','Reduce dosis de radiación 90% vs película','Software: Windows 7 SP1, 8, 10 (32/64 bits)'] },
 
@@ -1460,17 +1541,17 @@ const CATALOG_PRODUCTS = [
   // ARTICULADORES Y ARCO FACIAL  (Bio-Art)
   // ══════════════════════════════════════════
   { id:'articulador-001', code:'4000-S', cat:'equipos', brand:'articulador', name:'Articulador Semiajustable Bioart Modelo 4000-S',
-    unit:'pieza', img:'imagenes/articulador/articulador-4000S.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-4000-S.jpg',
     desc:'Articulador semiajustable tipo Arcon con guía condílea ajustable y distancia intercondilar regulable en tres medidas (pequeña, media y grande). Diseñado para trabajos de prótesis, oclusión y rehabilitación dental.',
     specs:['Clasificación: Arcon semiajustable','Guía condílea: Ajustable / Curva','Ángulo de Bennet: Ajustable','Distancia intercondilar: Ajustable (pequeña, media, grande)','Traba en céntrica: No','Junción lateral: O-ring'] },
 
   { id:'articulador-002', code:'A7 Plus', cat:'equipos', brand:'articulador', name:'Articulador Semiajustable Bioart Modelo A7 Plus',
-    unit:'pieza', img:'imagenes/articulador/articulador-A7Plus.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-A7-Plus.jpg',
     desc:'Articulador semiajustable tipo Arcon con distancia intercondilar fija de 110 mm, guía condílea ajustable y sistema de traba en céntrica. Compatible con el Arco Facial Standard Bioart.',
     specs:['Clasificación: Arcon semiajustable','Guía condílea: Ajustable','Ángulo de Bennet: Ajustable','Distancia intercondilar: Fija 110 mm','Traba en céntrica: Sí','Junción lateral: Silicona'] },
 
   { id:'articulador-003', code:'A7 Fix', cat:'equipos', brand:'articulador', name:'Articulador Semiajustable Bioart Modelo A7 Fix',
-    unit:'pieza', img:'imagenes/articulador/articulador-A7Fix.jpg',
+    unit:'pieza', img:'imagenes/articulador/articulador-A7-Fix.jpg',
     desc:'Articulador semiajustable tipo Arcon de uso práctico con ángulos de guía condílea y Bennet fijos (15° y 30° respectivamente), distancia intercondilar fija de 110 mm y sistema innovador de pinos laterales para traba en céntrica.',
     specs:['Clasificación: Arcon semiajustable','Guía condílea: Curva, fija en 30°','Ángulo de Bennet: Fijo en 15°','Distancia intercondilar: Fija 110 mm','Traba en céntrica: Sí (sistema de pinos laterales)','Junción lateral: Magnética'] },
 
