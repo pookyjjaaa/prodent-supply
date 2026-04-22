@@ -1726,6 +1726,313 @@ const CATALOG_PRODUCTS = [
     unit:'pieza', img:'imagenes/americaneagle/aem4.jpg',
     desc:'Espejo dental American Eagle n.° 4, montura cónica con rosca estándar americana (US Thread). Superficie reflectante de alta calidad para diagnóstico intraoral.',
     specs:['Código: AEM4','Tamaño: N.° 4','Montura: Cónica – rosca US Thread','Calidad: Superficie de alta reflectancia','Compatible: Mangos AE de rosca estándar','Autoclavable'] },
+
+  // ══════════════════════════════════════════
+  // VAMASA  (Distribuidora Ultradent · 23 productos)
+  // ══════════════════════════════════════════
+
+  { id:'vamasa-001', code:'01-47511', cat:'materiales', brand:'vamasa', name:'Opalescence Boost 40% — Kit Consultorio',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-opalescence-boost.jpg',
+    desc:'Blanqueador dental de alto poder para consultorio. Gel de 40% de peróxido de hidrogeno con activador independiente. Cura sin luz. Presentacion: 1 jeringa de 1.2 ml de Boost con activador, 1 jeringa de OpalDam y 6 puntas.',
+    specs:['Código: 01-47511','Marca: Vamasa / Ultradent','Concentración: 40% H2O2','Uso: Blanqueamiento en consultorio','Presentación: 1 jeringa Boost + 1 OpalDam + 6 puntas'] },
+
+  { id:'vamasa-002', code:'01-9000', cat:'materiales', brand:'vamasa', name:'Opalescence PF 10% — Blanqueamiento Nocturno',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-opalescence-pf.jpg',
+    desc:'El blanqueador dental mas vendido en Mexico y en el mundo. Sistema de blanqueamiento nocturno en jeringas para uso con guarda. Disponible en 10%, 15%, 20% y 35%. El kit incluye 8 jeringas de 1.2 ml, 2 guardas, 1 jeringa LC Block-out y accesorios.',
+    specs:['Código: 01-9000','Marca: Vamasa / Ultradent','Concentración: 10% (también 15%, 20%, 35%)','Uso: Blanqueamiento nocturno domiciliario','Presentación: Kit con 8 jeringas y guardas'] },
+
+  { id:'vamasa-003', code:'01-4635', cat:'desechables', brand:'vamasa', name:'Opalescence Go — Blanqueador en Cucharillas',
+    unit:'paquete', img:'imagenes/vamasa/vamasa-opalescence-go.jpg',
+    desc:'Blanqueador dental listo para usar en cucharillas precargadas. No requiere impresion ni guarda personalizada. Disponible en sabor Menta y Melon, en concentracion 10% y 15%. 5 o 10 aplicaciones por paquete.',
+    specs:['Código: 01-4635','Marca: Vamasa / Ultradent','Concentración: 10% o 15%','Uso: Blanqueamiento domiciliario sin guarda','Presentación: 5 o 10 aplicaciones'] },
+
+  { id:'vamasa-004', code:'01-18261', cat:'materiales', brand:'vamasa', name:'OpalDam Green — Barrera Gingival Fotocurable',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-opadam-green.jpg',
+    desc:'Barrera de resina fotocurable para proteccion gingival durante el blanqueamiento dental. Consistencia tipo gel, facil aplicacion y remocion. 1 jeringa de 1.2 ml con 10 puntas.',
+    specs:['Código: 01-18261','Marca: Vamasa / Ultradent','Material: Resina fotocurable','Color: Verde','Uso: Protección gingival en blanqueamiento'] },
+
+  { id:'vamasa-005', code:'01-0727', cat:'materiales', brand:'vamasa', name:'UltraSeal XT Plus — Sellador de Fosas y Fisuras',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-ultraseal-xt-plus.jpg',
+    desc:'Sellador de fosas y fisuras fotocurable de alta resistencia. Disponible en blanco opaco, A2 y transparente. Alta penetracion y adhesion a la estructura dental. Presentacion: 20 jeringas de 1.2 ml de blanco opaco.',
+    specs:['Código: 01-0727','Marca: Vamasa / Ultradent','Material: Resina fotocurable','Colores: Blanco opaco, A2, transparente, A1','Uso: Sellado preventivo de fosas y fisuras'] },
+
+  { id:'vamasa-006', code:'01-3536', cat:'materiales', brand:'vamasa', name:'UltraSeal XT Hydro — Sellador Hidrofílico',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-ultraseal-xt-plus.jpg',
+    desc:'Sellante de fosas y fisuras hidrofílico fotocurable. Funciona eficazmente en presencia de humedad, adaptado para la practica clinica diaria. Repuesto 20 jeringas blanco opaco 1.2 ml.',
+    specs:['Código: 01-3536','Marca: Vamasa / Ultradent','Material: Resina hidrofílica fotocurable','Uso: Sellado en condiciones de humedad','Presentación: 20 jeringas de 1.2 ml'] },
+
+  { id:'vamasa-007', code:'01-4526', cat:'materiales', brand:'vamasa', name:'Enamelast — Barniz de Fluor al 5%',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-enamelast.jpg',
+    desc:'Barniz de fluoruro de sodio al 5% para tratamiento preventivo y desensibilizacion dental. Adhesion inmediata al diente humedo. Sabor cereza. 5, 32 o 200 unidades por presentacion.',
+    specs:['Código: 01-4526','Marca: Vamasa / Ultradent','Concentración: Fluoruro de sodio 5%','Uso: Prevención de caries y desensibilización','Presentación: Jeringas individuales sabor cereza'] },
+
+  { id:'vamasa-008', code:'01-0491', cat:'materiales', brand:'vamasa', name:'Consepsis — Clorhexidina 2% para Cavidad',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-consepsis.jpg',
+    desc:'Solucion antibacteriana al 2% de clorhexidina para desinfeccion cavitaria antes del grabado y la adhesion. Elimina bacterias residuales en la preparacion. 20 jeringas de 1.2 ml sin puntas.',
+    specs:['Código: 01-0491','Marca: Vamasa / Ultradent','Principio activo: Clorhexidina 2%','Uso: Desinfección cavitaria prebonding','Presentación: 20 jeringas de 1.2 ml'] },
+
+  { id:'vamasa-009', code:'01-1101', cat:'materiales', brand:'vamasa', name:'Omni-Matrix — Matriz y Portamatriz Desechables',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-omni-matrix.jpg',
+    desc:'Sistema completo de matriz y portamatriz desechables para restauraciones posteriores. Disponible en 4 tamaños: naranja 0.001, verde 0.0015, pediatricas purpura y rojas de celuloide. 48 piezas por paquete.',
+    specs:['Código: 01-1101','Marca: Vamasa / Ultradent','Tipos: Naranja, verde, pediátrica, celuloide','Uso: Restauraciones posteriores con composite','Presentación: 48 piezas por paquete'] },
+
+  { id:'vamasa-010', code:'01-0111', cat:'materiales', brand:'vamasa', name:'Astringedent — Sulfato Ferrico 15.5%',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-astringedent.jpg',
+    desc:'Solucion hemostatica de sulfato ferrico al 15.5% para control de sangrado gingival durante impresiones y restauraciones. Frasco de 30 ml con aplicador.',
+    specs:['Código: 01-0111','Marca: Vamasa / Ultradent','Principio activo: Sulfato férrico 15.5%','Uso: Hemostasia y retracción gingival','Presentación: Frasco 30 ml'] },
+
+  { id:'vamasa-011', code:'01-0641', cat:'materiales', brand:'vamasa', name:'PQ1 — Adhesivo de 5a Generacion',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-pq1-adhesivo.jpg',
+    desc:'Sistema adhesivo de 5a generacion con tecnologia de un solo frasco. Alta resistencia de adhesion al esmalte y dentina. Compatible con tecnica humeda. Presentacion: 4 jeringas de 1.2 ml.',
+    specs:['Código: 01-0641','Marca: Vamasa / Ultradent','Generación: 5a (un solo frasco)','Uso: Adhesión a esmalte y dentina','Presentación: 4 jeringas de 1.2 ml'] },
+
+  { id:'vamasa-012', code:'01-0685', cat:'materiales', brand:'vamasa', name:'Ultra-Etch — Acido Grabador Autolimitante 35%',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-ultra-etch.jpg',
+    desc:'Acido fosforico autolimitante al 35% en presentacion de jeringa. Viscosidad controlada para aplicacion precisa. Facil lavado sin residuos. Jeringa jumbo de 30 ml.',
+    specs:['Código: 01-0685','Marca: Vamasa / Ultradent','Concentración: Ácido fosfórico 35%','Uso: Grabado de esmalte y dentina','Presentación: Jeringa jumbo 30 ml'] },
+
+  { id:'vamasa-013', code:'01-04161', cat:'materiales', brand:'vamasa', name:'Ultra-Blend Plus — Forro Cavitario Fotocurable',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-ultra-blend-plus.jpg',
+    desc:'Forro cavitario fotocurable de base dual (dentina y blanco opaco). Protege la pulpa, sella tubulos dentinarios y actua como base de restauracion. 1 jeringa de 1.2 ml dentina.',
+    specs:['Código: 01-04161','Marca: Vamasa / Ultradent','Material: Resina fotocurable','Colores: Dentina y blanco opaco','Uso: Forro cavitario y base de restauración'] },
+
+  { id:'vamasa-014', code:'01-4543', cat:'materiales', brand:'vamasa', name:'Peak Universal Bond — Adhesivo con Clorhexidina',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-peak-universal-bond.jpg',
+    desc:'Sistema de adhesion de 5a generacion con clorhexidina para mayor durabilidad del sellado dentinario. Presentacion en bote de 4 ml para uso en consultorio de alto volumen.',
+    specs:['Código: 01-4543','Marca: Vamasa / Ultradent','Generación: 5a con clorhexidina','Uso: Adhesión resina-diente de largo plazo','Presentación: Bote 4 ml'] },
+
+  { id:'vamasa-015', code:'01-0848', cat:'instrumental', brand:'vamasa', name:'Pulidores Jiffy — Copa, Punta y Disco',
+    unit:'estuche', img:'imagenes/vamasa/vamasa-pulidores-jiffy.jpg',
+    desc:'Sistema completo de pulidores para resinas compuestas en 4 granulometrias: Grueso, Intermedio, Fino y Super Fino. Presentacion en copa, punta y disco. 20 piezas por estuche. Compatibles con contrangulo estandar.',
+    specs:['Código: 01-0848','Marca: Vamasa / Ultradent','Granulometrías: Grueso, Intermedio, Fino, Super Fino','Formas: Copa, Punta, Disco','Presentación: 20 piezas por estuche'] },
+
+  { id:'vamasa-016', code:'01-4281', cat:'materiales', brand:'vamasa', name:'Resina Forma — Nano-Hibrida con Zirconia',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-resina-forma.jpg',
+    desc:'Resina nano-hibrida con particulas de zirconia OneStepColor. Disponible en tonos Dentina (A1D-A3D), Cuerpo (A1B-XWB), Esmalte (A1E-XWE) e Incisal. 4 gramos por jeringa. Excelente consistencia de manipulacion y fluorescencia natural.',
+    specs:['Código: 01-4281','Marca: Vamasa / Ultradent','Tipo: Resina nano-híbrida con zirconia','Tonos: Sistema Dentina/Cuerpo/Esmalte/Incisal','Presentación: Jeringas de 4 g'] },
+
+  { id:'vamasa-017', code:'01-5540', cat:'materiales', brand:'vamasa', name:'Diamond Polish — Pasta Diamantada para Pulir Resinas',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-diamond-polish.jpg',
+    desc:'Pasta diamantada para pulido final de resinas compuestas y superficies dentales. Disponible en grano 0.5 micras y 1 micra. Aroma a menta. 2 jeringas de 1.2 ml por presentacion.',
+    specs:['Código: 01-5540 / 01-5541','Marca: Vamasa / Ultradent','Granulometría: 0.5 µm y 1 µm','Uso: Pulido final de resinas y superficies','Presentación: 2 jeringas de 1.2 ml'] },
+
+  { id:'vamasa-018', code:'01-1013', cat:'materiales', brand:'vamasa', name:'PermaSeal — Sellante de Resinas y Agente Adhesivo',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-permaseal.jpg',
+    desc:'Sellante de resinas de alta penetracion y agente adhesivo para composite. Sella microgrietas, mejora la adhesion entre capas de composite y reduce microfiltraciones. 2 jeringas de 1.2 ml con 10 puntas.',
+    specs:['Código: 01-1013','Marca: Vamasa / Ultradent','Uso: Sellado de resinas y adhesivo composite','Acción: Penetración profunda en microgrietas','Presentación: 2 jeringas 1.2 ml + 10 puntas'] },
+
+  { id:'vamasa-019', code:'01-5919', cat:'equipos', brand:'vamasa', name:'VALO — Lampara de Fotocurado LED',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-valo-lampara.jpg',
+    desc:'Lampara de fotocurado LED de alta potencia con 3 modos: Standard, Alto y Extra poder. Cuerpo de aluminio aeroespacial de una sola pieza, excepcionalmente durable y ligera. Cura un molar completo de 10 mm en un solo disparo. Kit incluye lampara, fuente de alimentacion, soporte, pantalla UV y 50 barreras protectoras.',
+    specs:['Código: 01-5919','Marca: Vamasa / Ultradent','Modos: Standard, Alto, Extra poder','Material: Aluminio aeroespacial','Contenido: Lámpara + fuente + soporte + protector UV'] },
+
+  { id:'vamasa-020', code:'01-0067', cat:'materiales', brand:'vamasa', name:'ChlorCid — Hipoclorito de Sodio 3% Endodoncia',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-chlorcid.jpg',
+    desc:'Solucion de hipoclorito de sodio al 3% formulada para irrigacion y desinfeccion intensiva de conductos radiculares. Alta capacidad disolvente de tejido organico. Jeringa jumbo de 30 ml.',
+    specs:['Código: 01-0067','Marca: Vamasa / Ultradent','Concentración: NaOCl 3%','Uso: Irrigación de conductos radiculares','Presentación: Jeringa jumbo 30 ml'] },
+
+  { id:'vamasa-021', code:'01-0645', cat:'materiales', brand:'vamasa', name:'ViscoStat — Hemostatico Sulfato Ferrico 20%',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-viscostat.jpg',
+    desc:'Hemostatico de sulfato ferrico al 20% en presentacion viscosa para maxima retencion en el sitio de sangrado. Control inmediato de sangrado gingival. Jeringa jumbo de 30 ml.',
+    specs:['Código: 01-0645','Marca: Vamasa / Ultradent','Principio activo: Sulfato férrico 20%','Consistencia: Viscosa (gel)','Presentación: Jeringa jumbo 30 ml'] },
+
+  { id:'vamasa-022', code:'01-1027', cat:'materiales', brand:'vamasa', name:'UltraCal XS — Pasta de Hidroxido de Calcio',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-ultracal-xs.jpg',
+    desc:'Pasta de hidroxido de calcio de alta viscosidad para medicacion intracanal entre sesiones de endodoncia. Facil insercion con puntas NaviTip. 4 jeringas de 1.2 ml con 20 puntas.',
+    specs:['Código: 01-1027','Marca: Vamasa / Ultradent','Principio activo: Hidróxido de calcio','Uso: Medicación intracanal en endodoncia','Presentación: 4 jeringas 1.2 ml + 20 puntas NaviTip'] },
+
+  { id:'vamasa-023', code:'01-0947', cat:'materiales', brand:'vamasa', name:'PermaFlo — Composite Fluido Fotocurable',
+    unit:'pieza', img:'imagenes/vamasa/vamasa-permaflo.jpg',
+    desc:'Composite fluido (flowable) fotocurable para restauraciones de acceso facil y capa inicial. Disponible en tonos A1, A2, A3, A3.5, A4, B1 y Translucido. 2 jeringas de 1.2 ml por tono.',
+    specs:['Código: 01-0947','Marca: Vamasa / Ultradent','Tipo: Composite fluido fotocurable','Tonos: A1, A2, A3, A3.5, A4, B1, Translúcido','Presentación: 2 jeringas de 1.2 ml'] },
+
+  // ══════════════════════════════════════════
+  // BORGATTA  (Ortodoncia y Adhesivos · 19 productos)
+  // ══════════════════════════════════════════
+
+  { id:'borgatta-001', code:'KIT90-079', cat:'instrumental', brand:'borgatta', name:'Kit X-Pression R Smile System — Autoligado Metalico',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-kit-xpression-r.jpg',
+    desc:'Kit completo de brackets de autoligado interactivo X-Pression R con secuencia Smile System. Cuerpo suavizado, clip de cromo cobalto interactivo y slot de precision con escalonado triple para minima friccion. Incluye todo lo necesario para atender a un paciente completo.',
+    specs:['Código: KIT90-079','Marca: Borgatta Black','Técnica: Autoligado interactivo','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-002', code:'KIT90-089', cat:'instrumental', brand:'borgatta', name:'Kit X-Pression C Smile System — Autoligado Ceramico',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-kit-xpression-c.jpg',
+    desc:'Kit de brackets de autoligado X-Pression C en ceramica translucida con secuencia Smile System estetica-metalica. Retencion mecanica y construccion solida de ceramica translucida para ortodoncia estetica e innovadora. Slot .022, prescripcion Roth.',
+    specs:['Código: KIT90-089','Marca: Borgatta Black','Material: Cerámica translúcida','Slot: .022','Prescripción: Roth (secuencia estética-metálica)'] },
+
+  { id:'borgatta-003', code:'68-162-072', cat:'instrumental', brand:'borgatta', name:'Tubos Smile System — Slot .022 con Malla',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-tubos-smile-system.jpg',
+    desc:'Tubos molares fabricados en una sola pieza con cuerpo redondeado y pulido, slot de baja friccion cortado por computadora. Compatible con el sistema X-Pression Smile System. Para primero y segundo molar superior e inferior.',
+    specs:['Código: 68-162-072 (serie)','Marca: Borgatta Black','Slot: .022','Uso: Primer y segundo molar','Contenido: 5 piezas por paquete'] },
+
+  { id:'borgatta-004', code:'BOR-88001', cat:'instrumental', brand:'borgatta', name:'Instrumentos X-Pression — Set 3 piezas',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-instr-xpression.jpg',
+    desc:'Set de 3 instrumentos ergonomicos exclusivos para el sistema X-Pression: Cola de Armadillo (apertura de clip y limpieza de adhesivo), Posicionador Voudoris (medidor milimetrico de altura de bracket) y Acoplador-R (asentamiento del arco). Mango ligero y anti-derrapante.',
+    specs:['Códigos: BOR-88001, BOR-88002, BOR-88005','Marca: Borgatta Black','Uso: Sistema X-Pression exclusivamente','Material: Acero inoxidable con mango ergonómico','Contenido: 3 instrumentos'] },
+
+  { id:'borgatta-005', code:'90-045-01', cat:'instrumental', brand:'borgatta', name:'Brackets Black Duo Roth Standard — Juego .022',
+    unit:'juego', img:'imagenes/borgatta/borgatta-brackets-black-duo.jpg',
+    desc:'Brackets Black Duo con cuerpo moldeado para gran confort y resistencia. Diseno comodo y discreto con gran desempeno. Juego con ganchos 3-4-5, slot .022, prescripcion Roth.',
+    specs:['Código: 90-045-01','Marca: Borgatta Black','Slot: .022','Prescripción: Roth','Ganchos: 3-4-5'] },
+
+  { id:'borgatta-006', code:'90-055-01', cat:'instrumental', brand:'borgatta', name:'Brackets Black Duo Mini Roth — Juego .022',
+    unit:'juego', img:'imagenes/borgatta/borgatta-brackets-black-mini.jpg',
+    desc:'Brackets Black Duo en formato Mini Roth. Cuerpo y base diseñados para maxima comodidad y estetica. Slot .022 con ganchos 3-4-5. Ideal para pacientes con perfil estetico exigente.',
+    specs:['Código: 90-055-01','Marca: Borgatta Black','Formato: Mini','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-007', code:'90-075-01', cat:'instrumental', brand:'borgatta', name:'Brackets Black Duo C Roth — Juego Ceramico .022',
+    unit:'juego', img:'imagenes/borgatta/borgatta-brackets-black-c.jpg',
+    desc:'Brackets Black Duo C en ceramica estetica de optimo desempeno y resistencia a las manchas. Cuerpo estetico redondeado para maxima comodidad al paciente. Slot .022, ganchos 3-4-5, prescripcion Roth.',
+    specs:['Código: 90-075-01','Marca: Borgatta Black','Material: Cerámica estética','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-008', code:'KIT-MEMORY-R', cat:'instrumental', brand:'borgatta', name:'Kit Memory — Autoligado Interactivo Metalico',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-kit-memory.jpg',
+    desc:'Kit de brackets de autoligado interactivo Memory con gancho en bola y aletas contorneadas. Clip interactivo de acero inoxidable y slot pulido para tratamiento fluido y rapido. Incluye secuencia Smile System. Ganchos 3-4-5, slot .022.',
+    specs:['Código: KIT-MEMORY-R','Marca: Borgatta (Línea Extra)','Técnica: Autoligado interactivo','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-009', code:'KIT-NOVA', cat:'instrumental', brand:'borgatta', name:'Kit Nova — Autoligado Interactivo con Secuencia',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-kit-nova.jpg',
+    desc:'Kit de brackets de autoligado interactivo Nova de alta precision. Cuerpo metalico con slot pulido y clip de facil manejo en acero inoxidable. Incluye secuencia de arcos Smile System. Disponible tambien en version ceramica (Nova C).',
+    specs:['Código: KIT-NOVA','Marca: Borgatta (Línea Extra)','Técnica: Autoligado interactivo','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-010', code:'300-513-1', cat:'instrumental', brand:'borgatta', name:'Brackets Mirage Sequence Mini Roth — Metalicos .022',
+    unit:'juego', img:'imagenes/borgatta/borgatta-brackets-mirage.jpg',
+    desc:'Brackets metalicos Mirage Sequence Mini Roth. Fabricados en una sola pieza, cuerpo pulido, slot suavizado y malla 80. Diseno pensado tanto para el paciente como para el profesional. Ganchos 3-4-5, slot .022.',
+    specs:['Código: 300-513-1','Marca: Borgatta (Línea Extra)','Formato: Mini','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-011', code:'300-528', cat:'instrumental', brand:'borgatta', name:'Brackets Clear Roth — Esteticos con Slot Metalico',
+    unit:'juego', img:'imagenes/borgatta/borgatta-brackets-clear.jpg',
+    desc:'Brackets Clear Roth con cuerpo estetico y ligero, slot de metal especial para disminuir la friccion del tratamiento. Bajo perfil para maxima comodidad del paciente. Ganchos 3, slot .022.',
+    specs:['Código: 300-528','Marca: Borgatta (Línea Extra)','Material: Cuerpo estético + slot metálico','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-012', code:'300-537', cat:'instrumental', brand:'borgatta', name:'Brackets Zafiro Roth — Monocristalino .022',
+    unit:'juego', img:'imagenes/borgatta/borgatta-brackets-zafiro.jpg',
+    desc:'Brackets de zafiro monocristalino de excepcional translucidez y retencion de zirconia. El bracket mas estetico de la linea Borgatta. Ganchos 3-4-5, slot .022.',
+    specs:['Código: 300-537','Marca: Borgatta (Línea Extra)','Material: Zafiro monocristalino','Slot: .022','Prescripción: Roth'] },
+
+  { id:'borgatta-013', code:'KIT80400-1', cat:'desechables', brand:'borgatta', name:'Dentalastic Croma — Modulos Elasticos en Stick',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-dentalastic-croma.jpg',
+    desc:'Modulos elasticos en presentacion stick con 30 colores solidos y llamativos. Gran resistencia a la fatiga. Paquete con 260 piezas. Disponible en Azul Prusia, Azul Lago, Negro, Rojo, Naranja, Vainilla, Lavanda, Fusha, Rosa, Morado, Verde, Dorado, Turquesa y mas.',
+    specs:['Código: KIT80400-1 / KIT80400-2','Marca: Borgatta iLine','Colores: 30 opciones sólidas y llamativas','Uso: Ligadura estética de brackets','Presentación: 260 piezas en stick'] },
+
+  { id:'borgatta-014', code:'480-810M', cat:'materiales', brand:'borgatta', name:'Orthobond Autocurable — Adhesivo para Brackets',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-orthobond-auto.jpg',
+    desc:'Resina autocurable para cementacion de brackets con libertad de manejo y gran capacidad adhesiva. Excelente resistencia a las fuerzas aplicadas sobre el bracket. Kit con 6 piezas: primer autocurable (5 ml), resina autocurable (5 g) y acido grabador (5 ml).',
+    specs:['Código: 480-810M','Marca: Borgatta','Tipo: Adhesivo autocurable','Uso: Cementación directa de brackets','Presentación: Kit 6 piezas'] },
+
+  { id:'borgatta-015', code:'480-820M', cat:'materiales', brand:'borgatta', name:'Orthobond Fotocurable — Adhesivo Light Cure',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-orthobond-foto.jpg',
+    desc:'Adhesivo fotocurable para brackets a base de resina. Optima resistencia, facil manipulacion y alta libertad de colocacion del bracket antes del curado. Kit con 4 piezas: primer fotocurable (3.4 ml), resina fotocurable (5 g) y acido grabador (5 ml).',
+    specs:['Código: 480-820M','Marca: Borgatta','Tipo: Adhesivo fotocurable','Uso: Cementación directa de brackets','Presentación: Kit 4 piezas'] },
+
+  { id:'borgatta-016', code:'480-831', cat:'materiales', brand:'borgatta', name:'Heliosit Orthodontic — Adhesivo Fotocurable sin Primer',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-heliosit.jpg',
+    desc:'Adhesivo fotocurable de un solo paso para cementacion de brackets. No requiere primer previo. Protege el esmalte dental contra microfracturas. 1 jeringa de resina fotocurable de 2.5 g.',
+    specs:['Código: 480-831','Marca: Borgatta','Tipo: Adhesivo fotocurable sin primer','Ventaja: Sin primer, un solo paso','Presentación: Jeringa 2.5 g'] },
+
+  { id:'borgatta-017', code:'500-024', cat:'instrumental', brand:'borgatta', name:'Retractor de Labios Autoclavable — Adulto e Infantil',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-retractor-autoclavable.jpg',
+    desc:'Retractor de labios autoclavable Borgatta, esterilizable en autoclave o solucion fria. Retiene gentilmente los tejidos suaves del paciente. Disponible en talla adulto (500-024) y talla infantil (500-026).',
+    specs:['Código: 500-024 (adulto) / 500-026 (infantil)','Marca: Borgatta','Material: Plástico autoclavable','Uso: Retracción labial en procedimientos','Esterilización: Autoclave o solución fría'] },
+
+  { id:'borgatta-018', code:'300-700M', cat:'materiales', brand:'borgatta', name:'Orthobond Ionomero de Vidrio — Cemento para Bandas',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-ionomero-vidrio.jpg',
+    desc:'Ionomero de vidrio ideal para cementacion de bandas ortodonticas. Excelente consistencia y dureza, gran facilidad de manipulacion. Formula con liberacion de iones de fluor para proteger el esmalte. Kit 4 piezas: polvo 15 g y liquido 15 ml.',
+    specs:['Código: 300-700M','Marca: Borgatta','Tipo: Ionómero de vidrio liberador de flúor','Uso: Cementación de bandas ortodónticas','Presentación: Kit 4 piezas'] },
+
+  { id:'borgatta-019', code:'300-600M', cat:'materiales', brand:'borgatta', name:'Orthobond Oxifosfato — Cemento con Fluor para Bandas',
+    unit:'pieza', img:'imagenes/borgatta/borgatta-oxifosfato.jpg',
+    desc:'Cemento de oxifosfato para cementacion de bandas y protesis. Facil manejo desde la cementacion hasta su remocion, con liberacion prolongada de iones de fluor. Alta resistencia y dureza. Kit 3 piezas: polvo 32 g y liquido 15 ml.',
+    specs:['Código: 300-600M','Marca: Borgatta','Tipo: Oxifosfato con flúor','Uso: Cementación de bandas y prótesis','Presentación: Kit 3 piezas'] },
+
+  // ══════════════════════════════════════════
+  // BALSAS DENTAL  (Zhermack · 17 productos)
+  // ══════════════════════════════════════════
+
+  { id:'balsas-001', code:'C302070', cat:'materiales', brand:'balsas', name:'Hydrogum — Alginato Elastico Gelificacion Rapida',
+    unit:'bolsa 453 g', img:'imagenes/balsas/balsas-hydrogum.jpg',
+    desc:'Alginato elastico Zhermack de gelificacion rapida para protesis removibles, modelos de estudio y antagonistas en protesis fija y removible. Libre de polvo en suspension, aroma a menta, color verde. Tiempo de mezcla 30 s, gelificacion 2 min 10 s. 5 años de garantia.',
+    specs:['Código: C302070','Marca: Balsas Dental / Zhermack','Tipo: Alginato elástico rápido','Tiempo de trabajo: 1 min 10 s','Presentación: Bolsa 453 g'] },
+
+  { id:'balsas-002', code:'C302075', cat:'materiales', brand:'balsas', name:'Hydrogum Soft — Alginato Extraelastico para Edentulos',
+    unit:'bolsa 453 g', img:'imagenes/balsas/balsas-hydrogum-soft.jpg',
+    desc:'Alginato extraelastico Zhermack de gelificacion rapida para impresiones anatomicas en pacientes edentulos, ya que no comprime los tejidos blandos. Aroma a menta, color azul claro. 5 años de garantia.',
+    specs:['Código: C302075','Marca: Balsas Dental / Zhermack','Tipo: Alginato extraelástico','Indicación: Prótesis removibles y pacientes edéntulos','Presentación: Bolsa 453 g'] },
+
+  { id:'balsas-003', code:'C302120', cat:'materiales', brand:'balsas', name:'Hydrocolor 5 — Alginato Cromatico Estabilidad 5 Dias',
+    unit:'bolsa 453 g', img:'imagenes/balsas/balsas-hydrogum.jpg',
+    desc:'Alginato cromatico libre de polvo con aspecto siliconizado y control de color por fases. Estabilidad dimensional hasta 5 dias. Aroma a Mangostan, tiempo en boca 45 s. Tixotropico, no escurre.',
+    specs:['Código: C302120','Marca: Balsas Dental / Zhermack','Tipo: Alginato cromático 3 fases','Estabilidad dimensional: 5 días','Presentación: Bolsa 453 g'] },
+
+  { id:'balsas-004', code:'C302000', cat:'materiales', brand:'balsas', name:'Orthoprint — Alginato Extrarrapido para Ortodoncia',
+    unit:'bolsa', img:'imagenes/balsas/balsas-orthoprint.jpg',
+    desc:'Alginato Zhermack extrarrapido para ortodoncia y modelos de estudio. Propiedades elasticas excepcionales para ortodoncia. Aroma a vainilla con reduccion del reflejo emetico, color amarillo. Tiempo de mezcla 30 s, gelificacion 1 min 50 s.',
+    specs:['Código: C302000','Marca: Balsas Dental / Zhermack','Tipo: Alginato extrarápido para ortodoncia','Tiempo en boca: 45 s','Color: Amarillo, aroma vainilla'] },
+
+  { id:'balsas-005', code:'C302100', cat:'materiales', brand:'balsas', name:'Tropicalgin — Alginato Cromatico Gelificacion Rapida',
+    unit:'bolsa', img:'imagenes/balsas/balsas-tropicalgin.jpg',
+    desc:'Alginato cromatico Zhermack de tres fases para protesis removible, modelos de estudio y antagonistas. Fase violeta: mezcla; Fase naranja: trabajo; Fase amarilla: introduccion. Aroma mango, libre de polvo. Tiempo de mezcla 45 s.',
+    specs:['Código: C302100','Marca: Balsas Dental / Zhermack','Tipo: Alginato cromático 3 fases','Tiempo de trabajo: 1 min 35 s','Colores: Violeta-Naranja-Amarillo'] },
+
+  { id:'balsas-006', code:'C206000', cat:'materiales', brand:'balsas', name:'Hydrorise Putty Normal Set — Silicona A Cuerpo Pesado',
+    unit:'caja 2 tarros 250 ml', img:'imagenes/balsas/balsas-hydrorise-putty.jpg',
+    desc:'Silicona de adicion Zhermack tipo Putty para protesis fija. Tecnica de dos fases o una fase simultanea. Relacion 1:1, dureza final 60 Shore-A, efecto Snap-set. Aroma a menta dulce, color azul. Tiempo de trabajo 2 min, permanencia en boca 3 min 30 s.',
+    specs:['Código: C206000','Marca: Balsas Dental / Zhermack','Tipo: Silicona A Putty Normal Set 1:1','Dureza: 60 Shore-A','Presentación: 2 tarros 250 ml (base + catalizador)'] },
+
+  { id:'balsas-007', code:'C206001', cat:'materiales', brand:'balsas', name:'Hydrorise Putty Fast Set — Silicona A Fraguado Rapido',
+    unit:'caja 2 tarros 250 ml', img:'imagenes/balsas/balsas-hydrorise-putty-fast.jpg',
+    desc:'Silicona de adicion Zhermack tipo Putty de fraguado rapido para protesis fija. Tiempo de trabajo 1 min 30 s, permanencia en boca 2 min 30 s. Relacion 1:1, dureza 60 Shore-A. Color azul, aroma menta dulce.',
+    specs:['Código: C206001','Marca: Balsas Dental / Zhermack','Tipo: Silicona A Putty Fast Set 1:1','Tiempo en boca: 2 min 30 s','Presentación: 2 tarros 250 ml'] },
+
+  { id:'balsas-008', code:'C206010', cat:'materiales', brand:'balsas', name:'Hydrorise Light Body — Silicona A Fluida Normal Set',
+    unit:'caja 2 cartuchos 50 ml', img:'imagenes/balsas/balsas-hydrorise-putty.jpg',
+    desc:'Silicona de adicion Zhermack Light Body (fluida) para captura de detalles de preparaciones en protesis fija. Tecnologia hiperhidrocompatible para maxima mojabilidad. 2 cartuchos de 50 ml con 6 canulas mezcladoras.',
+    specs:['Código: C206010','Marca: Balsas Dental / Zhermack','Tipo: Silicona A Light Body Normal Set','Tecnología: Hiperhidrocompatible','Presentación: 2 cartuchos 50 ml + 6 cánulas'] },
+
+  { id:'balsas-009', code:'C206020', cat:'materiales', brand:'balsas', name:'Hydrorise Maxi Heavy Normal Set — Silicona A 5:1',
+    unit:'pieza', img:'imagenes/balsas/balsas-hydrorise-maxi-heavy.jpg',
+    desc:'Silicona de adicion Zhermack Heavy Body en sistema de cartuchos 5:1 para llenado de cubeta individual en tecnica simultanea. Compatible con maquinas habituales del mercado. Dureza final 60 Shore-A, color azul, aroma menta dulce.',
+    specs:['Código: C206020','Marca: Balsas Dental / Zhermack','Tipo: Silicona A Heavy Body 5:1 Normal Set','Relación: 5:1','Dureza: 60 Shore-A'] },
+
+  { id:'balsas-010', code:'C200760', cat:'materiales', brand:'balsas', name:'Occlufast Rock — Silicona A para Registro de Mordida',
+    unit:'pieza', img:'imagenes/balsas/balsas-occlufast-rock.jpg',
+    desc:'Silicona de adicion termocromica Zhermack para registros de mordida de maxima intercuspidacion. Dureza final 95 Shore-A, tiempo en boca 60 s, color violeta. Para registros oclusales, lateralidad, protrusiones y evaluaciones diagnosticas. 2 cartuchos 50 ml + 12 canulas.',
+    specs:['Código: C200760','Marca: Balsas Dental / Zhermack','Tipo: Silicona A termocrómica','Dureza: 95 Shore-A','Presentación: 2 cartuchos 50 ml + 12 cánulas'] },
+
+  { id:'balsas-011', code:'C200750', cat:'materiales', brand:'balsas', name:'Occlufast CAD — Silicona A para Sistemas CAD/CAM',
+    unit:'pieza', img:'imagenes/balsas/balsas-occlufast-cad.jpg',
+    desc:'Silicona de adicion Zhermack para registro de mordida compatible con sistemas CAD/CAM de lectura optica, laser y de contacto. Rigida (95 Shore-A), tixotropica, precisa (2 µm), tiempo en boca menor a 60 s. Color azul.',
+    specs:['Código: C200750','Marca: Balsas Dental / Zhermack','Tipo: Silicona A para CAD/CAM','Dureza: 95 Shore-A','Precisión: 2 µm'] },
+
+  { id:'balsas-012', code:'C300000', cat:'materiales', brand:'balsas', name:'Zetaplus — Silicona C Alta Viscosidad para Cubeta',
+    unit:'pieza', img:'imagenes/balsas/balsas-zetaplus.jpg',
+    desc:'Silicona de condensacion Zhermack de altisima viscosidad para tecnica de doble impresion e impresion simultanea. Excelente rigidez una vez endurecida. Tiempo de mezcla 30 s, polimerizacion 4 min 30 s. Color verde, aroma menta.',
+    specs:['Código: C300000','Marca: Balsas Dental / Zhermack','Tipo: Silicona C alta viscosidad','Tiempo de polimerización: 4 min 30 s','Color: Verde'] },
+
+  { id:'balsas-013', code:'C300100', cat:'materiales', brand:'balsas', name:'Oranwash L — Silicona C Baja Viscosidad Light',
+    unit:'pieza', img:'imagenes/balsas/balsas-oranwash.jpg',
+    desc:'Silicona de condensacion Zhermack de baja viscosidad (Light Body) para tecnica de doble impresion y simultanea. Hidrocompatible, perfecto deslizamiento en el surco gingival. Color naranja, aroma naranja. Tiempo en boca 5 min.',
+    specs:['Código: C300100','Marca: Balsas Dental / Zhermack','Tipo: Silicona C baja viscosidad (Light)','Indicación: Doble impresión y simultánea','Color: Naranja'] },
+
+  { id:'balsas-014', code:'C400000', cat:'materiales', brand:'balsas', name:'Zetalabor — Silicona C para Laboratorio 85 Shore-A',
+    unit:'pieza', img:'imagenes/balsas/balsas-zetalabor.jpg',
+    desc:'Silicona de condensacion Zhermack especifica para laboratorio dental. Aplicaciones: control de estructura metalica, provisionales, reproduccion de mascaras gingivales y separador diente/yeso en mufla. Dureza 85 Shore-A. Resistente hasta 140 C.',
+    specs:['Código: C400000','Marca: Balsas Dental / Zhermack','Tipo: Silicona C laboratorio','Dureza: 85 Shore-A','Resistencia térmica: hasta 140 C'] },
+
+  { id:'balsas-015', code:'C400010', cat:'materiales', brand:'balsas', name:'Titanium — Silicona C Alta Resistencia 95 Shore-A',
+    unit:'pieza', img:'imagenes/balsas/balsas-titanium.jpg',
+    desc:'Silicona de condensacion Zhermack de alta resistencia para laboratorio dental. Color blanco. Dureza final 95 Shore-A, altisima resistencia al calor hasta 180 C. Sin deformacion en mufla. Tiempo de mezcla 30 s, polimerizacion 6 min.',
+    specs:['Código: C400010','Marca: Balsas Dental / Zhermack','Tipo: Silicona C laboratorio alta resistencia','Dureza: 95 Shore-A','Resistencia térmica: hasta 180 C'] },
+
+  { id:'balsas-016', code:'C305125', cat:'equipos', brand:'balsas', name:'Elite Mix — Mezclador al Vacio para Yesos',
+    unit:'pieza', img:'imagenes/balsas/balsas-elite-mix.jpg',
+    desc:'Mezclador de yesos y revestimientos al vacio Zhermack con control electronico total. Display LCD de 25 caracteres, 10 programas configurables, bomba de vacio seco oil-free sin mantenimiento. Nivel de vacio maximo 700 mmHg. Incluye tapa con espatula y vaso de 500 ml. 2 años de garantia.',
+    specs:['Código: C305125','Marca: Balsas Dental / Zhermack','Voltaje: 115 V','Velocidad: 100-450 rpm','Vacío máximo: 700 mmHg'] },
+
+  { id:'balsas-017', code:'32-PSF400', cat:'desechables', brand:'balsas', name:'Microbrush X — Aplicadores de Cepillo de Cerdas',
+    unit:'paquete 400 pz', img:'imagenes/balsas/balsas-microbrush-x.jpg',
+    desc:'Aplicadores desechables Microbrush X con punta de cepillo de cerdas ultra finas para aplicacion precisa de adhesivos, primers y materiales fluidos. Disponible en Super Fino, Fino y Regular. 400 piezas por paquete.',
+    specs:['Código: 32-PSF400 (SF) / 32-PF400 (F) / 32-PR400 (R)','Marca: Balsas Dental / Microbrush','Tipos: Super Fino, Fino, Regular','Uso: Aplicación de adhesivos y materiales fluidos','Presentación: 400 piezas'] },
 ];
 
 // Map category slugs to display names
