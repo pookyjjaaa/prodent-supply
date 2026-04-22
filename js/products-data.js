@@ -29,32 +29,32 @@ const CATALOG_PRODUCTS = [
   // DESECHABLES  (Ortho Premium · 48 productos)
   // ══════════════════════════════════════════
   { id:'AI001SF', code:'AI001SF', cat:'desechables', brand:'orthopremium', name:'Micro Aplicador Super Fino',
-    unit:'caja 100 pz', img:'imagenes/products/AI001SF.jpg',
+    unit:'caja 100 pz', img:'https://surgimac.com/cdn/shop/files/MB1000-1103_3c6a20ae-551b-4db4-b86a-91de74112cdc.jpg',
     desc:'Aplicador desechable de punta super fina para material fluido de alta precisión.',
     specs:['Punta: Super fina','Uso: Adhesivos, bonding, selladores fluidos','Colores identificadores incluidos','Desechable, uso único'] },
 
   { id:'AI001F', code:'AI001F', cat:'desechables', brand:'orthopremium', name:'Micro Aplicador Fino',
-    unit:'caja 100 pz', img:'imagenes/products/AI001F.jpg',
+    unit:'caja 100 pz', img:'https://www.jmudental.com/cdn/shop/files/05_compressed_700x700.jpg',
     desc:'Micro aplicador de punta fina para materiales de baja y media viscosidad.',
     specs:['Punta: Fina','Uso: Adhesivos, agentes de unión','Desechable, uso único'] },
 
   { id:'AI001R', code:'AI001R', cat:'desechables', brand:'orthopremium', name:'Micro Aplicador Regular',
-    unit:'caja 100 pz', img:'imagenes/products/AI001R.jpg',
+    unit:'caja 100 pz', img:'https://depositodentxpress.com/wp-content/uploads/2021/08/microbrush-microaplicadores-dentales-600x600.png',
     desc:'Micro aplicador de punta regular para materiales de viscosidad media a alta.',
     specs:['Punta: Regular','Uso: Resinas, materiales restauradores','Desechable, uso único'] },
 
   { id:'AI002', code:'AI002', cat:'desechables', brand:'orthopremium', name:'Micro Cepillo',
-    unit:'caja 100 pz', img:'imagenes/products/AI002.jpg',
+    unit:'caja 100 pz', img:'https://azdentall.com/cdn/shop/files/02_2b476c06-f273-437d-9e23-31e2646748f1.jpg?v=1701229212',
     desc:'Micro cepillo desechable de fibras suaves para aplicación precisa de materiales.',
     specs:['Cabeza: Fibras suaves','Uso: Materiales de consistencia cremosa','Desechable, uso único'] },
 
   { id:'AI003', code:'AI003', cat:'desechables', brand:'orthopremium', name:'Cucharilla de Impresión Verde',
-    unit:'paquete 10 pz', img:'imagenes/products/AI003.jpg',
+    unit:'paquete 10 pz', img:'https://universum-dental.com.mx/cdn/shop/products/image_10780b5f-1fc1-413a-a903-acdeb3b69032_1024x.png?v=1632670808',
     desc:'Cucharilla desechable de color verde para toma de impresiones dentales.',
     specs:['Color: Verde','Material: Plástico resistente','Compatible con alginato y siliconas','Desechable, uso único'] },
 
   { id:'AI004', code:'AI004', cat:'desechables', brand:'orthopremium', name:'Barrera Protectora Azul',
-    unit:'1 200 hojas', img:'imagenes/products/AI004.jpg',
+    unit:'1 200 hojas', img:'https://nnamedical.com/wp-content/uploads/2026/03/rtfff-en.jpg',
     desc:'Rollo de barrera protectora para superficies clínicas. Protege contra contaminación cruzada.',
     specs:['Color: Azul','Material: Polietileno','Uso: Protección de equipos y superficies','Corte fácil'] },
 
@@ -69,7 +69,7 @@ const CATALOG_PRODUCTS = [
     specs:['Tipo: Copa plana','Uso: Profilaxis y pulido dental','Compatible con contrángulo estándar','Desechable, uso único'] },
 
   { id:'AI009', code:'AI009', cat:'desechables', brand:'orthopremium', name:'Copa Profiláctica',
-    unit:'paquete 100 pz', img:'imagenes/products/AI009.jpg',
+    unit:'paquete 100 pz', img:'https://www.atomodental.com/cdn/shop/products/ATOMO_premium_quality_prophy_cup_-new_large.JPG?v=1528694232',
     desc:'Copa profiláctica de caucho natural para pulido dental. Máxima adaptación a la superficie.',
     specs:['Material: Caucho natural','Uso: Pulido y profilaxis','Compatible con contrángulo estándar','Desechable, uso único'] },
 
@@ -79,7 +79,7 @@ const CATALOG_PRODUCTS = [
     specs:['Medidas: 3 cm, 5 cm, 6 cm','Material: Plástico','Uso: Mezcla de cementos y materiales'] },
 
   { id:'AI011', code:'AI011', cat:'instrumental', brand:'orthopremium', name:'Pistola Dosificadora de Cartuchos 1:1',
-    unit:'pieza', img:'imagenes/products/AI011.jpg',
+    unit:'pieza', img:'https://ansondental.com/cdn/shop/products/dispensing_gun_1024x1024.jpg?v=1543434574',
     desc:'Pistola para cartuchos de impresión en proporción 1:1. Dosificación uniforme y controlada.',
     specs:['Proporción: 1:1','Uso: Silicones A, poliéter y materiales de impresión','Compatible con cartuchos estándar 1:1','Alta resistencia y durabilidad'] },
 
@@ -89,7 +89,7 @@ const CATALOG_PRODUCTS = [
     specs:['Proporción: 10:1','Uso: Adhesivos, selladores bicomponente','Compatible con cartuchos estándar 10:1'] },
 
   { id:'AI013', code:'AI013', cat:'desechables', brand:'orthopremium', name:'Puntas Mezcladoras Amarillas 70×14mm',
-    unit:'50 pz', img:'imagenes/products/AI013.jpg',
+    unit:'50 pz', img:'https://www.atomodental.com/cdn/shop/files/mixing_tip_AA0853_large.jpg?v=1753583894',
     desc:'Puntas mezcladoras amarillas 70×14mm para cartuchos 1:1. Mezcla homogénea sin burbujas.',
     specs:['Color: Amarillo','Dimensiones: 70×14 mm','Proporción: 1:1','Mezcla estática de alta eficiencia'] },
 
@@ -129,7 +129,7 @@ const CATALOG_PRODUCTS = [
     specs:['Diámetro: 0.5 mm','Color: Transparente',] },
 
   { id:'AI021', code:'AI021', cat:'desechables', brand:'orthopremium', name:'Clip de Babero Dental 39.7cm',
-    unit:'pieza', img:'imagenes/products/AI021.jpg',
+    unit:'pieza', img:'https://surgimac.com/cdn/shop/files/bcwh.jpg?v=1744458892',
     desc:'Clip de cadena metálica con puntas de plástico para sujetar baberos dentales. 39.7 cm.',
     specs:['Longitud: 39.7 cm','Material: Metal con punta plástica','Uso: Sujeción de baberos','Fácil ajuste'] },
 
@@ -144,7 +144,7 @@ const CATALOG_PRODUCTS = [
     specs:['Color: Naranja','Protección: Rayos UV / luz azul','Uso: Durante fotopolimerización','Montura ligera y ergonómica'] },
 
   { id:'AI024', code:'AI024', cat:'desechables', brand:'orthopremium', name:'Caja de Babero Dental C/500pz',
-    unit:'caja 500 pz', img:'imagenes/products/AI024.jpg',
+    unit:'caja 500 pz', img:'https://surgimac.com/cdn/shop/files/i19261__12587.1569010283.jpg?v=1752575390',
     desc:'Caja de baberos dentales desechables de papel plastificado absorbente. 500 pzas.',
     specs:['Material: Papel plastificado + polietileno','Colores: Blanco, celeste, rosa','Desechable, uso único'] },
 
@@ -194,7 +194,7 @@ const CATALOG_PRODUCTS = [
     specs:['Material: Plástico resistente','Uso: Películas y sensores RX','Posicionamiento reproducible','Autoclavable'] },
 
   { id:'AI033', code:'AI033/034', cat:'instrumental', brand:'orthopremium', name:'Retractor de Labio GDE/CH TPE Blanco',
-    unit:'pieza', img:'imagenes/products/AI033.jpg',
+    unit:'pieza', img:'https://www.premierdentalco.com/wp-content/uploads/2015/11/ComfortView_9061381_universal.jpg',
     desc:'Retractor de labio en TPE blanco. Flexibilidad y confort para el paciente. Disponible en dos tallas.',
     specs:['Material: TPE elástico','Color: Blanco','Tallas: Grande (GDE) y Chico (CH)','Reusable','Autoclavable'] },
 
@@ -204,12 +204,12 @@ const CATALOG_PRODUCTS = [
     specs:['Material: Espuma de polietileno','Colores: Surtidos','Tallas: CH, M, GDE','Uso: Apertura bucal en procedimientos extensos'] },
 
   { id:'AI038', code:'AI038', cat:'desechables', brand:'orthopremium', name:'Puntas para Jeringa Triple Colores (bote 250pz)',
-    unit:'bote 250 pz', img:'imagenes/products/AI038.jpg',
+    unit:'bote 250 pz', img:'https://medidenta.com/wp-content/uploads/2021/07/MD-Website-Thumbnails-Magic-Tips_01-500x500.jpg',
     desc:'Puntas de plástico de colores para jeringa triple aire-agua. 250 pzas en bote dispensador.',
     specs:['Colores: Surtidos','Uso: Jeringa triple estándar','Desechable, uso único'] },
 
   { id:'AI039', code:'AI039', cat:'instrumental', brand:'orthopremium', name:'Jeringa Triple de Agua y Aire Metálica',
-    unit:'pieza', img:'imagenes/products/AI039.jpg',
+    unit:'pieza', img:'https://azdentall.com/cdn/shop/files/11_4696b734-3581-4862-8757-c8b3e871e0da.jpg?v=1692935086',
     desc:'Jeringa triple metálica de acero inoxidable para aire, agua y niebla. Alta durabilidad.',
     specs:['Material: Acero inoxidable','Funciones: Aire, agua y niebla','Autoclavable','Conexión estándar universal'] },
 
@@ -234,7 +234,7 @@ const CATALOG_PRODUCTS = [
     specs:['Tipo: Set completo','Uso: RX periapical y aleta de mordida','Reusable','Autoclavable','Alta precisión de posicionamiento'] },
 
   { id:'AI044', code:'AI044', cat:'desechables', brand:'orthopremium', name:'Contraángulo Desechable Copa Suave',
-    unit:'pieza', img:'imagenes/products/AI044.jpg',
+    unit:'pieza', img:'https://ansondental.com/cdn/shop/products/maxpro2_soft_cup_0913897f-81e4-4a54-901e-105afc5bd891_1024x1024.jpg?v=1667001007',
     desc:'Contraángulo desechable con copa de profilaxis suave integrada. Uso único.',
     specs:['Tipo: Copa suave integrada','Desechable, uso único','Velocidad: Contrángulo estándar','Sin necesidad de esterilización'] },
 
@@ -259,12 +259,12 @@ const CATALOG_PRODUCTS = [
     specs:['Ancho: 21 mm','Largo: 50 metros por rollo','Tipo: Indicador químico Clase 1','Uso: Control de ciclos de autoclave'] },
 
   { id:'AI049', code:'AI049', cat:'desechables', brand:'orthopremium', name:'Cánula de Aspiración Blanca CQ (25pz)',
-    unit:'paquete 25 pz', img:'imagenes/products/AI049.jpg',
+    unit:'paquete 25 pz', img:'https://www.jmudental.com/cdn/shop/files/71G_512x512.jpg',
     desc:'Cánulas de aspiración desechables color blanco, curvadas. 25 pzas por paquete.',
     specs:['Color: Blanco','Forma: Curvada','Desechable, uso único','Conexión estándar'] },
 
   { id:'OPEST', code:'OPEST', cat:'desechables', brand:'orthopremium', name:'Eyector de Saliva (bolsa 100pz)',
-    unit:'bolsa 100 pz', img:'imagenes/products/OPEST.jpg',
+    unit:'bolsa 100 pz', img:'https://www.jmudental.com/cdn/shop/files/61a_512x512.jpg',
     desc:'Eyectores de saliva desechables. Colores surtidos (azul y blanco). 100 pzas por bolsa.',
     specs:['Colores: Azul y blanco','Desechable, uso único','Conexión estándar a eyector','Flexible y ergonómico'] },
 
@@ -272,7 +272,7 @@ const CATALOG_PRODUCTS = [
   // FRESAS DE DIAMANTE  (Ortho Premium)
   // ══════════════════════════════════════════
   { id:'fresa-BR-M', code:'BR series · M', cat:'fresas', brand:'orthopremium', name:'Fresa Taper Round – Grano Medio',
-    unit:'pieza', img:'imagenes/products/fresa-BR-M.jpg',
+    unit:'pieza', img:'https://eagle-dental-burs.com/cdn/shop/files/Round_End_Tapered_Diamond_Burs_35b3996a-e301-46a4-8113-e026800146aa.png?v=1715073621',
     desc:'Fresa cónica redondeada de grano medio (azul). Tallado y preparación de cavidades con precisión.',
     specs:['Forma: Taper Round (Cónica redondeada)','Grano: Medio (M) · Azul','Shank: FG estándar','Reg. Sanitario: 0597E2024 SSA','Modelos: BR-23, BR-25, BR-26, BR-28, BR-31, BR-40, BR-41, BR-45, BR-46, BR-49'] },
 
@@ -282,7 +282,7 @@ const CATALOG_PRODUCTS = [
     specs:['Forma: Taper Round Largo','Grano: Medio (M)','Modelos: BR-L31, BR-L40, BR-L41, BR-L46','Uso: Preparaciones profundas y de acceso reducido'] },
 
   { id:'fresa-BC', code:'BC series · M', cat:'fresas', brand:'orthopremium', name:'Fresa Ball Convexity – Grano Medio',
-    unit:'pieza', img:'imagenes/products/fresa-BC.jpg',
+    unit:'pieza', img:'https://www.mrbur.com/cdn/shop/files/Round-Diamond-Bur-10-pcs.png?v=1744007018',
     desc:'Fresa de bola convexa de grano medio. Ideal para preparaciones oclusales y acabados de bordes.',
     specs:['Forma: Ball Convexity (Bola convexa)','Grano: Medio (M)','Modelos: BC-31, BC-32, BC-42, BC-43','Uso: Preparaciones oclusales'] },
 
@@ -325,7 +325,7 @@ const CATALOG_PRODUCTS = [
     specs:['Prescripción: MBT','Slot: .018"','Material: Acero inoxidable','Tecnología: MIM','Malla 80 para máxima adhesión','Posición grabada con láser','Bordes redondeados en slot para mínima fricción'] },
 
   { id:'bkt-mbt022-metal', code:'MBT .022 Eclipse', cat:'ortodoncia', brand:'orthopremium', name:'Brackets Metálicos MBT .022 – Eclipse',
-    unit:'set 20 brackets', img:'imagenes/products/bkt-mbt022-metal.jpg',
+    unit:'set 20 brackets', img:'https://orthopremium.com.mx/wp-content/uploads/MBT-.018-1-300x300.webp',
     desc:'Brackets metálicos prescripción MBT slot .022". Alta precisión dimensional y durabilidad.',
     specs:['Prescripción: MBT','Slot: .022"','Material: Acero inoxidable MIM','Malla 80 base','Torque, angulación y rotación precisa','Bordes redondeados'] },
 
@@ -340,12 +340,12 @@ const CATALOG_PRODUCTS = [
     specs:['Prescripción: Roth','Slot: .022"','Material: Acero inoxidable MIM','Malla 80 base','Resistencia superior al desgaste'] },
 
   { id:'bkt-roth022-cer', code:'Roth .022 Cerámico Plus', cat:'ortodoncia', brand:'orthopremium', name:'Brackets Cerámicos Roth .022 – Plus',
-    unit:'set 20 brackets', img:'imagenes/products/bkt-roth022-cer.jpg',
+    unit:'set 20 brackets', img:'https://orthopremium.com.mx/wp-content/uploads/MALLA-RANURADO-ROTH-.022-300x300.webp',
     desc:'Brackets cerámicos estéticos prescripción Roth .022". Alta resistencia y discreción total.',
     specs:['Prescripción: Roth','Slot: .022"','Material: Cerámica policristalina','Estética: Sin manchado','Malla metálica para adhesión segura','Torque preciso'] },
 
   { id:'bkt-evo-roth022', code:'Evolution Roth .022', cat:'ortodoncia', brand:'orthopremium', name:'BKT Autoligado Evolution – Roth .022',
-    unit:'set', img:'imagenes/products/bkt-evo-roth022.jpg',
+    unit:'set', img:'https://orthopremium.com.mx/wp-content/uploads/EVOLUTION-ROTH-.022-300x300.webp',
     desc:'Bracket interactivo de autoligado con tapa NiTi. Roth .022. Tecnología de soldadura láser. Máximo confort.',
     specs:['Tipo: Autoligado interactivo','Prescripción: Roth','Slot: .022"','Tapa: NiTi resistente a deformación','Soldadura láser en base','Acero inoxidable 17-4 con tecnología MIM','Malla 80 base','Reg. Sanitario: 1829C2023 SSA','Diseño de precisión en slot: mínima fricción'] },
 
@@ -358,7 +358,7 @@ const CATALOG_PRODUCTS = [
   // INSTRUMENTAL  (Premium Orthodontics + General)
   // ══════════════════════════════════════════
   { id:'inst-pinzas-orto', code:'Pinzas Ortodoncia', cat:'instrumental', brand:'orthopremium', name:'Pinzas para Ortodoncia – Acero Inoxidable',
-    unit:'pieza', img:'imagenes/products/inst-pinzas-orto.jpg',
+    unit:'pieza', img:'https://orthopremium.com.mx/wp-content/uploads/N21150452-A-300x300.jpg',
     desc:'Amplia línea de pinzas especializadas para procedimientos de ortodoncia. Acero inoxidable quirúrgico.',
     specs:['Marca: Premium Orthodontics','Material: Acero inoxidable quirúrgico','Tipos: Pinzas de corte, doblado, ligado y alate','Autoclavable','Acabado espejo o satinado','Alta durabilidad y precisión'] },
 
@@ -2137,48 +2137,48 @@ const CATALOG_PRODUCTS = [
   {id:'vamasa-098', code:'03-SCIS', cat:'instrumental', brand:'vamasa', name:'Tijeras Ribbond', unit:'unidad', img:'imagenes/vamasa/pag_27.jpg', desc:'Tijeras especiales para corte de fibra Ribbond sin deshilachar el material.', specs:['1 pieza']},
 
   // ===== Prime Dental Manufacturing (Primadent) =====
-  {id:'pdm-parafil-lab', code:'PD003', cat:'primadent', brand:'orthopremium', name:'Parafil LAB — Composite Zirconio Laboratorio', unit:'jeringa 4.5g', img:'imagenes/primadent/pag_07.jpg', desc:'Composite fotopolimerizable de nano-particulas de zirconia para restauraciones indirectas: coronas, inlays, onlays, carillas e implantes.', specs:['Resistencia 450 MPa','31 colores disponibles','Codigo PD003']},
-  {id:'pdm-parafil-lab-kit4', code:'PD002', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Kit 4 Jeringas', unit:'kit', img:'imagenes/primadent/pag_08.jpg', desc:'Kit Parafil LAB 4 jeringas (A2, A3, B2, T), 2 jeringas Stain cafe y naranja, adhesivo, grabador en gel, 2 mezcladores, colorimetro e instructivo.', specs:['4 x 4.5g jeringas','Adhesivo fotocurable incluido','Codigo PD002']},
-  {id:'pdm-parafil-lab-kit10', code:'PD001', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Kit 10 Jeringas + Kit Completo', unit:'kit', img:'imagenes/primadent/pag_08.jpg', desc:'Kit completo Parafil LAB: 10 jeringas, 8 jeringas Stain, opacadores, gingiva, gel separador, modelador, primer y accesorios. 50 agujas.', specs:['10 x 4.5g jeringas','Kit completo con colorimetro','Codigo PD001']},
-  {id:'pdm-parafil-lab-opaque', code:'PD004', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Foundation Opaque Universal', unit:'frasco', img:'imagenes/primadent/pag_09.jpg', desc:'Opacador universal para uso con Parafil LAB en restauraciones sobre metal. Mascara el metal y crea base para la estratificacion.', specs:['Codigo 9999-7210','PD004']},
-  {id:'pdm-parafil-lab-primer', code:'PD005', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Primer para Metal 7ml', unit:'frasco 7ml', img:'imagenes/primadent/pag_09.jpg', desc:'Primer para metal para adherir Parafil LAB en restauraciones metalicas o de resina.', specs:['Frasco 7ml','Codigo 9999-7220','PD005']},
-  {id:'pdm-parafil-lab-modeler', code:'PD006', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Modeler 7ml', unit:'frasco 7ml', img:'imagenes/primadent/pag_09.jpg', desc:'Liquido modelador para dar forma y caracterizar restauraciones de Parafil LAB antes del fotocurado.', specs:['Frasco 7ml','Codigo 9999-7260','PD006']},
-  {id:'pdm-parafil-gingiva', code:'PD008G', cat:'primadent', brand:'orthopremium', name:'Parafil Gingiva — Composite Gingival Fotocurable', unit:'kit / jeringa', img:'imagenes/primadent/pag_10.jpg', desc:'Composite fotopolimerizable para reproducir tonos naturales de encia. Compatible con Parafil LAB. Ideal para protesis y caracterizacion de acrilicos.', specs:['Body 4.5g: G21, G22, G23 — PD008G','Modificador 2g: GM21, GM22, GM23 — PD009GM','Opacador gingival: 9999-7100','Modificador opaco: 9999-GOM2']},
-  {id:'pdm-parafil-stain', code:'PD010', cat:'primadent', brand:'orthopremium', name:'Parafil Stain — Sistema de Caracterizacion', unit:'kit 8 jeringas', img:'imagenes/primadent/pag_11.jpg', desc:'8 tonos de caracterizacion en jeringas con punta ultra fina para estructuras dentales. Compatible con Parafil LAB, Gingiva y composites fotopolimerizables.', specs:['8 colores: Beige, Azul, Cafe, Amarillo, Blanco, Naranja, Gris, Rosa','Jeringas de 1.6g — PD011 por jeringa','Kit 8 jeringas: 9999-7300 — PD010']},
+  {id:'pdm-parafil-lab', code:'PD003', cat:'primadent', brand:'orthopremium', name:'Parafil LAB — Composite Zirconio Laboratorio', unit:'jeringa 4.5g', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1576898827212-J7DI0BOG30UPA9071G8N/parafil-lab-1.png', desc:'Composite fotopolimerizable de nano-particulas de zirconia para restauraciones indirectas: coronas, inlays, onlays, carillas e implantes.', specs:['Resistencia 450 MPa','31 colores disponibles','Codigo PD003']},
+  {id:'pdm-parafil-lab-kit4', code:'PD002', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Kit 4 Jeringas', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1576991162021-1IT8HVGRATY8U7L08PBN/parafil-lab-10.jpg', desc:'Kit Parafil LAB 4 jeringas (A2, A3, B2, T), 2 jeringas Stain cafe y naranja, adhesivo, grabador en gel, 2 mezcladores, colorimetro e instructivo.', specs:['4 x 4.5g jeringas','Adhesivo fotocurable incluido','Codigo PD002']},
+  {id:'pdm-parafil-lab-kit10', code:'PD001', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Kit 10 Jeringas + Kit Completo', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1576991162021-1IT8HVGRATY8U7L08PBN/parafil-lab-10.jpg', desc:'Kit completo Parafil LAB: 10 jeringas, 8 jeringas Stain, opacadores, gingiva, gel separador, modelador, primer y accesorios. 50 agujas.', specs:['10 x 4.5g jeringas','Kit completo con colorimetro','Codigo PD001']},
+  {id:'pdm-parafil-lab-opaque', code:'PD004', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Foundation Opaque Universal', unit:'frasco', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/183ab78a-59cb-4cf9-ac30-507f41cd1b02/refill-syringes-Parafil-Lab-2023.jpg', desc:'Opacador universal para uso con Parafil LAB en restauraciones sobre metal. Mascara el metal y crea base para la estratificacion.', specs:['Codigo 9999-7210','PD004']},
+  {id:'pdm-parafil-lab-primer', code:'PD005', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Primer para Metal 7ml', unit:'frasco 7ml', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/183ab78a-59cb-4cf9-ac30-507f41cd1b02/refill-syringes-Parafil-Lab-2023.jpg', desc:'Primer para metal para adherir Parafil LAB en restauraciones metalicas o de resina.', specs:['Frasco 7ml','Codigo 9999-7220','PD005']},
+  {id:'pdm-parafil-lab-modeler', code:'PD006', cat:'primadent', brand:'orthopremium', name:'Parafil LAB Modeler 7ml', unit:'frasco 7ml', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/183ab78a-59cb-4cf9-ac30-507f41cd1b02/refill-syringes-Parafil-Lab-2023.jpg', desc:'Liquido modelador para dar forma y caracterizar restauraciones de Parafil LAB antes del fotocurado.', specs:['Frasco 7ml','Codigo 9999-7260','PD006']},
+  {id:'pdm-parafil-gingiva', code:'PD008G', cat:'primadent', brand:'orthopremium', name:'Parafil Gingiva — Composite Gingival Fotocurable', unit:'kit / jeringa', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1587832636883-CZKKJASQV51KUZUZ955O/GINGIVA-TRIO-web.jpg', desc:'Composite fotopolimerizable para reproducir tonos naturales de encia. Compatible con Parafil LAB. Ideal para protesis y caracterizacion de acrilicos.', specs:['Body 4.5g: G21, G22, G23 — PD008G','Modificador 2g: GM21, GM22, GM23 — PD009GM','Opacador gingival: 9999-7100','Modificador opaco: 9999-GOM2']},
+  {id:'pdm-parafil-stain', code:'PD010', cat:'primadent', brand:'orthopremium', name:'Parafil Stain — Sistema de Caracterizacion', unit:'kit 8 jeringas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/061ea685-1fc2-4a1c-83be-c4bcb2e59908/parafil-stain-V2.jpg', desc:'8 tonos de caracterizacion en jeringas con punta ultra fina para estructuras dentales. Compatible con Parafil LAB, Gingiva y composites fotopolimerizables.', specs:['8 colores: Beige, Azul, Cafe, Amarillo, Blanco, Naranja, Gris, Rosa','Jeringas de 1.6g — PD011 por jeringa','Kit 8 jeringas: 9999-7300 — PD010']},
   {id:'pdm-parafil', code:'PD014', cat:'primadent', brand:'orthopremium', name:'Parafil — Composite Directo Zirconio', unit:'jeringa 4.5g', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/75fa169e-df29-428f-b851-f41b42e60f5f/refill-syringes-Parafil-2023.jpg', desc:'Composite fotopolimerizable directo con relleno de zirconia-silice al 60%. Resistente al desgaste, estetico y radiopaco. Para restauraciones clase I-V.', specs:['Relleno 60% en volumen (zirconia-silica)','Particula 0.04 a 2 micras','BIS-GMA, UDMA y TRI-EDMA','Codigo PD014']},
-  {id:'pdm-parafil-kit20', code:'PD012', cat:'primadent', brand:'orthopremium', name:'Parafil Kit 20 Jeringas + Adhesivo', unit:'kit', img:'imagenes/primadent/pag_14.jpg', desc:'Kit completo de Parafil composite con 20 jeringas en los tonos mas populares, adhesivo fotocurable y accesorios.', specs:['20 jeringas 4.5g','Adhesivo fotocurable incluido','Codigo PD012']},
+  {id:'pdm-parafil-kit20', code:'PD012', cat:'primadent', brand:'orthopremium', name:'Parafil Kit 20 Jeringas + Adhesivo', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577154462391-ZITEKO3D2V4258TL3GZ9/kits.jpg', desc:'Kit completo de Parafil composite con 20 jeringas en los tonos mas populares, adhesivo fotocurable y accesorios.', specs:['20 jeringas 4.5g','Adhesivo fotocurable incluido','Codigo PD012']},
   {id:'pdm-nanohybrid', code:'PD015', cat:'primadent', brand:'orthopremium', name:'Prime-Dent Nano Hybrid Composite', unit:'jeringa 4.5g', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577154937803-U4ARNHW3ZGPQXWNUJZAL/composite_azul_3tubos-2.jpg', desc:'Resina nanohibrida con nanoclusters de 7nm. Combina fuerza de hibrido y pulido de microrelleno. Liberacion de fluor. No sensible a luz ambiente.', specs:['Relleno 74% en peso','Kit 7 jeringas: codigo 001-610','Kit 2 jeringas: codigo 001-616','Codigo PD015/PD017']},
   {id:'pdm-hybrid', code:'PD022', cat:'primadent', brand:'orthopremium', name:'Prime-Dent Hybrid Composite', unit:'kit 7 jeringas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577157569144-THYQB4QS0DRN933OLUDZ/hybrid_composite_3jeringas-2.jpg', desc:'Resina fotocurable hibrida para restauraciones anteriores y posteriores. Alta resistencia a la compresion, radiopaco, facil manipulacion.', specs:['7 x 4.5g jeringas (A1, A2, A3, A3.5, B2, C1, U0)','Adhesivo fotocurable y acido grabador incluidos','Codigo 001-010 — PD022']},
   {id:'pdm-chemcure', code:'PD025', cat:'primadent', brand:'orthopremium', name:'Prime-Dent Chemical Cure Composite', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577203231715-5HNT8ZQHMVNQPFTZ1M4V/composite_paste_box-2.jpg', desc:'Composite autocurable (pasta base-catalizador) para restauraciones anteriores y posteriores. Color universal, alta resistencia 270 MPa, baja absorcion de agua.', specs:['7g pasta catalizadora + 7g pasta base','3ml bonding catalizador + 3ml bonding base','3ml acido grabador liquido + accesorios','Codigo 002-005 — PD025']},
-  {id:'pdm-veneer-cement', code:'Veneer-TS', cat:'primadent', brand:'orthopremium', name:'Veneer Cement Translucent Shade', unit:'jeringa', img:'imagenes/primadent/pag_21.jpg', desc:'Cemento fotocurable para cementacion de carillas dentales. Excelente estabilidad de color, 67% de relleno, facil de manejar. Apariencia similar a dientes reales.', specs:['Formulacion fotocurable','67% de relleno','Made in USA']},
+  {id:'pdm-veneer-cement', code:'Veneer-TS', cat:'primadent', brand:'orthopremium', name:'Veneer Cement Translucent Shade', unit:'jeringa', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/8e77bfd3-3f98-4b6a-8b5c-75c7d4ea9a86/veneer-cement-product-main.jpg', desc:'Cemento fotocurable para cementacion de carillas dentales. Excelente estabilidad de color, 67% de relleno, facil de manejar. Apariencia similar a dientes reales.', specs:['Formulacion fotocurable','67% de relleno','Made in USA']},
   {id:'pdm-automix-cement', code:'PD027', cat:'primadent', brand:'orthopremium', name:'Automix Dual Cure Luting Cement', unit:'jeringa 10g', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577244211490-FOWVETGDXDR37OY3FR5W/DUAL-CURE-COMPOSITE-2.jpg', desc:'Cemento dual auto-mezclable para cementacion de protesis sobre implantes, coronas, puentes, inlays, onlays, carillas, postes y pernos. Libera fluor.', specs:['Shade A2: codigo 100-101','Shade Blue: codigo 100-113','Shade White Opaque: codigo 100-121','Tiempo trabajo 2 min / Fraguado 5 min']},
   {id:'pdm-lc-glass-ionomer', code:'PD029', cat:'primadent', brand:'orthopremium', name:'Light Cure Glass Ionomer Universal Restorative', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/11019087-0d4b-4bd1-bed0-be0bcb3273b2/glass_ionomer_set-2-v2.jpg', desc:'Ionomero de vidrio fotocurable con micro-particulas de vidrio. Alta liberacion de fluor. Ideal para clase III/V, erosiones cervicales, pediatrico y base/liner.', specs:['Shade A1: codigo 000184','Shade A2: codigo 000185','Shade A3: codigo 000186','Frasco 15g polvo + 6.8ml liquido']},
-  {id:'pdm-zoe-cement', code:'010-080', cat:'primadent', brand:'orthopremium', name:'Zinc Oxide Eugenol Cement (ZOE)', unit:'kit', img:'imagenes/primadent/pag_28.jpg', desc:'Cemento provisional no irritante de oxido de zinc-eugenol para base y cementacion provisional de coronas y puentes. Fuerte adhesion, facil remocion.', specs:['Kit: 21g polvo + 7.5ml liquido (010-080)','Polvo refill: 010-081','Liquido refill: 010-082']},
-  {id:'pdm-surgical-cement', code:'024-020', cat:'primadent', brand:'orthopremium', name:'Surgical Cement — ZOE Reforzado con Fibra', unit:'kit', img:'imagenes/primadent/pag_28.jpg', desc:'Cemento ZOE reforzado con agentes de fibra. Efecto sedante sobre la pulpa, resistencia 5400 PSI. Para cementacion donde hay tubulos dentinarios expuestos.', specs:['4 oz. polvo + 2 oz. liquido','Codigo 024-020']},
-  {id:'pdm-copal-varnish', code:'010-051', cat:'primadent', brand:'orthopremium', name:'Copal Varnish & Solvent', unit:'frasco 15ml', img:'imagenes/primadent/pag_28.jpg', desc:'Barniz aislante termico y electrico. Crea fuerte union entre dentina y restauracion. Formula libre de cloroformo en barniz y sellador.', specs:['Copal Varnish 15ml: codigo 010-051','Copal Varnish Solvent 15ml: codigo 010-050']},
+  {id:'pdm-zoe-cement', code:'010-080', cat:'primadent', brand:'orthopremium', name:'Zinc Oxide Eugenol Cement (ZOE)', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/72bca001-77b1-4f18-a004-3ab4b04af8f0/ZOE-CEMENT-POWDER-%26-LIQUID-2-v2.jpg', desc:'Cemento provisional no irritante de oxido de zinc-eugenol para base y cementacion provisional de coronas y puentes. Fuerte adhesion, facil remocion.', specs:['Kit: 21g polvo + 7.5ml liquido (010-080)','Polvo refill: 010-081','Liquido refill: 010-082']},
+  {id:'pdm-surgical-cement', code:'024-020', cat:'primadent', brand:'orthopremium', name:'Surgical Cement — ZOE Reforzado con Fibra', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/a370e9b2-5f4c-421e-80b5-756127826446/zoe_cement-2-v2.jpg', desc:'Cemento ZOE reforzado con agentes de fibra. Efecto sedante sobre la pulpa, resistencia 5400 PSI. Para cementacion donde hay tubulos dentinarios expuestos.', specs:['4 oz. polvo + 2 oz. liquido','Codigo 024-020']},
+  {id:'pdm-copal-varnish', code:'010-051', cat:'primadent', brand:'orthopremium', name:'Copal Varnish & Solvent', unit:'frasco 15ml', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/7aa2c283-81a5-4f70-a567-9c21d4c69394/Copal_2Botellas-2-v2.jpg', desc:'Barniz aislante termico y electrico. Crea fuerte union entre dentina y restauracion. Formula libre de cloroformo en barniz y sellador.', specs:['Copal Varnish 15ml: codigo 010-051','Copal Varnish Solvent 15ml: codigo 010-050']},
   {id:'pdm-self-etch', code:'PD069', cat:'primadent', brand:'orthopremium', name:'Self Etch Bonding Agent — Auto-Grabante', unit:'frasco 7ml', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1579994901493-IS5MARIV05DSP490FTN2/self-etch-bonding-agent.jpg', desc:'Adhesivo fotopolimerizable auto-grabante todo en uno. Graba, prepara la union y desensibiliza dentina y esmalte en un solo paso.', specs:['Frasco 7ml','Codigo 006-033','PD069']},
-  {id:'pdm-porcelain-repair', code:'PD070', cat:'primadent', brand:'orthopremium', name:'Porcelain Repair Kit', unit:'kit', img:'imagenes/primadent/pag_30.jpg', desc:'Kit para adherir restauraciones sobre superficies metalicas y ceramicas. Incluye Dental Dam, Porcelain Etch, Silane Bond y Drying Agent.', specs:['1.2ml Dental Dam + 1.2ml Porcelain Etch','1.2ml Silane Bond + 1.2ml Drying Agent','Agujas dispensadoras e instructivo','Codigo 008-PRK — PD070']},
-  {id:'pdm-silane', code:'PD079', cat:'primadent', brand:'orthopremium', name:'Silane Porcelain Bond Enhancer', unit:'jeringa 1.2ml', img:'imagenes/primadent/pag_30.jpg', desc:'Silano de un componente para aumentar la resistencia de union de resinas organicas con composites y cementos de resina a la porcelana.', specs:['Jeringa 1.2ml con agujas dispensadoras','Codigo 008-SBE','PD079']},
-  {id:'pdm-bonding-resin', code:'PD039', cat:'primadent', brand:'orthopremium', name:'Light Cure Bonding Resin — Adhesivo 5a Generacion', unit:'frasco 7ml', img:'imagenes/primadent/pag_31.jpg', desc:'Adhesivo multifuncional fotocurable de 5a generacion, hidrofilo para tecnica de union en humedo. Adhiere composites, compomeros, amalgama tratada y ceramicas.', specs:['Frasco 7ml','Codigo 006-030','PD039']},
-  {id:'pdm-hema-desensitizer', code:'PD040', cat:'primadent', brand:'orthopremium', name:'Hema Desensitizer 7ml', unit:'frasco 7ml', img:'imagenes/primadent/pag_31.jpg', desc:'Desensibilizante con cloruro de benzalconio y HEMA para sellar tubulos dentinarios. Barrera de proteccion fisiologica anti-microbiana.', specs:['Frasco 7ml','Codigo 018-011','PD040']},
-  {id:'pdm-prime-gel', code:'018-016', cat:'primadent', brand:'orthopremium', name:'Prime-Gel — Anestesia Topica 20% Benzocaina', unit:'frasco 1oz', img:'imagenes/primadent/pag_35.jpg', desc:'Anestesia topica en gel de benzocaina al 20%. Efecto inmediato en 5-10 minutos. Sin sabor amargo. Disponible en 8 sabores.', specs:['Pina Colada (018-014), Naranja (018-016)','Cereza (018-017), Menta (018-018)','Fresa (018-024), Raspberry (018-025)','H. Vainilla (018-026), Sandia (018-027)']},
-  {id:'pdm-pit-fissure', code:'PD046', cat:'primadent', brand:'orthopremium', name:'L/C Pit and Fissure Sealant', unit:'kit 3 jeringas', img:'imagenes/primadent/pag_35.jpg', desc:'Sellador de fosetas y fisuras fotocurable. Consistencia fluida, alta fuerza de union al esmalte, resistente al desgaste. Contiene fluor. Opaco y claro.', specs:['Kit Light Cure 3x1.5g jeringas + acido: 007-022','Kit Chemical Cure botellas: 007-023','PD046']},
-  {id:'pdm-prime-paste', code:'PD067', cat:'primadent', brand:'orthopremium', name:'Prime-Paste Prophylaxis Paste — Unidosis', unit:'100 copas', img:'imagenes/primadent/pag_36.jpg', desc:'Pasta profilactica con fluoruro de sodio, libre de salpicaduras. Disponible en grano medio y grueso, 6 sabores diferentes.', specs:['100 copas unidosis 100g o 200g','Grano Medio: Cereza, Menta, Pina, Chicle, Naranja, Frambuesa','Grano Grueso: Cereza, Menta','Codigo PD067']},
-  {id:'pdm-root-canal', code:'022-010', cat:'primadent', brand:'orthopremium', name:'Root Canal Filling Material — Obturacion Radicular', unit:'kit', img:'imagenes/primadent/pag_37.jpg', desc:'Material libre de plata para obturacion permanente de conductos radiculares. Minima contraccion durante fraguado, excelente compatibilidad con tejidos.', specs:['Kit polvo 8g + resina 10g + accesorios: 022-010','Polvo 8g refill: 022-011 / Resina 10g: 022-012','PD058']},
-  {id:'pdm-rc-cream', code:'PD049', cat:'primadent', brand:'orthopremium', name:'RC-Cream — Preparacion Quimico-Mecanica Conductos', unit:'jeringas', img:'imagenes/primadent/pag_37.jpg', desc:'Quelante viscoso de glicol, peroxido de urea y EDTA para preparacion de conductos radiculares calcificados. Limpieza rapida y mayor penetracion del instrumental.', specs:['Kit 32 x 9g jeringas: 022-050','Kit 2 x 9g jeringas: 022-054','Refill 9g jeringa: 022-052','Codigo PD049']},
+  {id:'pdm-porcelain-repair', code:'PD070', cat:'primadent', brand:'orthopremium', name:'Porcelain Repair Kit', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1579996122731-7T4EGHMM9A1T80W9UT7K/porcelain-repair-kit-2.jpg', desc:'Kit para adherir restauraciones sobre superficies metalicas y ceramicas. Incluye Dental Dam, Porcelain Etch, Silane Bond y Drying Agent.', specs:['1.2ml Dental Dam + 1.2ml Porcelain Etch','1.2ml Silane Bond + 1.2ml Drying Agent','Agujas dispensadoras e instructivo','Codigo 008-PRK — PD070']},
+  {id:'pdm-silane', code:'PD079', cat:'primadent', brand:'orthopremium', name:'Silane Porcelain Bond Enhancer', unit:'jeringa 1.2ml', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1579996716178-ILPOXML9TIE6G49RCHHA/SILIANE-BOND-ENHANCER-2.jpg', desc:'Silano de un componente para aumentar la resistencia de union de resinas organicas con composites y cementos de resina a la porcelana.', specs:['Jeringa 1.2ml con agujas dispensadoras','Codigo 008-SBE','PD079']},
+  {id:'pdm-bonding-resin', code:'PD039', cat:'primadent', brand:'orthopremium', name:'Light Cure Bonding Resin — Adhesivo 5a Generacion', unit:'frasco 7ml', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577404168865-K6RYTNFCTO1VJTHJD3W7/LIGHT-CURE-DENTIN-ENAMEL-BONDING-ADHESIVE-2.jpg', desc:'Adhesivo multifuncional fotocurable de 5a generacion, hidrofilo para tecnica de union en humedo. Adhiere composites, compomeros, amalgama tratada y ceramicas.', specs:['Frasco 7ml','Codigo 006-030','PD039']},
+  {id:'pdm-hema-desensitizer', code:'PD040', cat:'primadent', brand:'orthopremium', name:'Hema Desensitizer 7ml', unit:'frasco 7ml', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/18a3be63-624a-46ff-9c99-ab9f49a32f5a/HEMA-DESENSITIZER-2.jpg', desc:'Desensibilizante con cloruro de benzalconio y HEMA para sellar tubulos dentinarios. Barrera de proteccion fisiologica anti-microbiana.', specs:['Frasco 7ml','Codigo 018-011','PD040']},
+  {id:'pdm-prime-gel', code:'018-016', cat:'primadent', brand:'orthopremium', name:'Prime-Gel — Anestesia Topica 20% Benzocaina', unit:'frasco 1oz', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577411999087-8LR8K6CK8ODKXXJ7H8SF/Prime_Topical-2.jpg', desc:'Anestesia topica en gel de benzocaina al 20%. Efecto inmediato en 5-10 minutos. Sin sabor amargo. Disponible en 8 sabores.', specs:['Pina Colada (018-014), Naranja (018-016)','Cereza (018-017), Menta (018-018)','Fresa (018-024), Raspberry (018-025)','H. Vainilla (018-026), Sandia (018-027)']},
+  {id:'pdm-pit-fissure', code:'PD046', cat:'primadent', brand:'orthopremium', name:'L/C Pit and Fissure Sealant', unit:'kit 3 jeringas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577410287550-4DKSNHOZNVUDEHN1HY5T/pit%26fissure_sealant-2.jpg', desc:'Sellador de fosetas y fisuras fotocurable. Consistencia fluida, alta fuerza de union al esmalte, resistente al desgaste. Contiene fluor. Opaco y claro.', specs:['Kit Light Cure 3x1.5g jeringas + acido: 007-022','Kit Chemical Cure botellas: 007-023','PD046']},
+  {id:'pdm-prime-paste', code:'PD067', cat:'primadent', brand:'orthopremium', name:'Prime-Paste Prophylaxis Paste — Unidosis', unit:'100 copas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/8077aa36-3cd6-4e1b-bfe3-b867bbd499e4/Prime_Paste_2bottles-2-v2.jpg', desc:'Pasta profilactica con fluoruro de sodio, libre de salpicaduras. Disponible en grano medio y grueso, 6 sabores diferentes.', specs:['100 copas unidosis 100g o 200g','Grano Medio: Cereza, Menta, Pina, Chicle, Naranja, Frambuesa','Grano Grueso: Cereza, Menta','Codigo PD067']},
+  {id:'pdm-root-canal', code:'022-010', cat:'primadent', brand:'orthopremium', name:'Root Canal Filling Material — Obturacion Radicular', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577414125599-MSV2EXBTFW68YPRSZRVN/RootCanal_Kit-2.jpg', desc:'Material libre de plata para obturacion permanente de conductos radiculares. Minima contraccion durante fraguado, excelente compatibilidad con tejidos.', specs:['Kit polvo 8g + resina 10g + accesorios: 022-010','Polvo 8g refill: 022-011 / Resina 10g: 022-012','PD058']},
+  {id:'pdm-rc-cream', code:'PD049', cat:'primadent', brand:'orthopremium', name:'RC-Cream — Preparacion Quimico-Mecanica Conductos', unit:'jeringas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/8867c4e4-2c5a-4e07-ae1c-98b57f580619/RootCanal_2jeringas-16x9.jpg', desc:'Quelante viscoso de glicol, peroxido de urea y EDTA para preparacion de conductos radiculares calcificados. Limpieza rapida y mayor penetracion del instrumental.', specs:['Kit 32 x 9g jeringas: 022-050','Kit 2 x 9g jeringas: 022-054','Refill 9g jeringa: 022-052','Codigo PD049']},
   {id:'pdm-tray-adhesive', code:'017-019', cat:'primadent', brand:'orthopremium', name:'Tray Adhesive — Adhesivo para Cubeta', unit:'frasco 1oz', img:'imagenes/primadent/pag_39.jpg', desc:'Adhesivo para cubeta de alginato. Mantiene el alginato fijo en la cubeta al retirarla de la boca. Incluye cepillo con tapa.', specs:['Ambar: codigo 017-019','Azul: codigo 017-020']},
-  {id:'pdm-dental-dam', code:'PD050', cat:'primadent', brand:'orthopremium', name:'Dental Dam — Barrera Gingival Fotocurable', unit:'kit 4 jeringas', img:'imagenes/primadent/pag_39.jpg', desc:'Resina fotocurable de baja viscosidad para proteccion de tejidos blandos durante blanqueamiento. Facil aplicacion y remocion en una sola pieza.', specs:['Kit 4 x 3.5g jeringas + 20 dispersadores (021-011)','Refill 3.5g jeringa c/5 dispersadores (021-010)','Codigo PD050']},
-  {id:'pdm-block-out-resin', code:'PD051', cat:'primadent', brand:'orthopremium', name:'Block Out Resin — Resina de Bloqueo Fotocurable', unit:'kit', img:'imagenes/primadent/pag_39.jpg', desc:'Resina fotocurable pigmentada para reparacion de modelos de impresion y creacion de depositos de blanqueamiento en acetatos.', specs:['Kit 4 x 3.5g jeringas + 20 dispersadores (021-021)','Refill 33.5g o 2g jeringa','Codigo PD051']},
-  {id:'pdm-prime-core', code:'PD053', cat:'primadent', brand:'orthopremium', name:'Prime-Core DC — Material de Munon Doble Curado', unit:'kit jeringas Automix', img:'imagenes/primadent/pag_40.jpg', desc:'Material de reconstruccion de munones (core build-up) de doble curado auto-mezclable. Libera fluor, altamente radiopaco. Colores A2 y Azul.', specs:['Kit 4 x 10g jeringas A2 + puntas (003-080)','Kit 4 x 10g jeringas Blue + puntas (003-083)','Jeringa 10g A2 (003-082) / Blue (003-085)','Codigo PD053']},
+  {id:'pdm-dental-dam', code:'PD050', cat:'primadent', brand:'orthopremium', name:'Dental Dam — Barrera Gingival Fotocurable', unit:'kit 4 jeringas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577419559075-8PIDHRQ9II8QQRQVQ17S/light-cure-dental-dam.jpg', desc:'Resina fotocurable de baja viscosidad para proteccion de tejidos blandos durante blanqueamiento. Facil aplicacion y remocion en una sola pieza.', specs:['Kit 4 x 3.5g jeringas + 20 dispersadores (021-011)','Refill 3.5g jeringa c/5 dispersadores (021-010)','Codigo PD050']},
+  {id:'pdm-block-out-resin', code:'PD051', cat:'primadent', brand:'orthopremium', name:'Block Out Resin — Resina de Bloqueo Fotocurable', unit:'kit', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577420073475-1ZT0ZWB7CF5Z6V6XKB05/block-out-resin.jpg', desc:'Resina fotocurable pigmentada para reparacion de modelos de impresion y creacion de depositos de blanqueamiento en acetatos.', specs:['Kit 4 x 3.5g jeringas + 20 dispersadores (021-021)','Refill 33.5g o 2g jeringa','Codigo PD051']},
+  {id:'pdm-prime-core', code:'PD053', cat:'primadent', brand:'orthopremium', name:'Prime-Core DC — Material de Munon Doble Curado', unit:'kit jeringas Automix', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577420769432-YMLFTYIXLP236UIXZ4TJ/CoreBuild_Paste-2.jpg', desc:'Material de reconstruccion de munones (core build-up) de doble curado auto-mezclable. Libera fluor, altamente radiopaco. Colores A2 y Azul.', specs:['Kit 4 x 10g jeringas A2 + puntas (003-080)','Kit 4 x 10g jeringas Blue + puntas (003-083)','Jeringa 10g A2 (003-082) / Blue (003-085)','Codigo PD053']},
   {id:'pdm-ortho-adhesive-lc', code:'PD056', cat:'ortodoncia', brand:'orthopremium', name:'Light Cure Orthodontic Adhesive Bonding System', unit:'kit 1 jeringa', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/a244980e-75da-4d5c-9a86-03a479d16b6e/VLC_orthodont_box-2-v2.jpg', desc:'Sistema adhesivo fotopolimerizable para brackets de plastico, metal o porcelana. Fotocura en 30 seg. Alta viscosidad para posicionamiento preciso. Libera fluor.', specs:['5g jeringa + 3ml adhesivo + 3ml acido grabador','Codigo 012-021','Codigo PD056']},
-  {id:'pdm-ortho-adhesive-sc', code:'PD058-OA', cat:'ortodoncia', brand:'orthopremium', name:'One-Step Orthodontic Adhesive — Chemical Cure', unit:'kit 1 jeringa', img:'imagenes/primadent/pag_43.jpg', desc:'Sistema adhesivo autocurable (catalizador/base) para brackets de plastico, metal o porcelana. Maxima dureza en 5 minutos. Alta viscosidad.', specs:['5g jeringa + 5ml primer + 3ml acido grabador','Codigo 011-019','Codigo PD058']},
+  {id:'pdm-ortho-adhesive-sc', code:'PD058-OA', cat:'ortodoncia', brand:'orthopremium', name:'One-Step Orthodontic Adhesive — Chemical Cure', unit:'kit 1 jeringa', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/c11b1bae-1f2c-4a5f-b425-a6c53fa4fa96/OneStep_Ortho_Box-2-v2.jpg', desc:'Sistema adhesivo autocurable (catalizador/base) para brackets de plastico, metal o porcelana. Maxima dureza en 5 minutos. Alta viscosidad.', specs:['5g jeringa + 5ml primer + 3ml acido grabador','Codigo 011-019','Codigo PD058']},
   {id:'pdm-band-cement', code:'PD059', cat:'ortodoncia', brand:'orthopremium', name:'Dual Cure Glass Ionomer Band Cement', unit:'kit jeringa Automix', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577500924512-EFTM59073IWJ7OMYKOT6/DualCore_Glass_Ionomer-2.jpg', desc:'Cemento dual de ionomero de vidrio y resina para cementacion de bandas metalicas. Libera fluor, alta resistencia, fotopolimerizable para acelerar.', specs:['10g jeringa A2 + 5 puntas mezcladoras + 5 puntas intraorales','Codigo 015-028','Codigo PD059']},
-  {id:'pdm-mixing-pads', code:'mp-3x5', cat:'primadent', brand:'orthopremium', name:'Mixing Pads — Blocs de Papel para Mezcla', unit:'bloc', img:'imagenes/primadent/pag_44.jpg', desc:'Papel encerado que impide la absorcion del material en la superficie. Disponible en 4 tamaños.', specs:['2x2" (mp-2x2)','3x3" (mp-3x3)','3x5" (mp-3x5)','5x7" (mp-5x7)']},
-  {id:'pdm-mixing-spatulas', code:'030-001', cat:'primadent', brand:'orthopremium', name:'Mixing Spatulas — Espatulas Desechables', unit:'bolsa 100 pzas', img:'imagenes/primadent/pag_44.jpg', desc:'Espatulas desechables de plastico para mezcla de pastas dentales. Presentacion de 50 o 100 piezas.', specs:['100 pzas: codigo 030-001','50 pzas: codigo 030-003']},
-  {id:'pdm-brushes', code:'030-010', cat:'primadent', brand:'orthopremium', name:'Brushes and Holder — Cepillos Aplicadores', unit:'bolsa', img:'imagenes/primadent/pag_44.jpg', desc:'Cepillos desechables para aplicacion de resinas y liquidos. Cortos (7/8") y largos (2"). Incluye portacepillos.', specs:['Portacepillos: codigo 030-026','Cepillos cortos 50/bolsa: 030-010','Cepillos 2" largos 50/bolsa: 030-020']},
-  {id:'pdm-needle-tips', code:'030-024', cat:'primadent', brand:'orthopremium', name:'Luer Lock Needle Tips — Agujas Dispensadoras', unit:'caja 100 pzas', img:'imagenes/primadent/pag_44.jpg', desc:'Agujas dispensadoras Luer lock para todos los tamaños de jeringas dentales. Calibres 18G, 20G, 22G y 24G.', specs:['Black 20 Gauge 100/caja (030-024)','Black 18 Gauge 100/caja (030-025)','Grey 22 Gauge 100/caja (030-026)','Blue 24 Gauge 100/caja (030-027)']},
-  {id:'pdm-top-sticks', code:'OP3200', cat:'ortodoncia', brand:'orthopremium', name:'Top-Sticks — Modulos Elasticos Ortodoncia', unit:'pack', img:'imagenes/primadent/pag_45.jpg', desc:'Modulos elasticos de poliuretano de calidad medica. Alta elasticidad, libre de latex. Mas de 50 colores disponibles.', specs:['42 stick pack / 24 ring stick / 1008 rings pack','Codigo OP3200','Mas de 50 colores: Clear, White, Black y todos los colores']},
-  {id:'pdm-top-chain', code:'OP3210', cat:'ortodoncia', brand:'orthopremium', name:'Top-Chain — Cadena Elastica Ortodoncia', unit:'carrete 4.5m', img:'imagenes/primadent/pag_46.jpg', desc:'Cadena elastica de poliuretano medico libre de latex. Alta elasticidad y rebote. 3 tamaños y mas de 50 colores.', specs:['Continuo 2.8mm (OP3210) / Corto 3.5mm (OP3220) / Largo 4.2mm (OP3230)','Carrete de 4.5m','Mas de 50 colores disponibles']},
+  {id:'pdm-mixing-pads', code:'mp-3x5', cat:'primadent', brand:'orthopremium', name:'Mixing Pads — Blocs de Papel para Mezcla', unit:'bloc', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577508474002-2K5ABWIGMC19E5OGDV2K/papel_Stock.jpg', desc:'Papel encerado que impide la absorcion del material en la superficie. Disponible en 4 tamaños.', specs:['2x2" (mp-2x2)','3x3" (mp-3x3)','3x5" (mp-3x5)','5x7" (mp-5x7)']},
+  {id:'pdm-mixing-spatulas', code:'030-001', cat:'primadent', brand:'orthopremium', name:'Mixing Spatulas — Espatulas Desechables', unit:'bolsa 100 pzas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577509090649-Z8W87FX23WAMGNAK0FW1/lanzetas-2.jpg', desc:'Espatulas desechables de plastico para mezcla de pastas dentales. Presentacion de 50 o 100 piezas.', specs:['100 pzas: codigo 030-001','50 pzas: codigo 030-003']},
+  {id:'pdm-brushes', code:'030-010', cat:'primadent', brand:'orthopremium', name:'Brushes and Holder — Cepillos Aplicadores', unit:'bolsa', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577509356280-ZET58SZWTB0XGN0XAMNU/brochas_tool-2.jpg', desc:'Cepillos desechables para aplicacion de resinas y liquidos. Cortos (7/8") y largos (2"). Incluye portacepillos.', specs:['Portacepillos: codigo 030-026','Cepillos cortos 50/bolsa: 030-010','Cepillos 2" largos 50/bolsa: 030-020']},
+  {id:'pdm-needle-tips', code:'030-024', cat:'primadent', brand:'orthopremium', name:'Luer Lock Needle Tips — Agujas Dispensadoras', unit:'caja 100 pzas', img:'https://images.squarespace-cdn.com/content/v1/5de863544ebd8e63f0f2684b/1577509560082-3NVMPWPBONNAIZ6EOL1D/brochas_tool-22.jpg', desc:'Agujas dispensadoras Luer lock para todos los tamaños de jeringas dentales. Calibres 18G, 20G, 22G y 24G.', specs:['Black 20 Gauge 100/caja (030-024)','Black 18 Gauge 100/caja (030-025)','Grey 22 Gauge 100/caja (030-026)','Blue 24 Gauge 100/caja (030-027)']},
+  {id:'pdm-top-sticks', code:'OP3200', cat:'ortodoncia', brand:'orthopremium', name:'Top-Sticks — Modulos Elasticos Ortodoncia', unit:'pack', img:'https://azdentall.com/cdn/shop/products/a2_50c8ce12-dd79-4c2a-9461-0beb464cb03b.jpg?v=1641569033&width=1946', desc:'Modulos elasticos de poliuretano de calidad medica. Alta elasticidad, libre de latex. Mas de 50 colores disponibles.', specs:['42 stick pack / 24 ring stick / 1008 rings pack','Codigo OP3200','Mas de 50 colores: Clear, White, Black y todos los colores']},
+  {id:'pdm-top-chain', code:'OP3210', cat:'ortodoncia', brand:'orthopremium', name:'Top-Chain — Cadena Elastica Ortodoncia', unit:'carrete 4.5m', img:'https://azdentall.com/cdn/shop/files/14_cf11f56a-b11d-4dbb-899c-836760dab9f6.jpg', desc:'Cadena elastica de poliuretano medico libre de latex. Alta elasticidad y rebote. 3 tamaños y mas de 50 colores.', specs:['Continuo 2.8mm (OP3210) / Corto 3.5mm (OP3220) / Largo 4.2mm (OP3230)','Carrete de 4.5m','Mas de 50 colores disponibles']},
 
   // ===== Balsas Dental / Zhermack nuevos =====
   {id:'balsas-018', code:'C300200', cat:'materiales', brand:'balsas', name:'Indurent Gel — Catalizador para Siliconas-C', unit:'tubo', img:'imagenes/balsas/pag_30.jpg', desc:'Catalizador en gel de color rojo para siliconas por condensacion (Zetaplus y Oranwash L). Visualiza la mezcla homogenea, versatil para todas las tecnicas de impresion.', specs:['Dosificar en partes iguales con Oranwash L','Compatible con Zetaplus y Zetalabor']},
