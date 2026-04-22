@@ -299,7 +299,7 @@ function renderProducts() {
   const cart = getCart();
   filtered.forEach(p => {
     const inCart = cart.some(i => i.slug === p.id);
-    const priceHtml = `<div class="store-card-unit">Presentación: ${p.unit}</div>`;
+    const priceHtml = '';
     const catLabel = CAT_LABELS[p.cat] || p.cat;
 
     const specsHtml = p.specs.map(s => `<li>${s}</li>`).join('');

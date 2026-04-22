@@ -10,32 +10,32 @@ const CATALOG_PRODUCTS = [
   { id:'AI001SF', code:'AI001SF', cat:'desechables', name:'Micro Aplicador Super Fino',
     unit:'caja 100 pz', img:'imagenes/products/AI001SF.jpg',
     desc:'Aplicador desechable de punta super fina para material fluido de alta precisión.',
-    specs:['Punta: Super fina','Contenido: 100 pzas / caja','Uso: Adhesivos, bonding, selladores fluidos','Colores identificadores incluidos','Desechable, uso único'] },
+    specs:['Punta: Super fina','Uso: Adhesivos, bonding, selladores fluidos','Colores identificadores incluidos','Desechable, uso único'] },
 
   { id:'AI001F', code:'AI001F', cat:'desechables', name:'Micro Aplicador Fino',
     unit:'caja 100 pz', img:'imagenes/products/AI001F.jpg',
     desc:'Micro aplicador de punta fina para materiales de baja y media viscosidad.',
-    specs:['Punta: Fina','Contenido: 100 pzas / caja','Uso: Adhesivos, agentes de unión','Desechable, uso único'] },
+    specs:['Punta: Fina','Uso: Adhesivos, agentes de unión','Desechable, uso único'] },
 
   { id:'AI001R', code:'AI001R', cat:'desechables', name:'Micro Aplicador Regular',
     unit:'caja 100 pz', img:'imagenes/products/AI001R.jpg',
     desc:'Micro aplicador de punta regular para materiales de viscosidad media a alta.',
-    specs:['Punta: Regular','Contenido: 100 pzas / caja','Uso: Resinas, materiales restauradores','Desechable, uso único'] },
+    specs:['Punta: Regular','Uso: Resinas, materiales restauradores','Desechable, uso único'] },
 
   { id:'AI002', code:'AI002', cat:'desechables', name:'Micro Cepillo',
     unit:'caja 100 pz', img:'imagenes/products/AI002.jpg',
     desc:'Micro cepillo desechable de fibras suaves para aplicación precisa de materiales.',
-    specs:['Cabeza: Fibras suaves','Contenido: 100 pzas / caja','Uso: Materiales de consistencia cremosa','Desechable, uso único'] },
+    specs:['Cabeza: Fibras suaves','Uso: Materiales de consistencia cremosa','Desechable, uso único'] },
 
   { id:'AI003', code:'AI003', cat:'desechables', name:'Cucharilla de Impresión Verde',
     unit:'paquete 10 pz', img:'imagenes/products/AI003.jpg',
     desc:'Cucharilla desechable de color verde para toma de impresiones dentales.',
-    specs:['Color: Verde','Material: Plástico resistente','Contenido: 10 pzas / paquete','Compatible con alginato y siliconas','Desechable, uso único'] },
+    specs:['Color: Verde','Material: Plástico resistente','Compatible con alginato y siliconas','Desechable, uso único'] },
 
   { id:'AI004', code:'AI004', cat:'desechables', name:'Barrera Protectora Azul',
     unit:'1 200 hojas', img:'imagenes/products/AI004.jpg',
     desc:'Rollo de barrera protectora para superficies clínicas. Protege contra contaminación cruzada.',
-    specs:['Color: Azul','Contenido: 1 200 hojas / rollo','Material: Polietileno','Uso: Protección de equipos y superficies','Corte fácil'] },
+    specs:['Color: Azul','Material: Polietileno','Uso: Protección de equipos y superficies','Corte fácil'] },
 
   { id:'AI007', code:'AI007', cat:'desechables', name:'Dispensador de Barrera Protectora',
     unit:'pieza', img:'imagenes/products/AI007.jpg',
@@ -45,12 +45,12 @@ const CATALOG_PRODUCTS = [
   { id:'AI008', code:'AI008', cat:'desechables', name:'Cepillo Profiláctico',
     unit:'paquete 100 pz', img:'imagenes/products/AI008.jpg',
     desc:'Cepillo profiláctico desechable tipo copa plana para pulido y limpieza dental.',
-    specs:['Tipo: Copa plana','Contenido: 100 pzas','Uso: Profilaxis y pulido dental','Compatible con contrángulo estándar','Desechable, uso único'] },
+    specs:['Tipo: Copa plana','Uso: Profilaxis y pulido dental','Compatible con contrángulo estándar','Desechable, uso único'] },
 
   { id:'AI009', code:'AI009', cat:'desechables', name:'Copa Profiláctica',
     unit:'paquete 100 pz', img:'imagenes/products/AI009.jpg',
     desc:'Copa profiláctica de caucho natural para pulido dental. Máxima adaptación a la superficie.',
-    specs:['Material: Caucho natural','Contenido: 100 pzas','Uso: Pulido y profilaxis','Compatible con contrángulo estándar','Desechable, uso único'] },
+    specs:['Material: Caucho natural','Uso: Pulido y profilaxis','Compatible con contrángulo estándar','Desechable, uso único'] },
 
   { id:'AI010', code:'AI010', cat:'desechables', name:'Godete de Plástico (varias medidas)',
     unit:'pieza', img:'imagenes/products/AI010.jpg',
@@ -70,42 +70,42 @@ const CATALOG_PRODUCTS = [
   { id:'AI013', code:'AI013', cat:'desechables', name:'Puntas Mezcladoras Amarillas 70×14mm',
     unit:'50 pz', img:'imagenes/products/AI013.jpg',
     desc:'Puntas mezcladoras amarillas 70×14mm para cartuchos 1:1. Mezcla homogénea sin burbujas.',
-    specs:['Color: Amarillo','Dimensiones: 70×14 mm','Contenido: 50 pzas','Proporción: 1:1','Mezcla estática de alta eficiencia'] },
+    specs:['Color: Amarillo','Dimensiones: 70×14 mm','Proporción: 1:1','Mezcla estática de alta eficiencia'] },
 
   { id:'AI014', code:'AI014', cat:'desechables', name:'Punta Intra Oral Amarilla Ø0.5mm',
     unit:'100 pz', img:'imagenes/products/AI014.jpg',
     desc:'Punta intra oral amarilla de diámetro 0.5 mm para aplicación intraoral ultra precisa.',
-    specs:['Color: Amarillo','Diámetro: 0.5 mm','Contenido: 100 pzas','Uso: Aplicación en zonas de difícil acceso'] },
+    specs:['Color: Amarillo','Diámetro: 0.5 mm','Uso: Aplicación en zonas de difícil acceso'] },
 
   { id:'AI015', code:'AI015', cat:'desechables', name:'Punta Mezcladora Naranja',
     unit:'50 pz', img:'imagenes/products/AI015.jpg',
     desc:'Punta mezcladora naranja para materiales de alta viscosidad.',
-    specs:['Color: Naranja','Contenido: 50 pzas','Uso: Materiales de alta viscosidad'] },
+    specs:['Color: Naranja','Uso: Materiales de alta viscosidad'] },
 
   { id:'AI016', code:'AI016', cat:'desechables', name:'Punta Mezcladora Azul',
     unit:'50 pz', img:'imagenes/products/AI016.jpg',
     desc:'Punta mezcladora azul para silicona de adición y poliéter.',
-    specs:['Color: Azul','Contenido: 50 pzas','Uso: Silicona de adición y poliéter'] },
+    specs:['Color: Azul','Uso: Silicona de adición y poliéter'] },
 
   { id:'AI017', code:'AI017', cat:'desechables', name:'Punta Mezcladora Café 40×100mm 1:1',
     unit:'50 pz', img:'imagenes/products/AI017.jpg',
     desc:'Punta mezcladora café 40×100mm para cartuchos 1:1 de gran volumen.',
-    specs:['Color: Café','Dimensiones: 40×100 mm','Proporción: 1:1','Contenido: 50 pzas'] },
+    specs:['Color: Café','Dimensiones: 40×100 mm','Proporción: 1:1',] },
 
   { id:'AI018', code:'AI018', cat:'desechables', name:'Punta Mezcladora Café 37×10mm 1:1',
     unit:'100 pz', img:'imagenes/products/AI018.jpg',
     desc:'Punta mezcladora café compacta 37×10mm para cartuchos 1:1.',
-    specs:['Color: Café','Dimensiones: 37×10 mm','Proporción: 1:1','Contenido: 100 pzas'] },
+    specs:['Color: Café','Dimensiones: 37×10 mm','Proporción: 1:1',] },
 
   { id:'AI019', code:'AI019', cat:'desechables', name:'Punta Intra Oral Transparente Ø1mm',
     unit:'100 pz', img:'imagenes/products/AI019.jpg',
     desc:'Punta intra oral transparente diámetro 1 mm para aplicación con máxima visibilidad.',
-    specs:['Diámetro: 1 mm','Color: Transparente','Contenido: 100 pzas','Uso: Aplicación intraoral con visibilidad total'] },
+    specs:['Diámetro: 1 mm','Color: Transparente','Uso: Aplicación intraoral con visibilidad total'] },
 
   { id:'AI020', code:'AI020', cat:'desechables', name:'Punta Intra Oral Transparente Ø0.5mm',
     unit:'100 pz', img:'imagenes/products/AI020.jpg',
     desc:'Punta intra oral transparente de diámetro 0.5 mm para aplicación ultra fina.',
-    specs:['Diámetro: 0.5 mm','Color: Transparente','Contenido: 100 pzas'] },
+    specs:['Diámetro: 0.5 mm','Color: Transparente',] },
 
   { id:'AI021', code:'AI021', cat:'desechables', name:'Clip de Babero Dental 39.7cm',
     unit:'pieza', img:'imagenes/products/AI021.jpg',
@@ -125,12 +125,12 @@ const CATALOG_PRODUCTS = [
   { id:'AI024', code:'AI024', cat:'desechables', name:'Caja de Babero Dental C/500pz',
     unit:'caja 500 pz', img:'imagenes/products/AI024.jpg',
     desc:'Caja de baberos dentales desechables de papel plastificado absorbente. 500 pzas.',
-    specs:['Contenido: 500 pzas / caja','Material: Papel plastificado + polietileno','Colores: Blanco, celeste, rosa','Desechable, uso único'] },
+    specs:['Material: Papel plastificado + polietileno','Colores: Blanco, celeste, rosa','Desechable, uso único'] },
 
   { id:'AI024NE', code:'AI024NE', cat:'desechables', name:'Caja de Babero Dental Negro C/500pz',
     unit:'caja 500 pz', img:'imagenes/products/AI024NE.jpg',
     desc:'Baberos negros desechables. Estéticos y discretos, ideales para clínicas de fotografía dental.',
-    specs:['Color: Negro','Contenido: 500 pzas / caja','Material: Papel plastificado','Estético — ideal para fotografía dental','Desechable, uso único'] },
+    specs:['Color: Negro','Material: Papel plastificado','Estético — ideal para fotografía dental','Desechable, uso único'] },
 
   { id:'AI025', code:'AI025', cat:'desechables', name:'Caja Aluminio p/Fresas y Limas 72 cav.',
     unit:'pieza', img:'imagenes/products/AI025.jpg',
@@ -160,7 +160,7 @@ const CATALOG_PRODUCTS = [
   { id:'AI030', code:'AI030', cat:'desechables', name:'Muelitas Caja Plástica p/Piezas Dentales',
     unit:'caja 10 pz', img:'imagenes/products/AI030.jpg',
     desc:'Cajitas plásticas individuales con forma de muela para transporte de piezas dentales. 10 pzas.',
-    specs:['Contenido: 10 pzas','Material: Plástico','Uso: Transporte y entrega de piezas dentales al paciente'] },
+    specs:['Material: Plástico','Uso: Transporte y entrega de piezas dentales al paciente'] },
 
   { id:'AI031', code:'AI031', cat:'desechables', name:'Fresero de Plástico 60 Espacios',
     unit:'pieza', img:'imagenes/products/AI031.jpg',
@@ -185,7 +185,7 @@ const CATALOG_PRODUCTS = [
   { id:'AI038', code:'AI038', cat:'desechables', name:'Puntas para Jeringa Triple Colores (bote 250pz)',
     unit:'bote 250 pz', img:'imagenes/products/AI038.jpg',
     desc:'Puntas de plástico de colores para jeringa triple aire-agua. 250 pzas en bote dispensador.',
-    specs:['Contenido: 250 pzas / bote','Colores: Surtidos','Uso: Jeringa triple estándar','Desechable, uso único'] },
+    specs:['Colores: Surtidos','Uso: Jeringa triple estándar','Desechable, uso único'] },
 
   { id:'AI039', code:'AI039', cat:'desechables', name:'Jeringa Triple de Agua y Aire Metálica',
     unit:'pieza', img:'imagenes/products/AI039.jpg',
@@ -230,7 +230,7 @@ const CATALOG_PRODUCTS = [
   { id:'AI047', code:'AI047', cat:'desechables', name:'Block Papel para Mezclar Dental (10 libretas)',
     unit:'10 libretas', img:'imagenes/products/AI047.jpg',
     desc:'Block de papel satinado para mezcla de cementos y materiales dentales. 10 libretas por paquete.',
-    specs:['Contenido: 10 libretas','Superficie: Papel satinado resistente','Uso: Mezcla de cementos, óxido de zinc, ionómeros'] },
+    specs:['Superficie: Papel satinado resistente','Uso: Mezcla de cementos, óxido de zinc, ionómeros'] },
 
   { id:'AI048', code:'AI048', cat:'desechables', name:'Cinta Testigo 21mm × 50mts',
     unit:'rollo 50 mts', img:'imagenes/products/AI048.jpg',
@@ -240,12 +240,12 @@ const CATALOG_PRODUCTS = [
   { id:'AI049', code:'AI049', cat:'desechables', name:'Cánula de Aspiración Blanca CQ (25pz)',
     unit:'paquete 25 pz', img:'imagenes/products/AI049.jpg',
     desc:'Cánulas de aspiración desechables color blanco, curvadas. 25 pzas por paquete.',
-    specs:['Color: Blanco','Forma: Curvada','Contenido: 25 pzas','Desechable, uso único','Conexión estándar'] },
+    specs:['Color: Blanco','Forma: Curvada','Desechable, uso único','Conexión estándar'] },
 
   { id:'OPEST', code:'OPEST', cat:'desechables', name:'Eyector de Saliva (bolsa 100pz)',
     unit:'bolsa 100 pz', img:'imagenes/products/OPEST.jpg',
     desc:'Eyectores de saliva desechables. Colores surtidos (azul y blanco). 100 pzas por bolsa.',
-    specs:['Colores: Azul y blanco','Contenido: 100 pzas','Desechable, uso único','Conexión estándar a eyector','Flexible y ergonómico'] },
+    specs:['Colores: Azul y blanco','Desechable, uso único','Conexión estándar a eyector','Flexible y ergonómico'] },
 
   // ══════════════════════════════════════════
   // FRESAS DE DIAMANTE  (Ortho Premium)
