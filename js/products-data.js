@@ -354,17 +354,17 @@ const CATALOG_PRODUCTS = [
   // ══════════════════════════════════════════
   // PRIME DENT  (Materiales restauradores)
   // ══════════════════════════════════════════
-  { id:'pd-composite', code:'Prime Dent Composite', cat:'materiales', brand:'primadent', name:'Resina Compuesta Prime Dent',
+  { id:'pd-composite', code:'Prime Dent Composite', cat:'primadent', brand:'orthopremium', name:'Resina Compuesta Prime Dent',
     unit:'jeringa', img:'imagenes/products/pd-composite.jpg',
     desc:'Resina compuesta de nanotecnología para restauraciones directas anteriores y posteriores.',
     specs:['Tecnología: Nanopartículas híbridas','Alta resistencia al desgaste','Amplia gama de colores VITA','Radiopaca','Alta resistencia a la fractura','Excelente pulido y lustre final'] },
 
-  { id:'pd-adhesivo', code:'Prime Dent Bond', cat:'materiales', brand:'primadent', name:'Adhesivo Universal Prime Dent',
+  { id:'pd-adhesivo', code:'Prime Dent Bond', cat:'primadent', brand:'orthopremium', name:'Adhesivo Universal Prime Dent',
     unit:'frasco', img:'imagenes/products/pd-adhesivo.jpg',
     desc:'Sistema adhesivo universal de 7a generación. Técnica grabado total, autograbado o selectivo.',
     specs:['Generación: 7a (universal)','Técnicas: Grabado total, autograbado, selectivo en esmalte','Alta resistencia de unión a dentina y esmalte','MDP para adhesión a metal y circonio','No requiere capa adhesiva adicional'] },
 
-  { id:'pd-cemento', code:'Prime Dent Cement', cat:'materiales', brand:'primadent', name:'Cemento de Ionómero de Vidrio',
+  { id:'pd-cemento', code:'Prime Dent Cement', cat:'primadent', brand:'orthopremium', name:'Cemento de Ionómero de Vidrio',
     unit:'polvo + líquido', img:'imagenes/products/pd-cemento.jpg',
     desc:'Cemento de ionómero de vidrio de alta resistencia para cementación y obturaciones.',
     specs:['Tipo: Ionómero de vidrio convencional','Liberación de flúor sostenida','Alta resistencia compresiva','Biocompatible','Uso: Cementación, obturación, forro cavitario'] },
@@ -2018,40 +2018,30 @@ const CATALOG_PRODUCTS = [
     unit:'paquete 400 pz', img:'imagenes/balsas/balsas-microbrush-x.jpg',
     desc:'Aplicadores desechables Microbrush X con punta de cepillo de cerdas ultra finas para aplicacion precisa de adhesivos, primers y materiales fluidos. Disponible en Super Fino, Fino y Regular. 400 piezas por paquete.',
     specs:['Código: 32-PSF400 (SF) / 32-PF400 (F) / 32-PR400 (R)','Marca: Balsas Dental / Microbrush','Tipos: Super Fino, Fino, Regular','Uso: Aplicación de adhesivos y materiales fluidos','Presentación: 400 piezas'] },
-];
 
-// Map category slugs to display names
-const CAT_LABELS = {
-  // Instrumental subcategories
-  curetas:      'Curetas',
-  scalers:      'Scalers / Hoz',
-  diagnostico:  'Diagnóstico',
-  cirugia:      'Cirugía',
-  restauracion: 'Restauración',
-  aislamiento:  'Aislamiento',
-  endodoncia:   'Endodoncia',
-  forceps:      'Fórceps',
-  // Orthodontic subcategories
-  alambres:     'Alambres NiTi',
-  brackets:     'Brackets',
-  accesorios:   'Accesorios',
-  // General
-  desechables:  'Desechables',
-  instrumental: 'Instrumental',
-  materiales:   'Materiales',
-  equipos:      'Equipos',
-  fresas:       'Fresas',
-  ortodoncia:   'Ortodoncia',
-  primadent:    'Prime Dent',
-  americaneagle:'American Eagle',
-  hufriedygroup:'Hu-Friedy',
-  medesy:       'Medesy',
-  vamasa:       'Vamasa',
-  borgatta:     'Borgatta',
-  balsas:       'Balsas Dental',
-  elasticos:    'Elásticos A.O.',
-  lineablack:   'Línea Black',
-  articulador:  'Articulador Bioart',
-  autoclave:    'Autoclave Gnatus',
-  primervg:     'Prime RVG',
-};
+  // -- Elasticos American Orthodontics Wildlife Series --
+  {id:'el-101', code:'000-101', cat:'elasticos', brand:'elasticos', name:'Wallaby 1/8" (3mm) Ligero',    unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/8" 70gms.', specs:['Diametro: 1/8" (3mm)','Fuerza: Ligera 2.5oz / 70gms','100 pzas por bolsa']},
+  {id:'el-110', code:'000-110', cat:'elasticos', brand:'elasticos', name:'Wolf 1/8" (3mm) Medio',        unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/8" 125gms.', specs:['Diametro: 1/8" (3mm)','Fuerza: Media 4.5oz / 125gms','100 pzas por bolsa']},
+  {id:'el-120', code:'000-120', cat:'elasticos', brand:'elasticos', name:'Elephant 1/8" (3mm) Pesado',   unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/8" 180gms.', specs:['Diametro: 1/8" (3mm)','Fuerza: Pesada 6.5oz / 180gms','100 pzas por bolsa']},
+  {id:'el-102', code:'000-102', cat:'elasticos', brand:'elasticos', name:'Dragon 3/16" (5mm) Ligero',    unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/16" 70gms.', specs:['Diametro: 3/16" (5mm)','Fuerza: Ligera 2.5oz / 70gms','100 pzas por bolsa']},
+  {id:'el-111', code:'000-111', cat:'elasticos', brand:'elasticos', name:'Gorilla 3/16" (5mm) Medio',    unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/16" 125gms.', specs:['Diametro: 3/16" (5mm)','Fuerza: Media 4.5oz / 125gms','100 pzas por bolsa']},
+  {id:'el-121', code:'000-121', cat:'elasticos', brand:'elasticos', name:'Tortoise 3/16" (5mm) Pesado',  unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/16" 180gms.', specs:['Diametro: 3/16" (5mm)','Fuerza: Pesada 6.5oz / 180gms','100 pzas por bolsa']},
+  {id:'el-131', code:'000-131', cat:'elasticos', brand:'elasticos', name:'Cheetah 3/16" (5mm) Extra Pesado', unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/16" 225gms.', specs:['Diametro: 3/16" (5mm)','Fuerza: Extra Pesada 8oz / 225gms','100 pzas por bolsa']},
+  {id:'el-103', code:'000-103', cat:'elasticos', brand:'elasticos', name:'Falcon 1/4" (6mm) Ligero',     unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/4" 70gms.', specs:['Diametro: 1/4" (6mm)','Fuerza: Ligera 2.5oz / 70gms','100 pzas por bolsa']},
+  {id:'el-112', code:'000-112', cat:'elasticos', brand:'elasticos', name:'Eagle 1/4" (6mm) Medio',       unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/4" 125gms.', specs:['Diametro: 1/4" (6mm)','Fuerza: Media 4.5oz / 125gms','100 pzas por bolsa']},
+  {id:'el-122', code:'000-122', cat:'elasticos', brand:'elasticos', name:'Sea Lion 1/4" (6mm) Pesado',   unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/4" 180gms.', specs:['Diametro: 1/4" (6mm)','Fuerza: Pesada 6.5oz / 180gms','100 pzas por bolsa']},
+  {id:'el-132', code:'000-132', cat:'elasticos', brand:'elasticos', name:'Jaguar 1/4" (6mm) Extra Pesado', unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/4" 225gms.', specs:['Diametro: 1/4" (6mm)','Fuerza: Extra Pesada 8oz / 225gms','100 pzas por bolsa']},
+  {id:'el-104', code:'000-104', cat:'elasticos', brand:'elasticos', name:'Ferret 5/16" (8mm) Ligero',    unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 5/16" 70gms.', specs:['Diametro: 5/16" (8mm)','Fuerza: Ligera 2.5oz / 70gms','100 pzas por bolsa']},
+  {id:'el-113', code:'000-113', cat:'elasticos', brand:'elasticos', name:'Panda 5/16" (8mm) Medio',      unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 5/16" 125gms.', specs:['Diametro: 5/16" (8mm)','Fuerza: Media 4.5oz / 125gms','100 pzas por bolsa']},
+  {id:'el-123', code:'000-123', cat:'elasticos', brand:'elasticos', name:'Manatee 5/16" (8mm) Pesado',   unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 5/16" 180gms.', specs:['Diametro: 5/16" (8mm)','Fuerza: Pesada 6.5oz / 180gms','100 pzas por bolsa']},
+  {id:'el-133', code:'000-133', cat:'elasticos', brand:'elasticos', name:'Leopard 5/16" (8mm) Extra Pesado', unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 5/16" 225gms.', specs:['Diametro: 5/16" (8mm)','Fuerza: Extra Pesada 8oz / 225gms','100 pzas por bolsa']},
+  {id:'el-143', code:'000-143', cat:'elasticos', brand:'elasticos', name:'Blue Whale 5/16" (8mm) Maximo', unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 5/16" 400gms.', specs:['Diametro: 5/16" (8mm)','Fuerza: Maxima 14oz / 400gms','100 pzas por bolsa']},
+  {id:'el-105', code:'000-105', cat:'elasticos', brand:'elasticos', name:'Hyena 3/8" (10mm) Ligero',     unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/8" 70gms.', specs:['Diametro: 3/8" (10mm)','Fuerza: Ligera 2.5oz / 70gms','100 pzas por bolsa']},
+  {id:'el-114', code:'000-114', cat:'elasticos', brand:'elasticos', name:'Tiger 3/8" (10mm) Medio',      unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/8" 125gms.', specs:['Diametro: 3/8" (10mm)','Fuerza: Media 4.5oz / 125gms','100 pzas por bolsa']},
+  {id:'el-124', code:'000-124', cat:'elasticos', brand:'elasticos', name:'Rhinoceros 3/8" (10mm) Pesado', unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/8" 180gms.', specs:['Diametro: 3/8" (10mm)','Fuerza: Pesada 6.5oz / 180gms','100 pzas por bolsa']},
+  {id:'el-134', code:'000-134', cat:'elasticos', brand:'elasticos', name:'Puma 3/8" (10mm) Extra Pesado', unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/8" 225gms.', specs:['Diametro: 3/8" (10mm)','Fuerza: Extra Pesada 8oz / 225gms','100 pzas por bolsa']},
+  {id:'el-145', code:'000-145', cat:'elasticos', brand:'elasticos', name:'Gray Whale 1/2" (13mm) Maximo', unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 1/2" 400gms.', specs:['Diametro: 1/2" (13mm)','Fuerza: Maxima 14oz / 400gms','100 pzas por bolsa']},
+  {id:'el-106', code:'000-106', cat:'elasticos', brand:'elasticos', name:'Egret 5/8" (16mm) Ligero',     unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 5/8" 70gms.', specs:['Diametro: 5/8" (16mm)','Fuerza: Ligera 2.5oz / 70gms','100 pzas por bolsa']},
+  {id:'el-107', code:'000-107', cat:'elasticos', brand:'elasticos', name:'Hawk 3/4" (19mm) Medio',       unit:'bolsa 100 pzas', img:'imagenes/elasticos/elasticos-ao.jpg', desc:'Elastico intermaxilar latez 3/4" 125gms.', specs:['Diametro: 3/4" (19mm)','Fuerza: Media 4.5oz / 125gms','100 pzas por bolsa']},
+
+];
