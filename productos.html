@@ -39,13 +39,24 @@
 
     .store-card-img {
       aspect-ratio: 4/3;
-      background: var(--light-bg);
+      background: linear-gradient(145deg, #0f1e33 0%, #1a3050 100%);
       overflow: hidden;
       position: relative;
-      cursor: zoom-in;
+      display: flex; align-items: center; justify-content: center;
     }
-    .store-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s; }
-    .store-card:hover .store-card-img img { transform: scale(1.05); }
+    .store-card-img-icon {
+      width: 72px; height: 72px;
+      opacity: 0.12;
+      color: #fff;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+    .store-card:hover .store-card-img-icon { opacity: 0.2; transform: scale(1.08); }
+    .store-card-img::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.18) 0%, transparent 60%);
+      pointer-events: none;
+    }
 
     .store-cat-badge {
       position: absolute; top: 10px; left: 10px;
@@ -288,7 +299,10 @@ function renderProducts() {
     card.dataset.id = p.id;
     card.innerHTML = `
       <div class="store-card-img">
-        <img src="${p.img}" alt="${p.name}" loading="lazy"/>
+        <svg class="store-card-img-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M32 6C26 6 21 9.5 19.5 14.5C18 9.5 13 6 7 6C7 18 12 26 19.5 31C19.5 37 20.5 43 22 49C23 54 25 58 26.5 58C29 58 29 54 32 54C35 54 35 58 37.5 58C39 58 41 54 42 49C43.5 43 44.5 37 44.5 31C52 26 57 18 57 6C51 6 46 9.5 44.5 14.5C43 9.5 38 6 32 6Z"/>
+          <path d="M19.5 31C23 28 28 26.5 32 26.5C36 26.5 41 28 44.5 31" opacity="0.5"/>
+        </svg>
         <span class="store-cat-badge">${catLabel}</span>
       </div>
       <div class="store-card-body">
@@ -323,16 +337,6 @@ function renderProducts() {
       specsBtn.querySelector('span') && (specsBtn.querySelector('span').textContent = open ? 'Ocultar especificaciones' : 'Ver especificaciones');
       // update text node
       specsBtn.childNodes.forEach(n => { if (n.nodeType === 3 && n.textContent.trim()) n.textContent = open ? ' Ocultar especificaciones' : ' Ver especificaciones'; });
-    });
-
-    // Image zoom
-    card.querySelector('.store-card-img').addEventListener('click', () => {
-      const lb = document.getElementById('lightbox');
-      const lbImg = document.getElementById('lightbox-img');
-      lbImg.src = p.img;
-      lbImg.alt = p.name;
-      lb.classList.add('open');
-      document.body.style.overflow = 'hidden';
     });
 
     // Quantity
