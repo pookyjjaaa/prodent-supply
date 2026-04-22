@@ -384,82 +384,82 @@ const CATALOG_PRODUCTS = [
 
   // — Curetas Gracey Standard —
   { id:'hf-sg1-2', code:'SG1/29E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 1/2 Standard — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_17.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-gracey-1-2.jpg',
     desc:'Cureta Gracey 1/2 de área específica para superficies anteriores. Filo único con angulación de 70° al vástago para un acceso y adaptación perfectos. Mango #9 octagonal Satin Steel®.',
     specs:['Código: SG1/29E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 1/2','Uso: Superficies anteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   { id:'hf-sg11-12', code:'SG11/129E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 11/12 Standard — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_18.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-gracey-11-12.jpg',
     desc:'Cureta Gracey 11/12 de área específica para superficies mesiales posteriores. Diseño offset de 70° para adaptación óptima a raíces. Mango #9 octagonal Satin Steel®.',
     specs:['Código: SG11/129E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 11/12','Uso: Mesial de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   { id:'hf-sg13-14', code:'SG13/149E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 13/14 Standard — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_18.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-gracey-13-14.jpg',
     desc:'Cureta Gracey 13/14 de área específica para superficies distales posteriores. Vástago angulado para acceso a zonas de difícil acceso. Mango #9 octagonal Satin Steel®.',
     specs:['Código: SG13/149E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 13/14','Uso: Distal de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   { id:'hf-sg7-8', code:'SG7/89E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 7/8 Standard — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_18.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-gracey-7-8.jpg',
     desc:'Cureta Gracey 7/8 de área específica para superficies bucales y linguales de dientes posteriores. Filo de borde único con angulación ideal para debridación subgingival.',
     specs:['Código: SG7/89E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 7/8','Uso: Bucal/lingual de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   { id:'hf-sg15-16', code:'SG15/169E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 15/16 Standard — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_19.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-gracey-15-16.jpg',
     desc:'Cureta Gracey 15/16 de área específica para mesial de molares superiores. Vástago extra angulado que facilita el acceso a superficies mesiales de difícil alcance.',
     specs:['Código: SG15/169E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 15/16','Uso: Mesial de molares superiores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   { id:'hf-sg17-18', code:'SG17/189E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 17/18 Standard — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_19.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-gracey-17-18.jpg',
     desc:'Cureta Gracey 17/18 de área específica para distal de molares. Vástago de doble angulación que permite llegar a las zonas más profundas del periodonto posterior.',
     specs:['Código: SG17/189E2','Marca: Hu-Friedy','Tipo: Cureta Gracey Standard 17/18','Uso: Distal de molares','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   // — Curetas After Five® —
   { id:'hf-srpg11-12', code:'SRPG11/129E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 11/12 After Five® — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_21.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-af5-11-12.jpg',
     desc:'Cureta Gracey After Five® 11/12 con vástago terminal 3 mm más largo y hoja 10% más delgada para acceder a bolsas periodontales profundas (≥5 mm) en mesial de posteriores.',
     specs:['Código: SRPG11/129E2','Marca: Hu-Friedy','Tipo: Cureta Gracey After Five® 11/12','Uso: Bolsas periodontales ≥5 mm','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   { id:'hf-srpg13-14', code:'SRPG13/149E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Gracey 13/14 After Five® — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_21.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-af5-13-14.jpg',
     desc:'Cureta Gracey After Five® 13/14 con vástago elongado para debridación en bolsas periodontales profundas en distal de dientes posteriores. Hoja más delgada para menor trauma tisular.',
     specs:['Código: SRPG13/149E2','Marca: Hu-Friedy','Tipo: Cureta Gracey After Five® 13/14','Uso: Bolsas periodontales profundas — distal','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   // — Cureta Columbia —
   { id:'hf-sc13-14', code:'SC13/149E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Cureta Columbia 13/14 — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_30.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-columbia-13-14.jpg',
     desc:'Cureta Columbia 13/14 universal con dos filos cortantes paralelos que se unen en un extremo redondeado. Diseño posterior para remoción de cálculo moderado a pesado en zonas interproximales.',
     specs:['Código: SC13/149E2','Marca: Hu-Friedy','Tipo: Cureta Columbia 13/14 Universal','Uso: Superficies interproximales posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   // — Scalers Sickle (Hoz) —
   { id:'hf-sh6-7', code:'SH6/79E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Scaler Hoz H6/7 — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_36.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-h6-7.jpg',
     desc:'Scaler en hoz H6/7 anterior, el más popular de Hu-Friedy. Dos filos cortantes que se unen en punta. Diseño recto para remoción de cálculo supragingival en dientes anteriores.',
     specs:['Código: SH6/79E2','Marca: Hu-Friedy','Tipo: Scaler en Hoz Anterior H6/7','Uso: Cálculo supragingival anterior','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   { id:'hf-s204s', code:'S204S9E2', cat:'hufriedygroup', brand:'hufriedygroup', name:'Scaler Posterior 204S — Mango #9',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_38.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-204s.jpg',
     desc:'Scaler posterior 204S con vástago contraangulado para acceder a zonas interproximales posteriores de difícil acceso. Diseño estándar para remoción de cálculo supragingival.',
     specs:['Código: S204S9E2','Marca: Hu-Friedy','Tipo: Scaler Posterior 204S','Uso: Interproximal de posteriores','Material: Acero inoxidable','Mango: #9 Satin Steel®','Autoclavable'] },
 
   // — Sondas Periodontales —
   { id:'hf-pw6', code:'PW6', cat:'hufriedygroup', brand:'hufriedygroup', name:'Sonda Periodontal Williams — Mango #6',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_78.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-williams-se.jpg',
     desc:'Sonda periodontal Williams con marcaciones 1-2-3-5-7-8-9-10 mm. Estándar de oro para evaluación del periodonto. Acero Duraspond® con punta fina y acabado pulido para máxima sensibilidad táctil.',
     specs:['Código: PW6','Marca: Hu-Friedy','Tipo: Sonda Periodontal Williams','Marcaciones: 1-2-3-5-7-8-9-10 mm','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
 
   { id:'hf-pqw6', code:'PQW6', cat:'hufriedygroup', brand:'hufriedygroup', name:'Sonda Qulix Williams SE — Mango #6',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_77.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-qulix-williams.jpg',
     desc:'Sonda Qulix Williams con marcaciones codificadas en color negro grabadas con láser que no descascarillan ni se borran. Marcaciones 1-2-3-5-7-8-9-10 mm para diagnóstico periodontal preciso.',
     specs:['Código: PQW6','Marca: Hu-Friedy','Tipo: Sonda Qulix Williams','Marcaciones: 1-2-3-5-7-8-9-10 mm (negro láser)','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
 
   // — Exploradores —
   { id:'hf-exs23-6', code:'EXS236', cat:'hufriedygroup', brand:'hufriedygroup', name:'Explorador #23 Shepherd\'s Hook SE — Mango #6',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_82.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-explorer-23.jpg',
     desc:'Explorador #23 Shepherd\'s Hook de extremo simple, el más utilizado en clínica dental. Fabricado en acero Duraspond® para máxima flexibilidad, resistencia y sensibilidad táctil en la detección de caries y cálculo.',
     specs:['Código: EXS236','Marca: Hu-Friedy','Tipo: Explorador #23 Shepherd\'s Hook SE','Uso: Detección de caries y cálculo','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
 
   { id:'hf-exd5-6', code:'EXD56', cat:'hufriedygroup', brand:'hufriedygroup', name:'Explorador #5 Doble Extremo — Mango #6',
-    unit:'pieza', img:'imagenes/hufriedygroup/pag_83.jpg',
+    unit:'pieza', img:'imagenes/hufriedygroup/hf-explorer-5.jpg',
     desc:'Explorador #5 de doble extremo fabricado en acero Duraspond®. Diseño clásico para exploración de caries, márgenes de restauraciones y evaluación de superficies radiculares con alta sensibilidad táctil.',
     specs:['Código: EXD56','Marca: Hu-Friedy','Tipo: Explorador #5 Doble Extremo','Uso: Caries, restauraciones, superficies radiculares','Material: Acero Duraspond®','Mango: #6 Satin Steel®','Autoclavable'] },
 
@@ -1485,7 +1485,7 @@ const CATALOG_PRODUCTS = [
     specs:['Distribuidor: Balsas Dental','Catálogo completo disponible','Solicita precio por producto específico'] },
 
   { id:'elasticos-ao', code:'Elásticos A.O.', cat:'elasticos', brand:'elasticos', name:'Elásticos de Ortodoncia A.O.',
-    unit:'bolsa', img:'imagenes/elasticos/pag_01.jpg',
+    unit:'bolsa', img:'imagenes/elasticos/elasticos-ao.jpg',
     desc:'Elásticos de látex para ortodoncia. Variedad de tamaños y fuerzas para tracción intermaxilar.',
     specs:['Material: Látex natural','Usos: Tracción intermaxilar, tracción de caninos','Fuerzas: Light, Medium, Heavy','Tamaños: 3/16", 1/4", 5/16", 3/8" y más','Registro sanitario SSA'] },
 
@@ -1614,6 +1614,118 @@ const CATALOG_PRODUCTS = [
     unit:'pieza', img:'imagenes/articulador/articulador-ESC-ART.jpg',
     desc:'Estuche plástico exclusivo de Bio-Art para transporte y almacenamiento seguro del articulador y sus accesorios.',
     specs:['Material: Plástico resistente de alta calidad','Función: Transporte y almacenamiento del articulador','Diseño exclusivo Bio-Art','Protege la precisión del aparato'] },
+
+  // ── American Eagle Instruments ─────────────────────────────────────────────
+
+  { id:'ae-001', code:'AEG1-2XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Estándar 1-2 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aeg1-2xpx.jpg',
+    desc:'Cureta Gracey 1-2 con tecnología XP para raspado y alisado radicular en zona anterior. Mango EagleLite ergonómico de resina de color.',
+    specs:['Código: AEG1-2XPX','Aplicación: Anterior','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable con tratamiento superficial nano-optimizado','Mango: EagleLite 3/8" resina de color','Autoclavable'] },
+
+  { id:'ae-002', code:'AEG5-6XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Estándar 5-6 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aeg5-6xpx.jpg',
+    desc:'Cureta Gracey 5-6 con tecnología XP para raspado en zona anterior y premolares. Bordes más afilados y mayor durabilidad que el acero convencional.',
+    specs:['Código: AEG5-6XPX','Aplicación: Anterior / premolares','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable con tratamiento nano-optimizado','Mango: EagleLite 3/8" resina de color','Autoclavable'] },
+
+  { id:'ae-003', code:'AEG7-8XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Estándar 7-8 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aeg7-8xpx.jpg',
+    desc:'Cureta Gracey 7-8 con tecnología XP para zonas bucales y orales de premolares y molares. Extremo de trabajo más delgado para mejor acceso subgingival.',
+    specs:['Código: AEG7-8XPX','Aplicación: Bucal / oral – premolares y molares','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable con tratamiento nano-optimizado','Mango: EagleLite 3/8" resina de color','Autoclavable'] },
+
+  { id:'ae-004', code:'AEG11-12XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Estándar 11-12 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aeg11-12xpx.jpg',
+    desc:'Cureta Gracey 11-12 con tecnología XP para raspado en superficies mesiales de molares y premolares posteriores. Dureza 89 Rc, significativamente superior al acero estándar.',
+    specs:['Código: AEG11-12XPX','Aplicación: Posterior mesial','Tecnología: XP Technology (89 Rc de dureza)','Material: Acero inoxidable con aleación superdura','Mango: EagleLite 3/8" resina de color','Autoclavable'] },
+
+  { id:'ae-005', code:'AEG13-14XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Estándar 13-14 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aeg13-14xpx.jpg',
+    desc:'Cureta Gracey 13-14 con tecnología XP para superficies distales de molares posteriores. Diseño de hoja única que minimiza el trauma tisular.',
+    specs:['Código: AEG13-14XPX','Aplicación: Posterior distal','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable con tratamiento nano-optimizado','Mango: EagleLite 3/8" resina de color','Autoclavable'] },
+
+  { id:'ae-006', code:'AEG15-16XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Estándar 15-16 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aeg15-16xpx.jpg',
+    desc:'Cureta Gracey 15-16 con tecnología XP para superficies mesiales de molares. Alternativa de acceso mejorado para bolsas periodontales profundas.',
+    specs:['Código: AEG15-16XPX','Aplicación: Posterior mesial','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable con tratamiento nano-optimizado','Mango: EagleLite 3/8" resina de color','Autoclavable'] },
+
+  { id:'ae-007', code:'AEG17-18XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Estándar 17-18 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aeg17-18xpx.jpg',
+    desc:'Cureta Gracey 17-18 con tecnología XP para zonas distales de difícil acceso. Vástago terminal extra que facilita la instrumentación en sectores posteriores.',
+    specs:['Código: AEG17-18XPX','Aplicación: Posterior distal – zonas de difícil acceso','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable con tratamiento nano-optimizado','Mango: EagleLite 3/8" resina de color','Autoclavable'] },
+
+  { id:'ae-008', code:'AEGA1-2XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Access 1-2 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aega1-2xpx.jpg',
+    desc:'Cureta Gracey Access 1-2 con vástago 3 mm más largo y hoja 50% más corta, ideal para bolsas periodontales de 5 mm o más en zona anterior.',
+    specs:['Código: AEGA1-2XPX','Aplicación: Anterior – bolsas profundas','Vástago: 3 mm más largo para mayor alcance','Hoja: 50% más corta – toda la hoja en contacto con la raíz','Tecnología: XP Technology – sin afilado','Autoclavable'] },
+
+  { id:'ae-009', code:'AEGA11-12XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Access 11-12 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aega11-12xpx.jpg',
+    desc:'Cureta Gracey Access 11-12 con vástago extendido y hoja corta para tratamiento de bolsas periodontales profundas y furcaciones en zona mesial posterior.',
+    specs:['Código: AEGA11-12XPX','Aplicación: Posterior mesial – bolsas profundas y furcaciones','Vástago: 3 mm más largo','Hoja: 50% más corta','Tecnología: XP Technology – sin afilado','Autoclavable'] },
+
+  { id:'ae-010', code:'AEGA13-14XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Gracey Access 13-14 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aega13-14xpx.jpg',
+    desc:'Cureta Gracey Access 13-14 con vástago extendido para acceso a bolsas profundas y furcaciones en zonas distales posteriores.',
+    specs:['Código: AEGA13-14XPX','Aplicación: Posterior distal – bolsas profundas','Vástago: 3 mm más largo','Hoja: 50% más corta','Tecnología: XP Technology – sin afilado','Autoclavable'] },
+
+  { id:'ae-011', code:'AECB1-2X', cat:'instrumental', brand:'americaneagle', name:'Cureta Universal Barnhart 1-2 Talon Tough',
+    unit:'pieza', img:'imagenes/americaneagle/aecb1-2xpx.jpg',
+    desc:'Cureta universal Barnhart 1-2 con tecnología Talon Tough para uso en región anterior. Hoja estrecha para mayor acceso subgingival en zonas anteriores.',
+    specs:['Código: AECB1-2X','Tipo: Cureta universal','Aplicación: Anterior – hoja estrecha','Tecnología: Talon Tough – mayor resistencia al desgaste','Material: Acero inoxidable endurecido','Autoclavable'] },
+
+  { id:'ae-012', code:'AECB5-6XPX', cat:'instrumental', brand:'americaneagle', name:'Cureta Universal Barnhart 5-6 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aecb5-6xpx.jpg',
+    desc:'Cureta universal Barnhart 5-6 con tecnología XP. Diseño universal para uso en todas las superficies dentales con mango EagleLite ergonómico.',
+    specs:['Código: AECB5-6XPX','Tipo: Cureta universal','Aplicación: Universal – todas las superficies','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable nano-tratado','Autoclavable'] },
+
+  { id:'ae-013', code:'AESH6-7XPX', cat:'instrumental', brand:'americaneagle', name:'Raspador H 6-7 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aesh6-7xpx.jpg',
+    desc:'Raspador tipo hoz H 6-7 con tecnología XP para uso universal en zona anterior. Borde cortante de ángulo recto para eliminación eficaz de cálculo supragingival.',
+    specs:['Código: AESH6-7XPX','Tipo: Raspador en hoz','Aplicación: Universal anterior','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable con tratamiento nano-optimizado (89 Rc)','Autoclavable'] },
+
+  { id:'ae-014', code:'AESBJXPX', cat:'instrumental', brand:'americaneagle', name:'Raspador Blackjack XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aesbjxpx.jpg',
+    desc:'Raspador Blackjack con tecnología XP para zonas interproximales y posteriores. Diseño en hoz contra-angulado fino ideal para áreas supragingival e interproximal posteriores.',
+    specs:['Código: AESBJXPX','Tipo: Raspador en hoz','Aplicación: Interproximal / posterior','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable nano-tratado','Autoclavable'] },
+
+  { id:'ae-015', code:'AESM23XPX', cat:'instrumental', brand:'americaneagle', name:'Raspador M23 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aesm23xpx.jpg',
+    desc:'Raspador M23 con tecnología XP de uso universal. Instrumento en hoz versátil para eliminación de cálculo en todas las superficies dentales.',
+    specs:['Código: AESM23XPX','Tipo: Raspador en hoz','Aplicación: Universal','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable nano-tratado','Autoclavable'] },
+
+  { id:'ae-016', code:'AESECXPX', cat:'instrumental', brand:'americaneagle', name:'Raspador Eagle Claw XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aesecxpx.jpg',
+    desc:'Raspador Eagle Claw con punta en hoz contra-angulada, ideal para zonas interproximales y posteriores supragingival. Borde cortante fino y estable.',
+    specs:['Código: AESECXPX','Tipo: Raspador en hoz contra-angulado','Aplicación: Posterior – supragingival e interproximal','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable nano-tratado','Autoclavable'] },
+
+  { id:'ae-017', code:'AESETX', cat:'instrumental', brand:'americaneagle', name:'Raspador Eagle Talon Talon Tough',
+    unit:'pieza', img:'imagenes/americaneagle/aesetxpx.jpg',
+    desc:'Raspador Eagle Talon que combina puntas anterior J3 y N128 en un solo instrumento. En hoz afilada ideal para remoción de tártaro y placa en zona anterior.',
+    specs:['Código: AESETX','Tipo: Raspador en hoz doble','Aplicación: Anterior – remoción de tártaro y placa','Combinación: Puntas J3 (Jaquette) + N128','Tecnología: Talon Tough','Autoclavable'] },
+
+  { id:'ae-018', code:'AESB513XPX', cat:'instrumental', brand:'americaneagle', name:'Raspador Boge 513 XP Technology',
+    unit:'pieza', img:'imagenes/americaneagle/aesb513xpx.jpg',
+    desc:'Raspador Boge 513 con punta de azada para desbridamiento supragingival en zona anterior del maxilar inferior. Vástago alargado con borde cortante uniforme.',
+    specs:['Código: AESB513XPX','Tipo: Raspador en azada','Aplicación: Anterior inferior – supragingival','Tecnología: XP Technology – sin necesidad de afilado','Material: Acero inoxidable nano-tratado','Autoclavable'] },
+
+  { id:'ae-019', code:'AEP12BX', cat:'instrumental', brand:'americaneagle', name:'Sonda Periodontal Marquis 12 (negro)',
+    unit:'pieza', img:'imagenes/americaneagle/aep12bx.jpg',
+    desc:'Sonda periodontal Marquis 12 con marcas en negro en 3-6-9-12 mm y mango EagleLite de resina. Extremo redondeado de 0.5 mm para evaluación precisa de profundidad de sondaje.',
+    specs:['Código: AEP12BX','Tipo: Sonda periodontal','Marcas: 3-6-9-12 mm (Marquis) en negro','Punta: Bola 0.5 mm para mayor precisión','Mango: EagleLite 3/8" resina negra','Autoclavable'] },
+
+  { id:'ae-020', code:'AEEXP11-12X', cat:'instrumental', brand:'americaneagle', name:'Explorador ODU 11-12',
+    unit:'pieza', img:'imagenes/americaneagle/aeexp11-12x.jpg',
+    desc:'Explorador ODU 11-12 Old Dominion con diseño de punta fina para detección de caries, cálculo subgingival y defectos de restauraciones. Tacto excepcional.',
+    specs:['Código: AEEXP11-12X','Tipo: Explorador dental','Modelo: ODU 11-12 (Old Dominion University)','Material: Acero especial – punta precisa y resistente','Mango: EagleLite 3/8" resina negra','Autoclavable'] },
+
+  { id:'ae-021', code:'AEEXP23X', cat:'instrumental', brand:'americaneagle', name:'Explorador Gancho de Pastor 23',
+    unit:'pieza', img:'imagenes/americaneagle/aeexp23x.jpg',
+    desc:'Explorador tipo Gancho de Pastor n.° 23 para detección de caries interproximal y evaluación de márgenes de restauraciones. Punta extremadamente delgada para mejor sensibilidad táctil.',
+    specs:['Código: AEEXP23X','Tipo: Explorador dental','Modelo: Shepherd\'s Hook 23','Material: Acero de alta calidad','Mango: EagleLite 3/8" resina negra','Autoclavable'] },
+
+  { id:'ae-022', code:'AEM4', cat:'instrumental', brand:'americaneagle', name:'Espejo Dental n.° 4',
+    unit:'pieza', img:'imagenes/americaneagle/aem4.jpg',
+    desc:'Espejo dental American Eagle n.° 4, montura cónica con rosca estándar americana (US Thread). Superficie reflectante de alta calidad para diagnóstico intraoral.',
+    specs:['Código: AEM4','Tamaño: N.° 4','Montura: Cónica – rosca US Thread','Calidad: Superficie de alta reflectancia','Compatible: Mangos AE de rosca estándar','Autoclavable'] },
 ];
 
 // Map category slugs to display names
