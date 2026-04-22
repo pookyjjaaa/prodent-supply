@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cotización · ProDent Supply</title>
+  <meta name="description" content="Solicita tu cotización de insumos dentales por WhatsApp. Respuesta en minutos."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Cotización · ProDent Supply"/>
+  <meta property="og:description" content="Solicita tu cotización de insumos dentales por WhatsApp. Respuesta en minutos."/>
+  <meta property="og:image" content="logo.png"/>
+  <meta name="twitter:card" content="summary"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="logo.png" type="image/png"/>
+  <link rel="stylesheet" href="css/styles.css?v=7"/>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="ProDent Supply"/>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="productos.html">Productos</a></li>
+    <li><a href="catalogo.html">Catálogos PDF</a></li>
+    <li><a href="cotizacion.html" class="active">Cotización</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <a href="cotizacion.html" class="btn-cotizar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+    Cotizar
+  </a>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Inicio</a>
+  <a href="catalogo.html">Catálogo</a>
+  <a href="cotizacion.html">Cotización</a>
+  <a href="contacto.html">Contacto</a>
+</div>
+
+<div class="page-header" id="main-content">
+  <div class="section-label">Cotización</div>
+  <h1 class="section-title">Tu lista de productos.</h1>
+  <p class="section-sub">Revisa las cantidades y envía la cotización directo por WhatsApp. Te respondemos en minutos.</p>
+</div>
+
+<div class="cotizacion-page">
+  <div class="wa-form" id="wa-form-wrap">
+    <h2 style="font-size:1.2rem;font-weight:700;margin-bottom:1.5rem;">Solicitar cotización por WhatsApp</h2>
+
+    <!-- CART ITEMS -->
+    <div class="cart-items-section" id="cart-items-section">
+      <h3>Catálogos seleccionados</h3>
+      <div class="cart-items-list"></div>
+      <p class="cart-empty-msg">Aún no agregaste ningún catálogo. <a href="catalogo.html" style="color:var(--gold)">Explorar catálogo →</a></p>
+      <button class="cart-clear-btn" style="display:none">Limpiar selección</button>
+    </div>
+
+    <form id="wa-form">
+      <div class="form-group">
+        <label for="nombre">Nombre *</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Dr(a). Juan Pérez" required/>
+      </div>
+      <div class="form-group">
+        <label for="clinica">Clínica</label>
+        <input type="text" id="clinica" name="clinica" placeholder="Clínica Dental Ejemplo"/>
+      </div>
+      <div class="form-group">
+        <label for="ciudad">Zona o ciudad *</label>
+        <input type="text" id="ciudad" name="ciudad" placeholder="Tlajomulco, Zapopan, Guadalajara..." required/>
+      </div>
+      <div class="form-group">
+        <label for="productos">Notas o productos adicionales</label>
+        <textarea id="productos" name="productos" placeholder="Ej:&#10;- Micro aplicadores finos x 2 cajas&#10;- Guantes nitrilo talla M x 1 caja&#10;- Cualquier otro detalle..."></textarea>
+        <p class="form-note">Puedes agregar detalles, cantidades o cualquier producto que no esté en el catálogo seleccionado.</p>
+      </div>
+      <button type="submit" class="btn btn-whatsapp" style="width:100%;justify-content:center;padding:1rem;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L0 24l6.335-1.617A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.846 0-3.574-.5-5.065-1.371l-.363-.215-3.763.96.997-3.668-.236-.376A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Enviar cotización por WhatsApp
+      </button>
+    </form>
+  </div>
+
+  <div style="margin-top:2rem;padding:1.5rem;border:1px solid var(--border);border-radius:var(--radius);">
+    <p style="font-size:0.875rem;color:var(--gray);margin-bottom:1rem;">¿Prefieres contactarnos directamente?</p>
+    <a href="https://wa.me/523311098409?text=Hola%2C%20me%20gustar%C3%ADa%20pedir%20informaci%C3%B3n%20sobre%20sus%20productos." target="_blank" class="btn btn-dark" style="width:100%;justify-content:center;">
+      Abrir WhatsApp directo
+    </a>
+    <p style="font-size:0.78rem;color:var(--gray);margin-top:1rem;text-align:center;">Lunes a sábado · 9:00 a 19:00 hrs · Respuesta en minutos</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo">
+        <img src="logo.png" alt="ProDent Supply"/>
+      </a>
+      <p>Distribuidor de materiales dentales para clínicas en Tlajomulco y Zona Metropolitana de Guadalajara.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="cotizacion.html">Cotización</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <div class="footer-contact-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Tlajomulco, Jalisco
+      </div>
+      <div class="footer-contact-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        oliverpelayo98@gmail.com
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 ProDent Supply. Todos los derechos reservados.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

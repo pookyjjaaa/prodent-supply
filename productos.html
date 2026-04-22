@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productos · ProDent Supply</title>
+  <meta name="description" content="Catálogo de productos dentales con especificaciones completas. Desechables, fresas, ortodoncia, instrumental y más."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Productos · ProDent Supply"/>
+  <meta property="og:description" content="Catálogo de productos dentales con especificaciones completas."/>
+  <meta property="og:image" content="logo.png"/>
+  <link rel="icon" href="logo.png" type="image/png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css?v=7"/>
+  <style>
+    /* ── Product store extras ── */
+    .products-page { padding: 0 2rem 120px; max-width: 1200px; margin: 0 auto; }
+
+    .store-tabs {
+      display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;
+    }
+
+    .products-store-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+    }
+
+    .store-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: box-shadow 0.2s, transform 0.2s;
+      background: var(--white);
+    }
+    .store-card:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+
+    .store-card-img {
+      aspect-ratio: 4/3;
+      background: var(--light-bg);
+      overflow: hidden;
+      position: relative;
+      cursor: zoom-in;
+    }
+    .store-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s; }
+    .store-card:hover .store-card-img img { transform: scale(1.05); }
+
+    .store-cat-badge {
+      position: absolute; top: 10px; left: 10px;
+      background: var(--dark); color: var(--white);
+      font-size: 0.6rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 0.2rem 0.55rem;
+      border-radius: 4px;
+    }
+
+    .store-card-body { padding: 1rem 1rem 1.1rem; flex: 1; display: flex; flex-direction: column; gap: 0.3rem; }
+    .store-card-code { font-size: 0.68rem; color: var(--gray); letter-spacing: 0.06em; font-weight: 500; }
+    .store-card-name { font-size: 0.92rem; font-weight: 700; line-height: 1.3; }
+    .store-card-desc { font-size: 0.78rem; color: var(--gray); line-height: 1.5; flex: 1; }
+    .store-card-unit { font-size: 0.72rem; color: var(--gray); margin-top: 0.15rem; }
+
+    /* Specs toggle */
+    .specs-toggle {
+      background: none; border: none; font-family: inherit;
+      font-size: 0.75rem; color: var(--gold); cursor: pointer;
+      padding: 0; display: flex; align-items: center; gap: 0.3rem;
+      margin-top: 0.35rem; font-weight: 600;
+    }
+    .specs-toggle svg { transition: transform 0.2s; flex-shrink: 0; }
+    .specs-toggle.open svg { transform: rotate(180deg); }
+
+    .specs-list {
+      display: none; list-style: none; margin-top: 0.5rem;
+      border-top: 1px solid var(--border); padding-top: 0.5rem;
+    }
+    .specs-list.open { display: block; }
+    .specs-list li {
+      font-size: 0.75rem; color: var(--gray);
+      padding: 0.2rem 0; display: flex; gap: 0.4rem; align-items: flex-start;
+    }
+    .specs-list li::before { content: '·'; color: var(--gold); font-weight: 900; flex-shrink: 0; }
+
+    /* Card footer */
+    .store-card-footer {
+      padding: 0 1rem 1rem;
+      display: flex; align-items: center; gap: 0.5rem;
+    }
+    .qty-controls {
+      display: flex; align-items: center; gap: 0.3rem;
+      border: 1.5px solid var(--border); border-radius: 8px;
+      overflow: hidden;
+    }
+    .qty-controls .qty-btn {
+      background: none; border: none; width: 30px; height: 32px;
+      font-size: 1rem; cursor: pointer; font-family: inherit;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.15s;
+    }
+    .qty-controls .qty-btn:hover { background: var(--light-bg); }
+    .qty-controls .qty-val {
+      font-size: 0.88rem; font-weight: 700; min-width: 24px; text-align: center;
+    }
+    .btn-add-product {
+      flex: 1; padding: 0.5rem 0.75rem;
+      background: var(--dark); color: var(--white);
+      border: none; border-radius: 8px; font-family: inherit;
+      font-size: 0.78rem; font-weight: 600; cursor: pointer;
+      transition: background 0.2s; text-align: center;
+    }
+    .btn-add-product:hover { background: var(--gold); color: var(--dark); }
+    .btn-add-product.in-cart { background: var(--gold); color: var(--dark); }
+
+    /* No results */
+    .no-results { text-align: center; padding: 4rem 2rem; color: var(--gray); }
+    .no-results strong { display: block; font-size: 1.1rem; color: var(--dark); margin-bottom: 0.5rem; }
+
+    @media (max-width: 900px) { .products-store-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 640px) {
+      .products-store-grid { grid-template-columns: repeat(2, 1fr); gap: 0.75rem; }
+      .products-page { padding: 0 1rem 120px; }
+    }
+  </style>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="logo.png" alt="ProDent Supply"/>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="productos.html" class="active">Productos</a></li>
+    <li><a href="catalogo.html">Catálogos</a></li>
+    <li><a href="cotizacion.html">Cotización</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <a href="cotizacion.html" class="btn-cotizar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+    Cotizar
+  </a>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Inicio</a>
+  <a href="productos.html">Productos</a>
+  <a href="catalogo.html">Catálogos</a>
+  <a href="cotizacion.html">Cotización</a>
+  <a href="contacto.html">Contacto</a>
+</div>
+
+<div class="page-header" id="main-content">
+  <div class="section-label">Productos</div>
+  <h1 class="section-title">Insumos dentales para tu clínica.</h1>
+  <p class="section-sub">Agrega los productos que necesitas y envía tu cotización directamente por WhatsApp. Respondemos en minutos.</p>
+</div>
+
+<div class="products-page">
+
+  <!-- SEARCH -->
+  <div class="search-bar" style="margin-bottom:1.25rem">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="store-search" placeholder="Buscar producto, código o descripción..."/>
+  </div>
+
+  <!-- CATEGORY TABS -->
+  <div class="store-tabs cat-tabs" id="store-tabs">
+    <button class="cat-tab active" data-filter="all">Todos</button>
+    <button class="cat-tab" data-filter="desechables">Desechables</button>
+    <button class="cat-tab" data-filter="fresas">Fresas</button>
+    <button class="cat-tab" data-filter="ortodoncia">Ortodoncia HD</button>
+    <button class="cat-tab" data-filter="instrumental">Instrumental</button>
+    <button class="cat-tab" data-filter="primadent">Prime Dent</button>
+    <button class="cat-tab" data-filter="americaneagle">American Eagle</button>
+    <button class="cat-tab" data-filter="hufriedygroup">Hu-Friedy</button>
+    <button class="cat-tab" data-filter="medesy">Medesy</button>
+    <button class="cat-tab" data-filter="vamasa">Vamasa</button>
+    <button class="cat-tab" data-filter="borgatta">Borgatta</button>
+    <button class="cat-tab" data-filter="balsas">Balsas Dental</button>
+    <button class="cat-tab" data-filter="elasticos">Elásticos A.O.</button>
+    <button class="cat-tab" data-filter="lineablack">Línea Black</button>
+    <button class="cat-tab" data-filter="articulador">Articulador Bioart</button>
+    <button class="cat-tab" data-filter="autoclave">Autoclave Gnatus</button>
+    <button class="cat-tab" data-filter="primervg">Prime RVG</button>
+  </div>
+
+  <!-- PRODUCT GRID -->
+  <div class="products-store-grid" id="products-grid"></div>
+  <div class="no-results" id="no-results" style="display:none">
+    <strong>No encontramos productos</strong>
+    Intenta otra búsqueda o explora las categorías.
+  </div>
+
+</div><!-- /products-page -->
+
+<!-- CART BAR -->
+<div class="cart-bar" id="cart-bar">
+  <span class="cart-bar-icon" id="cart-count">0</span>
+  <span class="cart-bar-label">productos seleccionados</span>
+  <a href="cotizacion.html" class="cart-bar-cta">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+    Ver cotización
+  </a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="nav-logo" style="margin-bottom:0.5rem">
+        <img src="logo.png" alt="ProDent Supply"/>
+      </a>
+      <p>Distribuidor de materiales dentales para clínicas en Tlajomulco y Zona Metropolitana de Guadalajara.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="catalogo.html">Catálogos PDF</a></li>
+        <li><a href="cotizacion.html">Cotización</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <div class="footer-contact-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Tlajomulco, Jalisco
+      </div>
+      <div class="footer-contact-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.533 5.858L0 24l6.335-1.617A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.846 0-3.574-.5-5.065-1.371l-.363-.215-3.763.96.997-3.668-.236-.376A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        <a href="https://wa.me/523311098409" target="_blank">WhatsApp</a>
+      </div>
+      <div class="footer-contact-item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        oliverpelayo98@gmail.com
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 ProDent Supply. Todos los derechos reservados.</span>
+  </div>
+</footer>
+
+<!-- LIGHTBOX (catalog page zoom) -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista de producto">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar">✕</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="Página del catálogo"/>
+</div>
+
+<script src="js/products-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+// ── Product store logic ──────────────────────────────
+let activeFilter = 'all';
+let searchQuery = '';
+
+function renderProducts() {
+  const grid = document.getElementById('products-grid');
+  const noResults = document.getElementById('no-results');
+  const q = searchQuery.toLowerCase();
+
+  const filtered = CATALOG_PRODUCTS.filter(p => {
+    const matchCat = activeFilter === 'all' || p.cat === activeFilter;
+    const matchQ = !q || p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q);
+    return matchCat && matchQ;
+  });
+
+  grid.innerHTML = '';
+  noResults.style.display = filtered.length === 0 ? '' : 'none';
+
+  const cart = getCart();
+  filtered.forEach(p => {
+    const inCart = cart.some(i => i.slug === p.id);
+    const priceHtml = `<div class="store-card-unit">Presentación: ${p.unit}</div>`;
+    const catLabel = CAT_LABELS[p.cat] || p.cat;
+
+    const specsHtml = p.specs.map(s => `<li>${s}</li>`).join('');
+
+    const card = document.createElement('div');
+    card.className = 'store-card';
+    card.dataset.id = p.id;
+    card.innerHTML = `
+      <div class="store-card-img">
+        <img src="${p.img}" alt="${p.name}" loading="lazy"/>
+        <span class="store-cat-badge">${catLabel}</span>
+      </div>
+      <div class="store-card-body">
+        <div class="store-card-code">${p.code}</div>
+        <div class="store-card-name">${p.name}</div>
+        <div class="store-card-desc">${p.desc}</div>
+        ${priceHtml}
+        <button class="specs-toggle" aria-expanded="false">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          Ver especificaciones
+        </button>
+        <ul class="specs-list">${specsHtml}</ul>
+      </div>
+      <div class="store-card-footer">
+        <div class="qty-controls">
+          <button class="qty-btn qty-minus" aria-label="Reducir">−</button>
+          <span class="qty-val">1</span>
+          <button class="qty-btn qty-plus" aria-label="Aumentar">+</button>
+        </div>
+        <button class="btn-add-product ${inCart ? 'in-cart' : ''}" data-id="${p.id}" data-name="${p.name}">
+          ${inCart ? '✓ Agregado' : '+ Agregar'}
+        </button>
+      </div>`;
+
+    // Specs toggle
+    const specsBtn = card.querySelector('.specs-toggle');
+    const specsList = card.querySelector('.specs-list');
+    specsBtn.addEventListener('click', () => {
+      const open = specsList.classList.toggle('open');
+      specsBtn.classList.toggle('open', open);
+      specsBtn.setAttribute('aria-expanded', open);
+      specsBtn.querySelector('span') && (specsBtn.querySelector('span').textContent = open ? 'Ocultar especificaciones' : 'Ver especificaciones');
+      // update text node
+      specsBtn.childNodes.forEach(n => { if (n.nodeType === 3 && n.textContent.trim()) n.textContent = open ? ' Ocultar especificaciones' : ' Ver especificaciones'; });
+    });
+
+    // Image zoom
+    card.querySelector('.store-card-img').addEventListener('click', () => {
+      const lb = document.getElementById('lightbox');
+      const lbImg = document.getElementById('lightbox-img');
+      lbImg.src = p.img;
+      lbImg.alt = p.name;
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+
+    // Quantity
+    let qty = 1;
+    const qVal = card.querySelector('.qty-val');
+    card.querySelector('.qty-minus').addEventListener('click', () => { if (qty > 1) { qty--; qVal.textContent = qty; } });
+    card.querySelector('.qty-plus').addEventListener('click', () => { qty++; qVal.textContent = qty; });
+
+    // Add to cart
+    const addBtn = card.querySelector('.btn-add-product');
+    addBtn.addEventListener('click', () => {
+      const alreadyIn = getCart().some(i => i.slug === p.id);
+      if (alreadyIn) {
+        removeFromCart(p.id);
+        addBtn.classList.remove('in-cart');
+        addBtn.textContent = '+ Agregar';
+      } else {
+        addToCart(p.id, p.name, qty);
+        addBtn.classList.add('in-cart');
+        addBtn.textContent = `✓ Agregado (${qty})`;
+      }
+      updateCartBar();
+      updateAddButtons();
+    });
+
+    grid.appendChild(card);
+  });
+}
+
+// Category filter
+document.querySelectorAll('#store-tabs .cat-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('#store-tabs .cat-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    renderProducts();
+  });
+});
+
+// Search
+document.getElementById('store-search').addEventListener('input', e => {
+  searchQuery = e.target.value.trim();
+  renderProducts();
+});
+
+// Auto-apply category from URL ?cat=
+const urlCat = new URLSearchParams(location.search).get('cat');
+if (urlCat) {
+  const tab = document.querySelector(`#store-tabs .cat-tab[data-filter="${urlCat}"]`);
+  if (tab) {
+    document.querySelectorAll('#store-tabs .cat-tab').forEach(b => b.classList.remove('active'));
+    tab.classList.add('active');
+    activeFilter = urlCat;
+    tab.scrollIntoView({ block: 'nearest', inline: 'center' });
+  }
+}
+
+// Initial render
+renderProducts();
+</script>
+</body>
+</html>
