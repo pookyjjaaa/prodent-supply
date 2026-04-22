@@ -257,14 +257,8 @@
     <button class="brand-tab" data-brand="primervg">Prime RVG</button>
   </div>
 
-  <!-- SUB-CATEGORY TABS (Level 2 — only Ortho Premium) -->
-  <div class="subcat-tabs" id="subcat-tabs" style="display:none">
-    <button class="subcat-tab active" data-subcat="all">Todos</button>
-    <button class="subcat-tab" data-subcat="desechables">Desechables</button>
-    <button class="subcat-tab" data-subcat="instrumental">Instrumental</button>
-    <button class="subcat-tab" data-subcat="fresas">Fresas</button>
-    <button class="subcat-tab" data-subcat="ortodoncia">Ortodoncia</button>
-  </div>
+  <!-- SUB-CATEGORY TABS (Level 2 — built dynamically by JS) -->
+  <div class="subcat-tabs" id="subcat-tabs" style="display:none"></div>
 
   <!-- PRODUCT GRID -->
   <div class="products-store-grid" id="products-grid"></div>
@@ -330,8 +324,8 @@
   <img class="lightbox-img" id="lightbox-img" src="" alt="Página del catálogo"/>
 </div>
 
-<script src="js/products-data.js"></script>
-<script src="js/main.js"></script>
+<script src="js/products-data.js?v=50"></script>
+<script src="js/main.js?v=50"></script>
 <script>
 // ── Product store logic ──────────────────────────────
 
@@ -352,18 +346,51 @@ const BRAND_LABELS = {
   primervg:     'Prime RVG'
 };
 
-// Brands that have multiple sub-categories and show the 2nd-level tabs
-const MULTI_CAT_BRANDS = ['orthopremium'];
-
 let activeBrand  = 'all';
 let activeSubcat = 'all';
 let searchQuery  = '';
 
-function getBadgeLabel(p) {
-  // For multi-cat brands show the sub-category; for single-brand categories show the brand
-  if (MULTI_CAT_BRANDS.includes(p.brand)) {
-    return CAT_LABELS[p.cat] || p.cat;
+// Returns unique categories for a given brand (from actual data)
+function getBrandCats(brand) {
+  const seen = new Set();
+  CATALOG_PRODUCTS.forEach(p => { if (p.brand === brand) seen.add(p.cat); });
+  return [...seen];
+}
+
+// Build Level-2 sub-tabs dynamically for the selected brand
+function buildSubcatTabs(brand) {
+  const subcatEl = document.getElementById('subcat-tabs');
+  const cats = getBrandCats(brand);
+
+  if (cats.length <= 1) {
+    subcatEl.style.display = 'none';
+    activeSubcat = 'all';
+    return;
   }
+
+  subcatEl.innerHTML = '';
+  ['all', ...cats].forEach((cat, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'subcat-tab' + (i === 0 ? ' active' : '');
+    btn.dataset.subcat = cat;
+    btn.textContent = cat === 'all' ? 'Todos' : (CAT_LABELS[cat] || cat);
+    btn.addEventListener('click', () => {
+      subcatEl.querySelectorAll('.subcat-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeSubcat = cat;
+      renderProducts();
+    });
+    subcatEl.appendChild(btn);
+  });
+
+  activeSubcat = 'all';
+  subcatEl.style.display = '';
+}
+
+function getBadgeLabel(p) {
+  // Show sub-category label when the brand has multiple categories
+  const cats = getBrandCats(p.brand);
+  if (cats.length > 1) return CAT_LABELS[p.cat] || p.cat;
   return BRAND_LABELS[p.brand] || p.brand;
 }
 
@@ -371,10 +398,12 @@ function renderProducts() {
   const grid      = document.getElementById('products-grid');
   const noResults = document.getElementById('no-results');
   const q         = searchQuery.toLowerCase();
+  const brandCats = activeBrand !== 'all' ? getBrandCats(activeBrand) : [];
+  const isMultiCat = brandCats.length > 1;
 
   const filtered = CATALOG_PRODUCTS.filter(p => {
     const matchBrand  = activeBrand === 'all' || p.brand === activeBrand;
-    const matchSubcat = !MULTI_CAT_BRANDS.includes(activeBrand) || activeSubcat === 'all' || p.cat === activeSubcat;
+    const matchSubcat = !isMultiCat || activeSubcat === 'all' || p.cat === activeSubcat;
     const matchQ      = !q || p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q) || (p.desc && p.desc.toLowerCase().includes(q));
     return matchBrand && matchSubcat && matchQ;
   });
@@ -468,27 +497,7 @@ document.querySelectorAll('#brand-tabs .brand-tab').forEach(btn => {
     document.querySelectorAll('#brand-tabs .brand-tab').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     activeBrand = btn.dataset.brand;
-
-    const subcatEl = document.getElementById('subcat-tabs');
-    if (MULTI_CAT_BRANDS.includes(activeBrand)) {
-      subcatEl.style.display = '';
-    } else {
-      subcatEl.style.display = 'none';
-      activeSubcat = 'all';
-      document.querySelectorAll('#subcat-tabs .subcat-tab').forEach(b => b.classList.remove('active'));
-      document.querySelector('#subcat-tabs .subcat-tab[data-subcat="all"]').classList.add('active');
-    }
-
-    renderProducts();
-  });
-});
-
-// ── Sub-category tab clicks ──
-document.querySelectorAll('#subcat-tabs .subcat-tab').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('#subcat-tabs .subcat-tab').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    activeSubcat = btn.dataset.subcat;
+    buildSubcatTabs(activeBrand);
     renderProducts();
   });
 });
@@ -510,15 +519,13 @@ if (urlBrand) {
     tab.classList.add('active');
     activeBrand = urlBrand;
     tab.scrollIntoView({ block: 'nearest', inline: 'center' });
-    if (MULTI_CAT_BRANDS.includes(activeBrand)) {
-      document.getElementById('subcat-tabs').style.display = '';
-      if (urlCat) {
-        const subTab = document.querySelector(`#subcat-tabs .subcat-tab[data-subcat="${urlCat}"]`);
-        if (subTab) {
-          document.querySelectorAll('#subcat-tabs .subcat-tab').forEach(b => b.classList.remove('active'));
-          subTab.classList.add('active');
-          activeSubcat = urlCat;
-        }
+    buildSubcatTabs(activeBrand);
+    if (urlCat) {
+      const subTab = document.querySelector(`#subcat-tabs .subcat-tab[data-subcat="${urlCat}"]`);
+      if (subTab) {
+        document.querySelectorAll('#subcat-tabs .subcat-tab').forEach(b => b.classList.remove('active'));
+        subTab.classList.add('active');
+        activeSubcat = urlCat;
       }
     }
   }
