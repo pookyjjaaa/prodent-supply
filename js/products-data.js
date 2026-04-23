@@ -268,53 +268,7 @@ const CATALOG_PRODUCTS = [
     desc:'Eyectores de saliva desechables. Colores surtidos (azul y blanco). 100 pzas por bolsa.',
     specs:['Colores: Azul y blanco','Desechable, uso único','Conexión estándar a eyector','Flexible y ergonómico'] },
 
-  // ══════════════════════════════════════════
-  // FRESAS DE DIAMANTE  (Ortho Premium)
-  // ══════════════════════════════════════════
-  { id:'fresa-BR-M', code:'BR series · M', cat:'fresas', brand:'orthopremium', name:'Fresa Taper Round – Grano Medio',
-    unit:'pieza', img:'https://eagle-dental-burs.com/cdn/shop/files/Round_End_Tapered_Diamond_Burs_35b3996a-e301-46a4-8113-e026800146aa.png?v=1715073621',
-    desc:'Fresa cónica redondeada de grano medio (azul). Tallado y preparación de cavidades con precisión.',
-    specs:['Forma: Taper Round (Cónica redondeada)','Grano: Medio (M) · Azul','Shank: FG estándar','Reg. Sanitario: 0597E2024 SSA','Modelos: BR-23, BR-25, BR-26, BR-28, BR-31, BR-40, BR-41, BR-45, BR-46, BR-49'] },
 
-  { id:'fresa-BR-largo', code:'BR-L series · M', cat:'fresas', brand:'orthopremium', name:'Fresa Taper Round Largo – Grano Medio',
-    unit:'pieza', img:'imagenes/products/fresa-BR-largo.jpg',
-    desc:'Fresa cónica redondeada de cabeza larga. Acceso a zonas de difícil visibilidad.',
-    specs:['Forma: Taper Round Largo','Grano: Medio (M)','Modelos: BR-L31, BR-L40, BR-L41, BR-L46','Uso: Preparaciones profundas y de acceso reducido'] },
-
-  { id:'fresa-BC', code:'BC series · M', cat:'fresas', brand:'orthopremium', name:'Fresa Ball Convexity – Grano Medio',
-    unit:'pieza', img:'https://www.mrbur.com/cdn/shop/files/Round-Diamond-Bur-10-pcs.png?v=1744007018',
-    desc:'Fresa de bola convexa de grano medio. Ideal para preparaciones oclusales y acabados de bordes.',
-    specs:['Forma: Ball Convexity (Bola convexa)','Grano: Medio (M)','Modelos: BC-31, BC-32, BC-42, BC-43','Uso: Preparaciones oclusales'] },
-
-  { id:'fresa-SI', code:'SI series', cat:'fresas', brand:'orthopremium', name:'Fresa Straight Ogival – Medio/Fino',
-    unit:'pieza', img:'imagenes/products/fresa-SI.jpg',
-    desc:'Fresa recta ogival para acabados y preparaciones con ángulo de convergencia definido.',
-    specs:['Forma: Straight Ogival (Recta ogival)','Granos: M y F','Modelos: SI-45, SI-46, SI-47, SI-48','Uso: Acabados y preparaciones en ángulo'] },
-
-  { id:'fresa-SF', code:'SF series · M', cat:'fresas', brand:'orthopremium', name:'Fresa Straight Flat – Grano Medio',
-    unit:'pieza', img:'imagenes/products/fresa-SF.jpg',
-    desc:'Fresa recta plana para desgaste plano y terminados de superficies.',
-    specs:['Forma: Straight Flat (Recta plana)','Grano: Medio (M)','Modelos: SF-11, SF-12, SF-13, SF-15, SF-21, SF-31, SF-41, SF-42','Uso: Desgaste plano y terminados'] },
-
-  { id:'fresa-SR', code:'SR series', cat:'fresas', brand:'orthopremium', name:'Fresa Straight Round – Fino',
-    unit:'pieza', img:'imagenes/products/fresa-SR.jpg',
-    desc:'Fresa recta de cabeza redondeada en grano fino. Para pulido y acabado de restauraciones.',
-    specs:['Forma: Straight Round','Grano: Fino (F)','Modelos: SR-11, SR-12, SR-13, SR-21, SR-31, SR-41, SR-42','Uso: Acabado y pulido'] },
-
-  { id:'fresa-TC', code:'TC series', cat:'fresas', brand:'orthopremium', name:'Fresa Taper Cone – Fino / Extra Fino',
-    unit:'pieza', img:'imagenes/products/fresa-TC.jpg',
-    desc:'Fresa cónica (taper cone) en grano fino y extra fino. Terminados precisos y acabado final.',
-    specs:['Forma: Taper Cone (Cónica)','Granos: F (Fino) y EX (Extra fino)','Modelos: TC-21, TC-26, TC-27, TC-28','Uso: Terminados precisos y acabado final'] },
-
-  { id:'fresa-WR', code:'WR series · M', cat:'fresas', brand:'orthopremium', name:'Fresa Wheel Round – Grano Medio',
-    unit:'pieza', img:'imagenes/products/fresa-WR.jpg',
-    desc:'Fresa rueda de carro para tallados, surcos de orientación y biselados.',
-    specs:['Forma: Wheel Round (Rueda de carro)','Grano: Medio (M)','Modelos: WR-13, WR-44','Uso: Surcos de orientación y biselados'] },
-
-  { id:'fresa-EX', code:'EX/DI series', cat:'fresas', brand:'orthopremium', name:'Fresa Special Shape / Double Inverted',
-    unit:'pieza', img:'imagenes/products/fresa-EX.jpg',
-    desc:'Fresas de formas especiales y cono invertido doble para contornos y retenciones en resina.',
-    specs:['Formas: Special Shape (EX) y Double Inverted Cone (DI)','Modelos: EX-11, EX-12, EX-18, DI-41, DI-42','Uso: Contornos, retenciones y acceso intracanal'] },
 
   // ══════════════════════════════════════════
   // ORTODONCIA HD  (Ortho Premium / Eclipse)
