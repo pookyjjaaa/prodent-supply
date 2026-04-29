@@ -93,10 +93,11 @@ function saveCart(items) { localStorage.setItem(CART_KEY, JSON.stringify(items))
 
 function cartFind(slug) { return getCart().find(i => i.slug === slug); }
 
-function addToCart(slug, label, qty = 1) {
+function addToCart(slug, label, qty = 1, code = '', brand = '') {
   const cart = getCart();
   const existing = cart.find(i => i.slug === slug);
-  if (existing) { existing.qty = qty; } else { cart.push({ slug, label, qty }); }
+  if (existing) { existing.qty = qty; existing.code = code; existing.brand = brand; }
+  else { cart.push({ slug, label, qty, code, brand }); }
   saveCart(cart);
 }
 function removeFromCart(slug) { saveCart(getCart().filter(i => i.slug !== slug)); }
@@ -222,7 +223,12 @@ if (waForm) {
 
     let productosTxt = '';
     if (cart.length > 0) {
-      productosTxt += cart.map(i => `• ${i.label}${i.qty > 1 ? ` (x${i.qty})` : ''}`).join('\n');
+      productosTxt += cart.map(i => {
+        const code  = i.code  ? `[${i.code}] `  : '';
+        const brand = i.brand ? ` · ${i.brand}` : '';
+        const qty   = i.qty > 1 ? ` (x${i.qty})` : '';
+        return `• ${code}${i.label}${brand}${qty}`;
+      }).join('\n');
     }
     if (notas) {
       productosTxt += (productosTxt ? '\n\n' : '') + '*Notas adicionales:*\n' + notas;

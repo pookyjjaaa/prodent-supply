@@ -190,11 +190,6 @@ const CATALOG_PRODUCTS = [
     desc:'Bloque de mordida en espuma de polietileno para apertura bucal durante procedimientos. Tres tallas.',
     specs:['Material: Espuma de polietileno','Colores: Surtidos','Tallas: CH, M, GDE','Uso: Apertura bucal en procedimientos extensos'] },
 
-  { id:'AI038', code:'AI038', cat:'desechables', brand:'orthopremium', name:'Puntas para Jeringa Triple Colores',
-    unit:'bolsa 100 pz', img:'imagenes/products/AI038.jpg',
-    desc:'Puntas de plástico de colores surtidos para jeringa triple aire-agua. Presentación bolsa con 100 piezas. Registro COFEPRIS 2X3300C/071845.',
-    specs:['Contenido: 100 piezas','Colores: Surtidos','Código interno: SYQ01','Uso: Jeringa triple estándar','Desechable, uso único','Reg. COFEPRIS: 2X3300C/071845'] },
-
   { id:'AI039', code:'AI039', cat:'instrumental', brand:'orthopremium', name:'Jeringa Triple de Agua y Aire Metálica',
     unit:'pieza', img:'imagenes/products/AI039.jpg',
     desc:'Jeringa triple metálica de acero inoxidable para aire, agua y niebla. Alta durabilidad.',

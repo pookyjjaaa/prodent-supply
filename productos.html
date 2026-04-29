@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Productos · ProDent Supply</title>
   <meta name="description" content="Catálogo de productos dentales con especificaciones completas. Desechables, fresas, ortodoncia, instrumental y más."/>
+  <meta name="referrer" content="no-referrer"/>
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="Productos · ProDent Supply"/>
   <meta property="og:description" content="Catálogo de productos dentales con especificaciones completas."/>
@@ -12,7 +16,7 @@
   <link rel="icon" href="logo.png" type="image/png"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="css/styles.css?v=9"/>
+  <link rel="stylesheet" href="css/styles.css?v=10"/>
   <style>
     /* ── Product store extras ── */
     .products-page { padding: 0 2rem 120px; max-width: 1200px; margin: 0 auto; }
@@ -251,7 +255,7 @@
   <div class="brand-tabs" id="brand-tabs">
     <button class="brand-tab active" data-brand="all">Todos</button>
     <button class="brand-tab" data-brand="orthopremium">Ortho Premium</button>
-    <button class="brand-tab" data-brand="americaneagle">American Eagle</button>
+    <button class="brand-tab" data-brand="primedent">Prime Dent</button>
     <button class="brand-tab" data-brand="hufriedygroup">Hu-Friedy</button>
     <button class="brand-tab" data-brand="medesy">Medesy</button>
     <button class="brand-tab" data-brand="vamasa">Vamasa</button>
@@ -332,15 +336,15 @@
   <img class="lightbox-img" id="lightbox-img" src="" alt="Página del catálogo"/>
 </div>
 
-<script src="js/products-data.js?v=64"></script>
-<script src="js/main.js?v=53"></script>
+<script src="js/products-data.js?v=78"></script>
+<script src="js/main.js?v=54"></script>
 <script>
 // ── Product store logic ──────────────────────────────
 
 const BRAND_LABELS = {
   all:          'Todos',
   orthopremium: 'Ortho Premium',
-  americaneagle:'American Eagle',
+  primedent:    'Prime Dent',
   hufriedygroup:'Hu-Friedy',
   medesy:       'Medesy',
   vamasa:       'Vamasa',
@@ -402,19 +406,73 @@ function getBadgeLabel(p) {
   return BRAND_LABELS[p.brand] || p.brand;
 }
 
+// Normaliza texto: minusculas + sin acentos
+function norm(str) {
+  return (str || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+// Busqueda por palabras: todas las palabras del query deben aparecer en algún campo
+function matchesQuery(p, words) {
+  const brandLabel = norm(BRAND_LABELS[p.brand] || p.brand);
+  const haystack   = [
+    norm(p.name), norm(p.code), norm(p.desc),
+    brandLabel,
+    ...p.specs.map(s => norm(s))
+  ].join(' ');
+  return words.every(w => haystack.includes(w));
+}
+
+// Prioridad base por categoría (materiales clínicos primero)
+const CAT_PRIORITY = {
+  primadent:   80,
+  endodoncia:  70,
+  materiales:  65,
+  periodoncia: 60,
+  cirugia:     60,
+  desechables: 55,
+  ortodoncia:  50,
+  instrumental:30,
+  radiologia:  30,
+  equipos:     20,
+};
+
+// Calcula relevancia: match en nombre > código > desc > specs; desempate por categoría
+function scoreProduct(p, words) {
+  const nName      = norm(p.name);
+  const nCode      = norm(p.code);
+  const nDesc      = norm(p.desc);
+  const nSpecs     = p.specs.map(s => norm(s)).join(' ');
+  const brandLabel = norm(BRAND_LABELS[p.brand] || p.brand);
+  let score = 0;
+  for (const w of words) {
+    if (nName.includes(w))      score += 1000;
+    if (nCode.includes(w))      score +=  500;
+    if (brandLabel.includes(w)) score +=  200;
+    if (nDesc.includes(w))      score +=  100;
+    if (nSpecs.includes(w))     score +=   10;
+  }
+  score += (CAT_PRIORITY[p.cat] || 40);
+  return score;
+}
+
 function renderProducts() {
   const grid      = document.getElementById('products-grid');
   const noResults = document.getElementById('no-results');
-  const q         = searchQuery.toLowerCase();
+  const raw       = searchQuery.trim();
+  const words     = norm(raw).split(/\s+/).filter(Boolean); // palabras individuales normalizadas
   const brandCats = activeBrand !== 'all' ? getBrandCats(activeBrand) : [];
   const isMultiCat = brandCats.length > 1;
+  const searchActive = words.length > 0;
 
   const filtered = CATALOG_PRODUCTS.filter(p => {
-    const matchBrand  = activeBrand === 'all' || p.brand === activeBrand;
-    const matchSubcat = !isMultiCat || activeSubcat === 'all' || p.cat === activeSubcat;
-    const matchQ      = !q || p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q) || (p.desc && p.desc.toLowerCase().includes(q));
-    return matchBrand && matchSubcat && matchQ;
+    const matchBrand  = searchActive || activeBrand === 'all' || p.brand === activeBrand;
+    const matchSubcat = searchActive || !isMultiCat || activeSubcat === 'all' || p.cat === activeSubcat;
+    if (!searchActive) return matchBrand && matchSubcat;
+    return matchBrand && matchSubcat && matchesQuery(p, words);
   });
+
+  // Ordenar por relevancia cuando hay búsqueda activa
+  if (searchActive) filtered.sort((a, b) => scoreProduct(b, words) - scoreProduct(a, words));
 
   grid.innerHTML = '';
   noResults.style.display = filtered.length === 0 ? '' : 'none';
@@ -488,7 +546,7 @@ function renderProducts() {
         addBtn.classList.remove('in-cart');
         addBtn.textContent = '+ Agregar';
       } else {
-        addToCart(p.id, p.name, qty);
+        addToCart(p.id, p.name, qty, p.code, BRAND_LABELS[p.brand] || p.brand);
         addBtn.classList.add('in-cart');
         addBtn.textContent = `✓ Agregado (${qty})`;
       }
