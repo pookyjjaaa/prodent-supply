@@ -261,37 +261,37 @@ const CATALOG_PRODUCTS = [
   // ORTODONCIA HD  (Ortho Premium / Eclipse)
   // ══════════════════════════════════════════
   { id:'bkt-mbt018-metal', code:'MBT .018 Eclipse', cat:'ortodoncia', brand:'orthopremium', name:'Brackets Metálicos MBT .018 – Eclipse',
-    unit:'set 20 brackets', img:'imagenes/products/bkt-mbt018-metal.jpg',
+    unit:'set 20 brackets', img:'imagenes/products/op-bkt-eclipse-metal.jpg',
     desc:'Brackets metálicos de acero inoxidable con prescripción MBT slot .018". Línea Eclipse. Malla 80 base.',
     specs:['Prescripción: MBT','Slot: .018"','Material: Acero inoxidable','Tecnología: MIM','Malla 80 para máxima adhesión','Posición grabada con láser','Bordes redondeados en slot para mínima fricción'] },
 
   { id:'bkt-mbt022-metal', code:'MBT .022 Eclipse', cat:'ortodoncia', brand:'orthopremium', name:'Brackets Metálicos MBT .022 – Eclipse',
-    unit:'set 20 brackets', img:'imagenes/products/bkt-mbt022-metal.jpg',
+    unit:'set 20 brackets', img:'imagenes/products/op-bkt-eclipse-metal.jpg',
     desc:'Brackets metálicos prescripción MBT slot .022". Alta precisión dimensional y durabilidad.',
     specs:['Prescripción: MBT','Slot: .022"','Material: Acero inoxidable MIM','Malla 80 base','Torque, angulación y rotación precisa','Bordes redondeados'] },
 
   { id:'bkt-roth018-metal', code:'Roth .018 Eclipse', cat:'ortodoncia', brand:'orthopremium', name:'Brackets Metálicos Roth .018 – Eclipse',
-    unit:'set 20 brackets', img:'imagenes/products/bkt-roth018-metal.jpg',
+    unit:'set 20 brackets', img:'imagenes/products/op-bkt-eclipse-metal.jpg',
     desc:'Brackets metálicos prescripción Roth slot .018". Clasificación simplificada, alta calidad.',
     specs:['Prescripción: Roth','Slot: .018"','Material: Acero inoxidable','Malla 80 base','Clasificación simplificada por packaging'] },
 
   { id:'bkt-roth022-metal', code:'Roth .022 Eclipse', cat:'ortodoncia', brand:'orthopremium', name:'Brackets Metálicos Roth .022 – Eclipse',
-    unit:'set 20 brackets', img:'imagenes/products/bkt-roth022-metal.jpg',
+    unit:'set 20 brackets', img:'imagenes/products/op-bkt-eclipse-metal.jpg',
     desc:'Brackets metálicos prescripción Roth slot .022". El sistema más usado en México. Máxima durabilidad.',
     specs:['Prescripción: Roth','Slot: .022"','Material: Acero inoxidable MIM','Malla 80 base','Resistencia superior al desgaste'] },
 
   { id:'bkt-roth022-cer', code:'Roth .022 Cerámico Plus', cat:'ortodoncia', brand:'orthopremium', name:'Brackets Cerámicos Roth .022 – Plus',
-    unit:'set 20 brackets', img:'imagenes/products/bkt-roth022-cer.jpg',
+    unit:'set 20 brackets', img:'imagenes/products/op-bkt-cer-panal-roth.jpg',
     desc:'Brackets cerámicos estéticos prescripción Roth .022". Alta resistencia y discreción total.',
     specs:['Prescripción: Roth','Slot: .022"','Material: Cerámica policristalina','Estética: Sin manchado','Malla metálica para adhesión segura','Torque preciso'] },
 
   { id:'bkt-evo-roth022', code:'Evolution Roth .022', cat:'ortodoncia', brand:'orthopremium', name:'Bracket Autoligado Evolution – Roth .022',
-    unit:'set', img:'imagenes/products/bkt-evo-roth022.jpg',
+    unit:'set', img:'imagenes/products/op-bkt-evolution-auto.jpg',
     desc:'Bracket interactivo de autoligado con tapa NiTi. Roth .022. Tecnología de soldadura láser. Máximo confort.',
     specs:['Tipo: Autoligado interactivo','Prescripción: Roth','Slot: .022"','Tapa: NiTi resistente a deformación','Soldadura láser en base','Acero inoxidable 17-4 con tecnología MIM','Malla 80 base','Reg. Sanitario: 1829C2023 SSA','Diseño de precisión en slot: mínima fricción'] },
 
   { id:'bkt-evo-mbt022', code:'Evolution MBT .022', cat:'ortodoncia', brand:'orthopremium', name:'Bracket Autoligado Evolution – MBT .022',
-    unit:'set', img:'imagenes/products/bkt-evo-mbt022.jpg',
+    unit:'set', img:'imagenes/products/op-bkt-evolution-auto.jpg',
     desc:'Bracket interactivo de autoligado Evolution MBT .022. Eficiencia máxima, menor tiempo de tratamiento.',
     specs:['Tipo: Autoligado interactivo','Prescripción: MBT','Slot: .022"','Tapa: NiTi','Soldadura láser','Acero inox 17-4 MIM','Superficies ultra suaves en slot','Esfera en gancho para máxima retención'] },
 
