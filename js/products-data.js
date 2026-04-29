@@ -1087,7 +1087,7 @@ const CATALOG_PRODUCTS = [
     desc:'Dispensador de pellets de algodón en acero inoxidable. 45×45×50 mm.',
     specs:['Código: 6162','Dimensiones: 45×45×50 mm','Material: Acero inoxidable Medesy','Autoclavable'] },
   { id:'medesy-1017', code:'6100/15', cat:'desechables', brand:'medesy', name:'Eyectores de Saliva Desechables Neutros (100 pzas)',
-    unit:'caja 100 pz', img:'https://ddmolar.com/cdn/shop/products/eyectoresborgatta.jpg?v=1619112742',
+    unit:'caja 100 pz', img:'https://www.medesy.it/site/wp-content/uploads/2023/01/Immagine_variante_prodotto_6100.jpg',
     desc:'Eyectores de saliva desechables de PVC atóxico, neutros/transparentes. Paquete de 100 piezas.',
     specs:['Código: 6100/15','Color: Neutro/Transparente','Presentación: 100 piezas','Material: PVC atóxico','Desechable'] },
   { id:'medesy-1018', code:'6100/15 Blu', cat:'desechables', brand:'medesy', name:'Eyectores de Saliva Desechables Azules (100 pzas)',
