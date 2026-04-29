@@ -8,7 +8,7 @@ const CAT_LABELS = {
   instrumental: 'Instrumental',
   materiales:   'Materiales',
   equipos:      'Equipos',
-  primadent:    'Prime Dent',
+  primadent:    'Prime Dental',
   elasticos:    'Elásticos',
   cirugia:      'Cirugía',
   curetas:      'Curetas',
