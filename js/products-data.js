@@ -295,23 +295,6 @@ const CATALOG_PRODUCTS = [
     desc:'Bracket interactivo de autoligado Evolution MBT .022. Eficiencia máxima, menor tiempo de tratamiento.',
     specs:['Tipo: Autoligado interactivo','Prescripción: MBT','Slot: .022"','Tapa: NiTi','Soldadura láser','Acero inox 17-4 MIM','Superficies ultra suaves en slot','Esfera en gancho para máxima retención'] },
 
-  // ══════════════════════════════════════════
-  // INSTRUMENTAL  (Premium Orthodontics + General)
-  // ══════════════════════════════════════════
-  { id:'inst-pinzas-orto', code:'Pinzas Ortodoncia', cat:'instrumental', brand:'orthopremium', name:'Pinzas para Ortodoncia – Acero Inoxidable',
-    unit:'pieza', img:'imagenes/products/inst-pinzas-orto.jpg',
-    desc:'Amplia línea de pinzas especializadas para procedimientos de ortodoncia. Acero inoxidable quirúrgico.',
-    specs:['Marca: Premium Orthodontics','Material: Acero inoxidable quirúrgico','Tipos: Pinzas de corte, doblado, ligado y alate','Autoclavable','Acabado espejo o satinado','Alta durabilidad y precisión'] },
-
-  { id:'inst-tijeras', code:'Tijeras Dentales', cat:'instrumental', brand:'orthopremium', name:'Tijeras y Portaagujas Dentales',
-    unit:'pieza', img:'imagenes/products/inst-tijeras.jpg',
-    desc:'Tijeras hemostáticas y portaagujas de acero inoxidable. Cierre suave y preciso.',
-    specs:['Material: Acero inoxidable','Tipos: Hemostáticas, portaagujas, tejido blando','Autoclavable','Articulación de alta precisión'] },
-
-  { id:'inst-exploradores', code:'Exploradores y Espejos', cat:'instrumental', brand:'orthopremium', name:'Exploradores y Espejos Dentales',
-    unit:'pieza', img:'imagenes/products/inst-exploradores.jpg',
-    desc:'Instrumentos de exploración y diagnóstico. Espejos, exploradores y sondas de alta calidad.',
-    specs:['Material: Acero inoxidable','Incluye: Espejo #4 y #5, explorador 11/12, sonda periodontal','Mango ergonómico','Autoclavable'] },
 
 
   // ══════════════════════════════════════════
