@@ -26,6 +26,25 @@ const CAT_LABELS = {
 const CATALOG_PRODUCTS = [
 
   // ══════════════════════════════════════════
+  // DESTACADOS
+  // ══════════════════════════════════════════
+  { id:'inst-OP-ced-N21150317L', code:'N21150317L', cat:'ortodoncia', brand:'orthopremium',
+    name:'Cortador Extremo Distal Mangos Largos 14cm',
+    unit:'pieza', img:'imagenes/products/inst-OP-ced-N21150317L.jpg',
+    desc:'Mangos largos 14cm. Insertos de punta acero Immunity-HS. Articulación remachada.',
+    specs:['Código: N21150317L','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
+  { id:'inst-OP-cl-N21150333', code:'N21150333', cat:'ortodoncia', brand:'orthopremium',
+    name:'Cortador de Ligadura y Pin Pico Ancho 15° 12.5cm',
+    unit:'pieza', img:'imagenes/products/inst-OP-cl-N21150333.jpg',
+    desc:'Pico ancho, ángulo 15 grados, 12.5cm. Insertos de punta acero Immunity-HS.',
+    specs:['Código: N21150333','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
+  { id:'inst-OP-pz-N21150376', code:'N21150376', cat:'ortodoncia', brand:'orthopremium',
+    name:'Pinza Weingart Delgada Microangulada 13cm',
+    unit:'pieza', img:'imagenes/products/inst-OP-pz-N21150376.jpg',
+    desc:'Mandíbulas estriadas micro anguladas, 13cm. Articulación remachada. Acero inoxidable.',
+    specs:['Código: N21150376','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
+
+  // ══════════════════════════════════════════
   // DESECHABLES  (Ortho Premium · 48 productos)
   // ══════════════════════════════════════════
   { id:'AI001SF', code:'AI001SF', cat:'desechables', brand:'orthopremium', name:'Micro Aplicador Super Fino',
@@ -307,11 +326,6 @@ const CATALOG_PRODUCTS = [
     unit:'pieza', img:'imagenes/products/inst-OP-ced-N21150317.jpg',
     desc:'Corte universal 12cm. Insertos de punta acero Immunity-HS. Articulación remachada.',
     specs:['Código: N21150317','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
-  { id:'inst-OP-ced-N21150317L', code:'N21150317L', cat:'ortodoncia', brand:'orthopremium',
-    name:'Cortador Extremo Distal Mangos Largos 14cm',
-    unit:'pieza', img:'imagenes/products/inst-OP-ced-N21150317L.jpg',
-    desc:'Mangos largos 14cm. Insertos de punta acero Immunity-HS. Articulación remachada.',
-    specs:['Código: N21150317L','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
   { id:'inst-OP-ced-N21150318', code:'N21150318', cat:'ortodoncia', brand:'orthopremium',
     name:'Cortador Extremo Distal Mango Largo Patrón Delgado 13cm',
     unit:'pieza', img:'imagenes/products/inst-OP-ced-N21150318.jpg',
@@ -414,11 +428,6 @@ const CATALOG_PRODUCTS = [
     unit:'pieza', img:'imagenes/products/inst-OP-cl-N21150332.jpg',
     desc:'Mini, ángulo 15 grados, pico delgado. Insertos de punta acero Immunity-HS.',
     specs:['Código: N21150332','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
-  { id:'inst-OP-cl-N21150333', code:'N21150333', cat:'ortodoncia', brand:'orthopremium',
-    name:'Cortador de Ligadura y Pin Pico Ancho 15° 12.5cm',
-    unit:'pieza', img:'imagenes/products/inst-OP-cl-N21150333.jpg',
-    desc:'Pico ancho, ángulo 15 grados, 12.5cm. Insertos de punta acero Immunity-HS.',
-    specs:['Código: N21150333','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
   { id:'inst-OP-cl-N21150330', code:'N21150330', cat:'ortodoncia', brand:'orthopremium',
     name:'Cortador de Ligadura y Pin Recto 12cm',
     unit:'pieza', img:'imagenes/products/inst-OP-cl-N21150330.jpg',
@@ -558,11 +567,6 @@ const CATALOG_PRODUCTS = [
     unit:'pieza', img:'imagenes/products/inst-OP-pz-N21150375.jpg',
     desc:'Mandíbulas estriadas anguladas para agarre firme, 13cm. Articulación remachada.',
     specs:['Código: N21150375','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
-  { id:'inst-OP-pz-N21150376', code:'N21150376', cat:'ortodoncia', brand:'orthopremium',
-    name:'Pinza Weingart Delgada Microangulada 13cm',
-    unit:'pieza', img:'imagenes/products/inst-OP-pz-N21150376.jpg',
-    desc:'Mandíbulas estriadas micro anguladas, 13cm. Articulación remachada. Acero inoxidable.',
-    specs:['Código: N21150376','Material: Acero inoxidable','Marca: Premium Orthodontics'] },
   { id:'inst-OP-pz-N21150377', code:'N21150377', cat:'ortodoncia', brand:'orthopremium',
     name:'Pinza Weingart 12.5cm',
     unit:'pieza', img:'imagenes/products/inst-OP-pz-N21150377.jpg',
